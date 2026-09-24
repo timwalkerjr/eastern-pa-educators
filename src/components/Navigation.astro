@@ -1,0 +1,190 @@
+---
+// Navigation - Two-tier local utility navigation + mobile drawer
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+---
+
+<header id="navbar" class="sticky top-0 z-50 bg-dark-background border-b border-dark-border/80 backdrop-blur-md transition-colors" data-ps="src/components/Navigation.astro:1zp37r">
+  <!-- Top Regional Dispatch Utility Bar -->
+  <div class="hidden lg:block bg-[#0e1014] border-b border-dark-border/60 text-xs py-2" data-ps="src/components/Navigation.astro:gqvsd5">
+    <Container class="flex justify-between items-center text-dark-muted-foreground">
+      <div class="flex items-center gap-2 overflow-hidden text-ellipsis whitespace-nowrap" data-ps="src/components/Navigation.astro:gqvsd6">
+        <span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-primary shrink-0" data-ps="src/components/Navigation.astro:7xpcah"></span>
+        <span class="font-medium text-dark-foreground" data-ps="src/components/Navigation.astro:7xpcag">Serving:</span>
+        <span class="text-dark-muted-foreground" data-ps="src/components/Navigation.astro:7xpc9u">
+          Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester • Bucks • Northampton • Carbon • Dauphin • Center City Philadelphia
+        </span>
+      </div>
+      <div class="flex items-center gap-6 shrink-0 font-medium" data-ps="src/components/Navigation.astro:gqvsd7">
+        <a href="https://maps.app.goo.gl/muXmn7KridwPnmVn9" target="_blank" rel="noopener noreferrer" class="hover:text-dark-foreground transition-colors inline-flex items-center gap-1.5 no-underline" data-ps="src/components/Navigation.astro:7vkjpl">
+          <svg class="w-3.5 h-3.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span data-ps="src/components/Navigation.astro:7xpc9t">Hamburg, PA 19526</span>
+        </a>
+        <a href={`tel:${SITE.phone}`} class="text-primary hover:underline transition-colors inline-flex items-center gap-1.5 no-underline font-bold" data-ps="src/components/Navigation.astro:7vkjpm">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          <span data-ps="src/components/Navigation.astro:7xpc9s">CALL TODAY {SITE.phone}</span>
+        </a>
+      </div>
+    </Container>
+  </div>
+
+  <!-- Main Navigation Row -->
+  <nav class="py-3.5" data-ps="src/components/Navigation.astro:nrytyq">
+    <Container class="flex justify-between items-center">
+      <!-- Brand Logo -->
+      <a href="/" class="flex items-center gap-3 no-underline group" aria-label="Eastern PA Educators Home" data-ps="src/components/Navigation.astro:7vkjpn">
+        <img
+          src="https://pagesmith-cdn.com/e5b58edc/images/63861c_bd41880454694c7b95c201a820110e04~mv2-84d75c-768.webp"
+          alt="Eastern PA Educators Logo"
+          class="h-11 md:h-13 w-auto object-contain"
+          width="843"
+          height="325" data-ps="src/components/Navigation.astro:jfbxbl" />
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <div class="hidden xl:flex items-center gap-7" data-ps="src/components/Navigation.astro:gqvsd8">
+        <a href="/#hero" class="text-sm font-medium text-dark-foreground/90 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjpo">Home</a>
+        <a href="/#about" class="text-sm font-medium text-dark-foreground/90 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjpp">About</a>
+
+        <!-- Programs Dropdown -->
+        <div class="relative group" data-ps="src/components/Navigation.astro:gqvsd9">
+          <a href="/#programs" class="text-sm font-medium text-dark-foreground/90 group-hover:text-primary transition-colors inline-flex items-center gap-1.5 no-underline py-2" data-ps="src/components/Navigation.astro:7vkjpq">
+            <span data-ps="src/components/Navigation.astro:7xpc9r">Programs We Offer</span>
+            <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:rotate-180 text-dark-muted-foreground group-hover:text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+
+          <!-- Dropdown Menu -->
+          <div class="absolute left-0 top-full hidden group-hover:block w-72 pt-2 z-50" data-ps="src/components/Navigation.astro:gqvsda">
+            <div class="bg-dark-background/95 backdrop-blur-md border border-dark-border rounded-lg shadow-xl p-2 flex flex-col gap-1" data-ps="src/components/Navigation.astro:gqvsdb">
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjpr">Heartsaver First Aid</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjps">Heartsaver CPR AED</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjpt">Friends & Family CPR</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjpu">BLS for Healthcare Providers</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjqg">Pediatric First Aid</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjqh">Bloodborne Pathogen Training</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjqi">Fire Extinguisher Training</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjqj">PennDOT Flagger Certification</a>
+              <a href="/#programs" class="text-xs font-medium text-dark-foreground/90 hover:bg-dark-border/60 hover:text-primary px-3 py-2 rounded-md transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjqk">Red Cross CPR & First Aid</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="/#accreditations" class="text-sm font-medium text-dark-foreground/90 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjql">Accreditations</a>
+        <a href="/#instructor" class="text-sm font-medium text-dark-foreground/90 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjqm">Instructor</a>
+        <a href="/#service-area" class="text-sm font-medium text-dark-foreground/90 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjqn">Service Area</a>
+        <a href="https://www.kresecurity.com/" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-dark-muted-foreground hover:text-dark-foreground transition-colors inline-flex items-center gap-1 no-underline" data-ps="src/components/Navigation.astro:7vkjqo">
+          <span data-ps="src/components/Navigation.astro:7xpc9q">Security Services</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- Right CTAs -->
+      <div class="flex items-center gap-3" data-ps="src/components/Navigation.astro:gqvsdc">
+        <a
+          href="/#contact"
+          class="inline-flex items-center justify-center px-4 md:px-5 py-2 md:py-2.5 rounded-md bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary-hover transition-colors shadow-sm no-underline"
+         data-ps="src/components/Navigation.astro:7vkjqp">
+          Contact for Quote
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          id="mobile-menu-button"
+          type="button"
+          class="xl:hidden p-2 text-dark-foreground hover:text-primary transition-colors rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+         data-ps="src/components/Navigation.astro:4mv6z">
+          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </Container>
+  </nav>
+
+  <!-- Mobile Menu Drawer -->
+  <div
+    id="mobile-menu"
+    class="hidden xl:hidden overflow-hidden bg-dark-background border-t border-dark-border"
+    role="navigation"
+    aria-label="Mobile navigation"
+   data-ps="src/components/Navigation.astro:gqvsdd">
+    <div class="px-6 py-5 flex flex-col gap-3" data-ps="src/components/Navigation.astro:gqvsde">
+      <!-- Quick Phone Button on Mobile -->
+      <a
+        href={`tel:${SITE.phone}`}
+        class="flex items-center justify-center gap-2 py-3 px-4 rounded-md bg-primary text-primary-foreground font-bold text-sm no-underline"
+       data-ps="src/components/Navigation.astro:7vkjrb">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+        </svg>
+        <span data-ps="src/components/Navigation.astro:7xpc9p">Call 484-334-3577</span>
+      </a>
+
+      <a href="/#hero" class="text-dark-foreground font-medium py-2 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjrc">Home</a>
+      <a href="/#about" class="text-dark-foreground font-medium py-2 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjrd">About</a>
+      <a href="/#programs" class="text-dark-foreground font-medium py-2 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjre">Programs We Offer</a>
+      <a href="/#accreditations" class="text-dark-foreground font-medium py-2 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjrf">Accreditations</a>
+      <a href="/#instructor" class="text-dark-foreground font-medium py-2 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjrg">Meet Instructor</a>
+      <a href="/#service-area" class="text-dark-foreground font-medium py-2 hover:text-primary transition-colors no-underline" data-ps="src/components/Navigation.astro:7vkjrh">Service Area</a>
+      <a href="https://www.kresecurity.com/" target="_blank" rel="noopener noreferrer" class="text-dark-muted-foreground font-medium py-2 hover:text-dark-foreground transition-colors no-underline flex items-center justify-between" data-ps="src/components/Navigation.astro:7vkjri">
+        <span data-ps="src/components/Navigation.astro:7xpc9o">Security Services</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+      <a href="/#contact" class="text-primary font-semibold py-2 hover:underline transition-colors no-underline">Contact for Quote</a>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIconOpen = document.getElementById('menu-icon-open');
+  const menuIconClose = document.getElementById('menu-icon-close');
+
+  function toggleMenu() {
+    const isOpen = !mobileMenu?.classList.contains('hidden');
+    if (isOpen) {
+      mobileMenu?.classList.add('hidden');
+      menuIconOpen?.classList.remove('hidden');
+      menuIconClose?.classList.add('hidden');
+      mobileMenuButton?.setAttribute('aria-expanded', 'false');
+    } else {
+      mobileMenu?.classList.remove('hidden');
+      menuIconOpen?.classList.add('hidden');
+      menuIconClose?.classList.remove('hidden');
+      mobileMenuButton?.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  mobileMenuButton?.addEventListener('click', toggleMenu);
+  mobileMenu?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu?.classList.add('hidden');
+      menuIconOpen?.classList.remove('hidden');
+      menuIconClose?.classList.add('hidden');
+      mobileMenuButton?.setAttribute('aria-expanded', 'false');
+    });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !mobileMenu?.classList.contains('hidden')) {
+      toggleMenu();
+    }
+  });
+</script>

@@ -1,0 +1,663 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const pageTitle = 'Lancaster CPR & First Aid Training | Eastern PA Educators';
+const pageDescription = "Our educational CPR & first aid certification courses are Lancaster PA's best. Get Red Cross, OSHA, AHA or BLS certified by contacting our team today!";
+const canonicalUrl = 'https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses/';
+---
+
+<BaseLayout
+  headerVariant="solid"
+  title={pageTitle}
+  description={pageDescription}
+  canonicalUrl={canonicalUrl}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: 'Lancaster CPR & First Aid Training',
+    description: pageDescription,
+    provider: {
+      '@type': 'EducationalOrganization',
+      name: SITE.name,
+      url: SITE.url,
+      telephone: SITE.phone,
+      email: SITE.email,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '16600 Pottsville Pike',
+        addressLocality: 'Hamburg',
+        addressRegion: 'PA',
+        postalCode: '19526',
+        addressCountry: 'US',
+      },
+    },
+    areaServed: {
+      '@type': 'City',
+      name: 'Lancaster, Pennsylvania',
+    },
+  }}
+>
+  <!-- 1. Hero Poster Banner -->
+  <section class="relative isolate bg-dark-background text-dark-foreground overflow-hidden border-b border-dark-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:xlfveh">
+    <div class="relative w-full h-[240px] sm:h-[300px] md:h-[380px] lg:h-[420px] overflow-hidden" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pud">
+      <img
+        src="https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-05bb38-1536.webp"
+        alt="Lancaster CPR Teachers Demonstrating Proper CPR Technique"
+        class="w-full h-full object-cover object-center brightness-75"
+        loading="eager"
+        fetchpriority="high"
+        width="1905"
+        height="250" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wlhz" />
+      <div class="absolute inset-0 bg-gradient-to-t from-dark-background/95 via-dark-background/60 to-dark-background/40" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pue"></div>
+
+      <div class="absolute inset-0 flex items-center justify-center text-center p-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5puf">
+        <Container>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight uppercase font-heading drop-shadow-md" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:iqgzkm">
+            Lancaster CPR &amp; First Aid Training
+          </h1>
+        </Container>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Regional Education Overview & 4 Key Benefits -->
+  <section class="py-14 md:py-20 bg-background text-foreground" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:xlfvei">
+    <Container class="max-w-6xl">
+      <!-- Badge + Heading -->
+      <div class="text-center mb-12" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv1">
+        <span class="inline-block px-3 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19ft">
+          Certified Regional Education
+        </span>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground tracking-tight font-heading uppercase" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:xevws9">
+          THE #1 FIRST AID &amp; CPR COURSES IN LANCASTER PENNSYLVANIA
+        </h2>
+      </div>
+
+      <!-- Top Row: Video/Thumbnail Left (6 Cols) + Content Right (6 Cols) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-16" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv2">
+        <!-- Media Block -->
+        <div class="lg:col-span-6" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv3">
+          <div class="relative rounded-2xl overflow-hidden border border-border shadow-xl bg-dark-background aspect-[16/10] group" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv4">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/63861c_e045c4fbd32242aebf8d84d0fa599553f000-0a755b-320.webp"
+              alt="cpr certification classes in pa - first aid training king of prussia pa red cross"
+              class="w-full h-full object-cover brightness-90 group-hover:scale-105 transition-transform duration-500"
+              width="526"
+              height="294"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wli0" />
+            <div class="absolute inset-0 bg-dark-background/40 flex items-center justify-center" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv5">
+              <a
+                href={`tel:${SITE.phone}`}
+                class="w-16 h-16 rounded-full bg-primary text-primary-foreground flex items-center justify-center shadow-lg transition-transform group-hover:scale-110"
+                aria-label="Call for Lancaster CPR training details"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rvk">
+                <svg class="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </a>
+            </div>
+            <div class="absolute bottom-0 inset-x-0 bg-dark-background/90 backdrop-blur-sm px-4 py-2.5 flex items-center justify-between text-xs text-dark-muted-foreground border-t border-dark-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv6">
+              <span class="inline-flex items-center gap-1.5 font-medium text-dark-foreground" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19fu">
+                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19fv"></span>
+                On-Site &amp; Class Training
+              </span>
+              <span data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gh">Lancaster, PA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Editorial Text -->
+        <div class="lg:col-span-6 space-y-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv7">
+          <p class="text-base sm:text-lg text-foreground/90 leading-relaxed" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs3l">
+            At Eastern PA Educators, we make CPR and first aid training simple, practical, and accessible for everyone in Lancaster. Whether you’re a teacher, childcare worker, healthcare professional, or just someone who wants to be prepared to save a life, our classes are designed to give you the skills and confidence to handle emergencies.
+          </p>
+          <p class="text-sm sm:text-base text-muted-foreground leading-relaxed" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs3k">
+            Emergencies can happen anytime, anywhere. Knowing what to do can save a life. At Eastern PA Educators, we’ll teach you how to perform CPR, use an AED, and provide first aid in a way that’s easy to understand and apply.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv8">
+            <div class="p-4 rounded-xl bg-surface border border-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pv9">
+              <div class="flex items-center gap-2 mb-1" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pva">
+                <span class="w-2 h-2 rounded-full bg-primary" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gi"></span>
+                <span class="text-xs font-bold uppercase tracking-wider text-foreground" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gj">Critical Skills</span>
+              </div>
+              <p class="text-xs text-muted-foreground m-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs3j">
+                Tailored for educators, childcare staff, healthcare providers, and Lancaster organizations.
+              </p>
+            </div>
+            <div class="p-4 rounded-xl bg-surface border border-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pvw">
+              <div class="flex items-center gap-2 mb-1" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pvx">
+                <span class="w-2 h-2 rounded-full bg-primary" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gk"></span>
+                <span class="text-xs font-bold uppercase tracking-wider text-foreground" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gl">Life-Saving Readiness</span>
+              </div>
+              <p class="text-xs text-muted-foreground m-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs3i">
+                Hands-on practical training on lifelike manikins to act quickly and decisively in emergencies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why Choose Section -->
+      <div class="text-center mb-10 pt-6 border-t border-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pvy">
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-foreground font-heading tracking-tight mb-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:mxt7yn">
+          Benefits of Choosing Eastern PA Educators for Your CPR &amp; First Aid Training
+        </h3>
+        <p class="text-sm text-muted-foreground" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2w">
+          Trusted certified instructors delivering high-impact life safety training with realistic equipment.
+        </p>
+      </div>
+
+      <!-- 4 Numbered Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pvz">
+        <!-- 01 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative flex flex-col justify-between" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pw0">
+          <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pw1">
+            <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gm">
+              01
+            </span>
+            <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:89eaqy">1. Learn from Experienced Instructors</h4>
+            <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2v">
+              Our certified trainers have hands-on emergency experience. They share real-world tips to help you stay calm and act confidently if an emergency happens.
+            </p>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative flex flex-col justify-between" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pw2">
+          <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pw3">
+            <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gn">
+              02
+            </span>
+            <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:89eaqz">2. Flexible Scheduling for Busy People</h4>
+            <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2u">
+              We know your time is valuable, so we offer evening, weekend, and group sessions to fit your schedule.
+            </p>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative flex flex-col justify-between" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pw4">
+          <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pw5">
+            <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19go">
+              03
+            </span>
+            <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:89ear0">3. Certifications Employers Trust</h4>
+            <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2t">
+              Our courses are backed by the American Heart Association (AHA) and American Red Cross. They meet Pennsylvania state requirements and are accepted by employers, schools, and healthcare organizations.
+            </p>
+          </div>
+        </div>
+
+        <!-- 04 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative flex flex-col justify-between" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pwr">
+          <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pws">
+            <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gp">
+              04
+            </span>
+            <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:89ear1">4. Hands-On, Practical Training</h4>
+            <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2s">
+              You’ll practice key skills like CPR, using an AED, and performing first aid on lifelike manikins. Our classes are interactive, so you’ll feel confident applying what you’ve learned.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accreditation Row -->
+      <div class="text-center pt-6 border-t border-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pwt">
+        <span class="block text-xs uppercase tracking-widest text-muted-foreground font-bold mb-6" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19gq">
+          Nationally Recognized Training Standards &amp; Certifications
+        </span>
+        <div class="flex flex-wrap items-center justify-center gap-8 md:gap-12" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pwu">
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pwv">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/american_heart_association_logo-8fc04c-122.webp"
+              alt="AHA Logo"
+              class="h-10 w-auto object-contain"
+              width="122"
+              height="60"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wli1" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pww">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/39725c_bf51904ac9fe49bbaa66b0cd3459bcfc~-824966-114.webp"
+              alt="Red Cross Logo"
+              class="h-10 w-auto object-contain"
+              width="114"
+              height="112"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wli2" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pwx">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/osha-logo-dceaa1-100.webp"
+              alt="OSHA Logo"
+              class="h-7 w-auto object-contain"
+              width="100"
+              height="29"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wli3" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pwy">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/ashi-approved-training-center-logo-799753-67.webp"
+              alt="ASHI Approved Training Center Logo"
+              class="h-12 w-auto object-contain"
+              width="67"
+              height="70"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wli4" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pwz">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/nfpa-member-logo-31BDF5EC99-seeklogo_com-dec389-79.webp"
+              alt="NFPA Member Logo"
+              class="h-12 w-auto object-contain"
+              width="79"
+              height="90"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wliq" />
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 3. Comprehensive Course Offerings Card Container -->
+  <section class="py-14 md:py-20 bg-surface text-foreground border-y border-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:xlfvej">
+    <Container class="max-w-4xl">
+      <div class="bg-background rounded-3xl border border-border shadow-xl overflow-hidden" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5px0">
+        <div class="p-8 sm:p-10 md:p-12" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxm">
+          <span class="inline-block px-3 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold uppercase tracking-wider mb-4 border border-amber-200" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hc">
+            Comprehensive Course Offerings
+          </span>
+
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-foreground font-heading tracking-tight mb-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:xevws8">
+            Custom-Tailored First Aid, CPR, and AED Training in Lancaster PA
+          </h2>
+
+          <div class="space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed mb-8" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxn">
+            <p data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2r">
+              We offer tailored training programs for businesses, community groups, and organizations in Lancaster. Whether you’re an experienced healthcare professional or a first-timer, our courses are built to prepare you for emergencies, no matter the situation.
+            </p>
+          </div>
+
+          <!-- Courses Grid -->
+          <div class="mb-8" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxo">
+            <h3 class="text-base font-bold text-foreground uppercase tracking-wider font-heading mb-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:mxt7yo">
+              The CPR &amp; First Aid Training Classes We Offer:
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxp">
+              <a
+                href="/heartsaver-first-aid"
+                class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rvj">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxq">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hd">Heartsaver First Aid</span>
+              </a>
+
+              <a
+                href="/heartsaver-cpr-aed"
+                class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rvi">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxr">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19he">Heartsaver CPR/AED</span>
+              </a>
+
+              <a
+                href="/friends-family-cpr-certification"
+                class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rvh">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxs">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hf">Friends and Family CPR Certification</span>
+              </a>
+
+              <a
+                href="/basic-life-support-certification"
+                class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rvg">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxt">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hg">BLS for the Healthcare Providers</span>
+              </a>
+
+              <a
+                href="/bloodborne-pathogen-training"
+                class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4ruu">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxu">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hh">Bloodborne Pathogen Training</span>
+              </a>
+
+              <a
+                href="/pediatric-first-aid"
+                class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rut">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pxv">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hi">Pediatric First Aid</span>
+              </a>
+
+              <a
+                href="/fire-extinguisher-training"
+                class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group sm:col-span-2"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rus">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyh">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hj">Fire Extinguisher Training</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- State Relief Notice -->
+          <div class="p-5 rounded-2xl bg-amber-subtle/70 border border-amber-200/80 mb-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyi">
+            <span class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hk">State Relief Training Eligible:</span>
+            <p class="text-xs sm:text-sm text-foreground/90 m-0 leading-relaxed" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2q">
+              Some of our courses may also qualify under the PA Volunteer Fire Department Relief Training program, helping your team stay ready for any emergency.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card Footer Banner -->
+        <div class="bg-dark-background px-8 py-6 text-center border-t border-dark-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyj">
+          <h4 class="text-sm sm:text-base font-extrabold text-dark-foreground uppercase tracking-wider font-heading mb-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:89ear2">
+            LANCASTER CPR &amp; FIRST AID CERTIFICATION PROGRAMS
+          </h4>
+          <div class="flex items-center justify-center gap-6" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyk">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/63861c_d7a4cc04e1c64189a4d3cdc09bc782b7~mv2-e29c8b.gif"
+              alt="American Heart Association Logo"
+              class="h-10 w-auto object-contain bg-white rounded p-1"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wlir" />
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/39725c_bf51904ac9fe49bbaa66b0cd3459bcfc~-824966-114.webp"
+              alt="American Red Cross Logo"
+              class="h-10 w-auto object-contain bg-white rounded p-1"
+              width="114"
+              height="112"
+              loading="lazy" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:69wlis" />
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 4. Contact / Quote Form Section -->
+  <section id="contact" class="py-14 md:py-20 bg-background text-foreground" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:xlfvek">
+    <Container class="max-w-6xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyl">
+        <!-- Left: Info & Contact (5 Cols) -->
+        <div class="lg:col-span-5 space-y-6" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pym">
+          <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyn">
+            <span class="inline-block text-xs font-bold uppercase tracking-wider text-primary mb-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19hl">
+              Lancaster Registration
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-foreground font-heading uppercase tracking-tight mb-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:xevws7">
+              CONTACT OUR CPR &amp; FIRST AID TRAINERS FOR A QUOTE TODAY
+            </h2>
+            <div class="space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyo">
+              <p data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2p">
+                Don’t wait until an emergency to realize the importance of being prepared. Join one of our CPR and first aid classes in Lancaster today!
+              </p>
+              <p data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2o">
+                Explore our class schedules and sign up through our website. Have questions or need a customized class? We’re here to help! Call us at 484-334-3577 or email <a href="mailto:jemes@kresecurity.com" class="text-primary hover:underline" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rur">jemes@kresecurity.com</a>.
+              </p>
+              <p class="font-semibold text-foreground" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:ymzs2n">
+                Be ready to make a difference when it matters most. Enroll today and learn how to save a life with Eastern PA Educators!
+              </p>
+            </div>
+          </div>
+
+          <!-- Direct Cards -->
+          <div class="space-y-3" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyp">
+            <a
+              href={`tel:${SITE.phone}`}
+              class="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border hover:border-primary transition-colors no-underline group shadow-sm"
+             data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4ruq">
+              <div class="w-10 h-10 rounded-lg bg-amber-subtle flex items-center justify-center text-foreground font-bold shrink-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pyq">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzc">
+                <span class="block text-xs uppercase tracking-wider text-muted-foreground font-bold" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19i7">Direct Phone</span>
+                <span class="text-base font-bold text-foreground group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19i8">{SITE.phone}</span>
+              </div>
+            </a>
+
+            <a
+              href={`mailto:${SITE.email}`}
+              class="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border hover:border-primary transition-colors no-underline group shadow-sm"
+             data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4rup">
+              <div class="w-10 h-10 rounded-lg bg-amber-subtle flex items-center justify-center text-foreground font-bold shrink-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzd">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pze">
+                <span class="block text-xs uppercase tracking-wider text-muted-foreground font-bold" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19i9">Email Inquiries</span>
+                <span class="text-base font-bold text-foreground group-hover:text-primary transition-colors" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19ia">{SITE.email}</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Location Details -->
+          <div class="p-4 rounded-xl bg-surface border border-border text-xs text-muted-foreground space-y-2" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzf">
+            <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzg">
+              <span class="font-bold text-foreground block" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19ib">Training Center Address:</span>
+              <a href="https://maps.app.goo.gl/muXmn7KridwPnmVn9" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors no-underline" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:rc4ruo">
+                16600 Pottsville Pike, Hamburg, PA 19526
+              </a>
+            </div>
+            <div class="pt-2 border-t border-border" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzh">
+              <span class="font-bold text-foreground block" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:o19ic">Main Office:</span>
+              <p class="m-0" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:x71tv6">301 Chris Drive, Lenhartsville, PA 19534</p>
+            </div>
+          </div>
+
+          <div class="p-3.5 rounded-lg bg-amber-subtle border border-amber-200 text-xs text-foreground font-medium" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzi">
+            We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment Plans.
+          </div>
+        </div>
+
+        <!-- Right: Quote Request Form (7 Cols) -->
+        <div class="lg:col-span-7" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzj">
+          <div class="p-6 sm:p-8 bg-surface rounded-2xl border border-border shadow-lg" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzk">
+            <h3 class="text-xl font-bold text-foreground font-heading mb-1" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:mxt7yp">Request Lancaster Training Quote</h3>
+            <p class="text-xs text-muted-foreground mb-6" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:x71tv5">
+              Complete the form below to receive pricing and availability for your organization, facility, or community group.
+            </p>
+
+            <form id="quote-form" class="space-y-4">
+              <input type="hidden" name="_formId" value="lancaster-cpr-quote" />
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:8s5pzl">
+                <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srt">
+                  <label for="name" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:qd7bq9">Your Name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="e.g. John Doe"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+                <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srs">
+                  <label for="organization" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:qd7bpn">Organization / Business</label>
+                  <input
+                    type="text"
+                    id="organization"
+                    name="organization"
+                    placeholder="e.g. Lancaster Clinic / Daycare"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srr">
+                <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srq">
+                  <label for="email" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:qd7bpm">Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="you@example.com"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+                <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srp">
+                  <label for="phone" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5">Phone Number *</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="484-000-0000"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6sro">
+                <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srn">
+                  <label for="program" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5">Program of Interest</label>
+                  <select
+                    id="program"
+                    name="program"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    <option value="Heartsaver First Aid">Heartsaver First Aid</option>
+                    <option value="Heartsaver CPR AED">Heartsaver CPR AED</option>
+                    <option value="Friends & Family CPR">Friends & Family CPR</option>
+                    <option value="BLS for Healthcare Providers">BLS for Healthcare Providers</option>
+                    <option value="Pediatric First Aid">Pediatric First Aid</option>
+                    <option value="Bloodborne Pathogen Training">Bloodborne Pathogen Training</option>
+                    <option value="Fire Extinguisher Training">Fire Extinguisher Training</option>
+                    <option value="PennDOT Flagger Certification">PennDOT Flagger Certification</option>
+                    <option value="Red Cross CPR & First Aid">Red Cross CPR & First Aid</option>
+                    <option value="Custom Group Package">Custom Group Package</option>
+                  </select>
+                </div>
+                <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srm">
+                  <label for="group-size" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:qd7bpl">Estimated Group Size</label>
+                  <input
+                    type="text"
+                    id="group-size"
+                    name="groupSize"
+                    placeholder="e.g. 5-15 people"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+              </div>
+
+              <div data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srl">
+                <label for="message" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:qd7bpk">Training Location / Notes</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="3"
+                  placeholder="Location preference (Lancaster on-site at your facility vs Hamburg training center), preferred schedule, etc..."
+                  class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                ></textarea>
+              </div>
+
+              <!-- Invisible Captcha Widget -->
+              <altcha-widget challenge="/psapi-internal-v1/altcha/challenge" display="invisible" auto="onfocus"></altcha-widget>
+
+              <button
+                type="submit"
+                id="submit-btn"
+                class="w-full py-3.5 px-6 rounded-md bg-primary text-primary-foreground font-bold text-base hover:bg-primary-hover transition-colors shadow-sm cursor-pointer"
+               data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:h67h5">
+                Submit Quote Request
+              </button>
+
+              <div id="form-status" class="hidden text-sm font-semibold p-3 rounded-md mt-2 text-center" data-ps="src/pages/lancaster-cpr-first-aid-courses.astro:kc6srk"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+</BaseLayout>
+
+<script>
+  import 'altcha';
+
+  const form = document.getElementById('quote-form') as HTMLFormElement | null;
+  const statusEl = document.getElementById('form-status');
+  const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement | null;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!statusEl || !submitBtn) return;
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting...';
+    statusEl.className = 'hidden';
+
+    const formData = new FormData(form);
+    const payload = {
+      _formId: formData.get('_formId'),
+      name: formData.get('name'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+      organization: formData.get('organization'),
+      program: formData.get('program'),
+      groupSize: formData.get('groupSize'),
+      message: formData.get('message'),
+      altcha: formData.get('altcha'),
+      subject: 'Lancaster CPR & First Aid Training Quote Request - Eastern PA Educators',
+    };
+
+    try {
+      const res = await fetch('/psapi-internal-v1/forms/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await res.json();
+
+      if (res.ok && result.success !== false) {
+        statusEl.className = 'block text-sm font-semibold p-3 rounded-md mt-2 text-center bg-green-100 text-green-800 border border-green-200';
+        statusEl.textContent = 'Thanks for submitting! We will contact you promptly.';
+        form.reset();
+      } else {
+        throw new Error(result.error || 'Submission failed');
+      }
+    } catch (err) {
+      statusEl.className = 'block text-sm font-semibold p-3 rounded-md mt-2 text-center bg-red-100 text-red-800 border border-red-200';
+      statusEl.textContent = err instanceof Error ? err.message : 'Submission error. Please call us at 484-334-3577.';
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit Quote Request';
+    }
+  });
+</script>

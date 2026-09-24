@@ -1,0 +1,1783 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": null,
+  "fontSmoothing": "antialiased",
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "textColor": "rgb(0, 0, 0)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "41px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "CPR Certification in Allentown PA",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h2",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Our Allentown CPR Certification Course Reviews",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h3",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "color": "rgb(0, 0, 0)",
+          "text": "Proudly Serving",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "17px",
+        "color": "rgb(0, 0, 0)",
+        "lineHeight": "normal",
+        "textAlign": "start"
+      },
+      "buttons": [],
+      "links": [
+        {
+          "text": "Our Google Maps CPR Certification Course",
+          "color": "rgb(0, 0, 0)",
+          "fontWeight": "400"
+        }
+      ],
+      "images": [
+        {
+          "displayWidth": 573,
+          "displayHeight": 427,
+          "objectFit": "cover"
+        }
+      ],
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": "1905px",
+        "childCount": 13
+      },
+      "contentAlignment": {
+        "container": "#SITE_PAGES",
+        "containerSize": {
+          "width": 1905,
+          "height": 973
+        },
+        "offsets": {
+          "left": 478,
+          "top": 18,
+          "right": 865,
+          "bottom": 894
+        },
+        "center": {
+          "x": 0.398,
+          "y": 0.05
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "oswald-medium",
+    "bodyFont": "roboto-bold",
+    "scale": {
+      "h1": {
+        "fontSize": "41px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      },
+      "h2": {
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      },
+      "h3": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      },
+      "body": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      }
+    }
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "position": "sticky",
+    "logo": {
+      "width": "84px",
+      "height": "90px",
+      "widthEvidence": "100%",
+      "position": "inside-nav",
+      "hasBadge": false,
+      "src": "https://static.wixstatic.com/media/63861c_2f3890d9807d4bac97beb377e596faf5~mv2.png/v1/fill/w_84,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/krelogo.png"
+    },
+    "hasLogo": true,
+    "links": [
+      {
+        "text": "Home",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)"
+      },
+      {
+        "text": "About",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "border": "0px 0px 0px 1px none none none solid rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 0)"
+        }
+      },
+      {
+        "text": "Eastern Pa Educators",
+        "fontSize": "25px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "First Aid and CPR Certificatio",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "KRE Security LLC",
+        "fontSize": "14px",
+        "fontFamily": "roboto-thin",
+        "fontWeight": "400",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Schuylkill",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Lancaster",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Bucks",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Carbon",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "CALL TODAY   484-334-3577",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "16600 Pottsville Pike\nHamburg,",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Center City Philadelphia",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "0px 0px",
+      "pitchPx": 325,
+      "distribution": "center",
+      "verticalAlign": "bottom",
+      "containerAlignment": {
+        "container": "[id=\"SITE_HEADER\"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 190
+        },
+        "offsets": {
+          "left": 0,
+          "top": 159,
+          "right": 1631,
+          "bottom": 1
+        },
+        "center": {
+          "x": 0.072,
+          "y": 0.916
+        },
+        "layout": {
+          "display": "grid",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    }
+  },
+  "sliders": [],
+  "buttons": [],
+  "videos": [],
+  "footer": {
+    "background": "rgba(0, 0, 0, 0)",
+    "textColor": "rgb(0, 0, 0)",
+    "columns": 1,
+    "textAlign": "start"
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBackgroundColor": {
+      "backgroundColor": "var(--corvid-background-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBackgroundColor": {
+      "backgroundColor": "var(--corvid-hover-background-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBackgroundColor": {
+      "backgroundColor": "var(--corvid-disabled-background-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBorderColor": {
+      "borderColor": "var(--corvid-border-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBorderColor": {
+      "borderColor": "var(--corvid-hover-border-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBorderColor": {
+      "borderColor": "var(--corvid-disabled-border-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor, .StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor, .StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-hover-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor, .StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-disabled-color)"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .twJknM, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .twJknM": {
+      "backgroundColor": "var(--corvid-hover-background-color,rgba(var(--bgh,var(--color_18,color_18)),var(--alpha-bgh,1)))",
+      "borderColor": "var(--corvid-hover-border-color,rgba(var(--brdh,var(--color_15,color_15)),var(--alpha-brdh,1)))"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    "body.device-mobile-optimized .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, :host(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, body:not(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"] .p2iqNU, :host(:not(.device-mobile-optimized)) .myoKiH[aria-disabled=\"false\"] .p2iqNU": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    ".agzDLy[data-state~=\"over\"], .agzDLy[data-state~=\"link\"]": {
+      "backgroundColor": "rgba(var(--bgh,var(--color_17,color_17)),var(--alpha-bgh,1))"
+    },
+    ".agzDLy[data-state~=\"over\"] .VhM8Ji, .agzDLy[data-state~=\"link\"] .VhM8Ji": {
+      "color": "rgb(var(--txth,var(--color_15,color_15)))"
+    },
+    ".Bd_X64 .fQKWmG .cfZ0Mq": {
+      "opacity": "0.7"
+    },
+    ".RKUm6p .zA3xmt": {
+      "opacity": "0.7"
+    },
+    ".u8Xpns": {
+      "opacity": "0.7"
+    },
+    ".nZJLFG": {
+      "opacity": "0.7"
+    }
+  },
+  "cssVariables": {},
+  "externalFonts": [
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_41",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Schuylkill",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Lancaster",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Bucks",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Carbon",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Center City Philadelphia",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_18",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "25px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "apPOZK",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_5",
+          "text": "CALL TODAY 484-334-3577 16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "ul",
+          "cls": "wTjmlM",
+          "text": "HomeAboutPrograms We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Home",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Programs We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family CPR Cert",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "button",
+          "cls": "H4AHlN",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(0, 0, 0)",
+          "width": 10,
+          "height": 10,
+          "viewBox": "0 0 16 11",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "CPR Certification in Allentown PA",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "CPR Certification in Allentown PA",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "41px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Our first aid training staff has over 35 years of experience in the field and ac",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Our first aid training staff has over 35 years of experience in the field and ac",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "h2",
+          "cls": "font_2",
+          "text": "Our Allentown CPR Certification Course Reviews",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "30px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Our Allentown CPR Certification Course Reviews",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "30px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Our Google Maps CPR Certification Course Reviews",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Our Google Maps CPR Certification Course Reviews",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Our Google Maps CPR Certification Course Reviews",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Our Google Maps CPR Certification Course Reviews",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "h3",
+          "cls": "font_2",
+          "text": "Proudly Serving",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Allentown, Bethlehem, Easton, Macungie, Emmaus, Hamburg, Lancaster, Reading, Qua",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Allentown, Bethlehem, Easton, Macungie, Emmaus, Hamburg, Lancaster, Reading, Qua",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Allentown",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Bethlehem",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Easton",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Macungie",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Emmaus",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Hamburg",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Lancaster",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Reading",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Quakertown",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Coopersburg",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Center Valley",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Perkasie",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Sellersville",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Limeport",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "East Greenville",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "View All Our Service Areas",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(0, 0, 0)",
+          "width": 20,
+          "height": 20,
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "484-334-0357",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-0357",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-0357",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Address",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Address",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "11 South 3rd Street",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "11 South 3rd Street",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "div",
+          "cls": "Mn8ojN",
+          "text": "Google Maps was blocked due to your analytics cookie settings. Update your setti",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "P343Xj",
+          "text": "Google Maps was blocked due to your analytics cookie settings. Update your setti",
+          "color": "rgb(0, 0, 0)",
+          "border": "1px solid rgba(0, 0, 0, 0.3)",
+          "borderRadius": "2px",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "u8Xpns",
+          "text": "Update your settings",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "u8Xpns",
+          "text": "adjust your analytics cookie settings.",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "u8Xpns",
+          "text": "Update your cookie settings",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "button",
+          "cls": "RKUm6p",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Hours of Operation",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Hours of Operation",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Monday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Monday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Tuesday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Tuesday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Wednesday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Wednesday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Thursday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Thursday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Friday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Friday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Saturday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Saturday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Sunday 9:00 am - 5:00 pm",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Site footer (port into Footer.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(187, 220, 248, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Main Office: 301 Chris Drive Lenhartsville, PA 19534 | Training Address: 16600 P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "Main Office:",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "301 Chris Drive Lenhartsville, PA 19534 |",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true,
+          "tracking": "0.75px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Training Address: 16600 Pottsville Pike, Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Terms of Service",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [],
+  "fontFaceRules": [
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w10-light.woff2\") format(\"woff2\"); unicode-range: U+401-40C, U+40E-44F, U+451-45C, U+45E-45F, U+490-491, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w02-light.woff2\") format(\"woff2\"); unicode-range: U+D, U+100-10F, U+111-130, U+132-151, U+154-15F, U+162-177, U+179-17C, U+1FA-1FF, U+218-21B, U+237, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+394, U+3A9, U+3C0, U+1E80-1E85, U+1EF2-1EF3, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2126, U+212E, U+2153-2154, U+215B-215E, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF, U+FB00-FB04; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w01-light.woff2\") format(\"woff2\"); unicode-range: U+20-7E, U+A0-FF, U+110, U+131, U+152-153, U+160-161, U+178, U+17D-17E, U+192, U+2C6-2C7, U+2DA, U+2DC, U+3BC, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/dI-qzxlKVQA6TUC5RKSb31tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/cgaIrkaP9Empe8_PwXbajFtXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic1CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic3CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic-CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic2CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic5CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic0CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/9_7S_tWeGDh5Pq3u05RVkltXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/97uahxiqZRoncBaCEI3aW1tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/t6Nd4cfPRhZP44Q5QAjcC6g5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/bmC0pGMXrhphrZJmniIZpag5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/fIKu7GwZTy_12XzG_jt8eA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/dzxs_VxZUhdM2mEBkNa8svk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/e7MeVAyvogMqFwwl61PKhPesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/vSzulfKSK0LLjjfeaxcREvesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: avenir-lt-w01_35-light1475496; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/af36905f-3c92-4ef9-b0c1-f91432f16ac1/v1/avenir-lt-w05_35-light.woff2\") format(\"woff2\"); unicode-range: U+100-12B, U+12E-130, U+132-137, U+139-149, U+14C-151, U+154-15F, U+162-177, U+179-17C, U+218-21B, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+394, U+3A9, U+3BC, U+3C0, U+1E9E, U+20B9-20BA, U+20BC-20BD, U+2113, U+2126, U+212E, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF, U+FB01-FB02; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/cpr-training-near-allentown-pa",
+      "cssText": "@font-face { font-family: avenir-lt-w01_35-light1475496; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/af36905f-3c92-4ef9-b0c1-f91432f16ac1/v1/avenir-lt-w01_35-light1475496.woff2\") format(\"woff2\"); unicode-range: U+0, U+D, U+20-7E, U+A0-FF, U+131, U+152-153, U+160-161, U+178, U+17D-17E, U+192, U+237, U+2C6-2C7, U+2DA, U+2DC, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122; font-display: swap; }"
+    }
+  ],
+  "renderedSurfaces": [
+    {
+      "selector": "#img_comp-jw253lbe",
+      "mediaKind": "img",
+      "image": "https://static.wixstatic.com/media/63861c_469d743bfd38472a8549e40154518014~mv2_d_2016_1512_s_2.jpg/v1/fill/w_573,h_427,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1212.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0px 0px",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [],
+  "elementorStylesheets": []
+}

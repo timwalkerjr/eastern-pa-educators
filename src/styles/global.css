@@ -1,0 +1,155 @@
+@import 'tailwindcss';
+@import './fonts.css';
+@plugin "@tailwindcss/typography";
+
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --nav-height: 80px;
+
+  --color-background: hsl(0 0% 100%); /* #ffffff */
+  --color-foreground: hsl(220 20% 14%); /* #1d212b */
+  --color-muted-foreground: hsl(218 11% 42%); /* #5f6877 */
+  --color-border: hsl(220 13% 91%); /* #e5e7eb */
+  --color-surface: hsl(210 20% 98%); /* #f9fafb */
+  
+  --color-primary: hsl(43 96% 48%); /* #f0ad05 */
+  --color-primary-foreground: hsl(0 0% 8%); /* #141414 */
+  --color-primary-hover: hsl(43 96% 40%); /* #c89004 */
+  
+  --color-secondary: hsl(220 18% 16%); /* #212630 */
+  --color-secondary-foreground: hsl(0 0% 100%); /* #ffffff */
+  --color-secondary-hover: hsl(220 18% 24%); /* #323a48 */
+  
+  --color-dark-background: hsl(220 18% 10%); /* #15181e */
+  --color-dark-foreground: hsl(0 0% 98%); /* #fafafa */
+  --color-dark-muted-foreground: hsl(218 12% 70%); /* #a9b0bc */
+  --color-dark-border: hsl(220 16% 20%); /* #2b303b */
+  
+  --color-success: hsl(142 76% 36%); /* #16a249 */
+  --color-error: hsl(0 72% 51%); /* #dc2828 */
+  --color-warning: hsl(38 92% 50%); /* #f59f0a */
+  --color-amber-subtle: hsl(43 96% 94%); /* #fef6e1 */
+  
+  --text-h1: clamp(2rem, 0.9rem + 3.6vw, 4rem);
+  --text-h2: clamp(1.625rem, 1.1rem + 1.8vw, 2.5rem);
+  --text-h3: clamp(1.25rem, 1.05rem + 0.7vw, 1.625rem);
+}
+
+@theme {
+  --color-amber-subtle: var(--color-amber-subtle);
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-heading);
+
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-surface: var(--color-surface);
+
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-primary-hover: var(--color-primary-hover);
+
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-secondary-hover: var(--color-secondary-hover);
+
+  --color-dark-background: var(--color-dark-background);
+  --color-dark-foreground: var(--color-dark-foreground);
+  --color-dark-muted-foreground: var(--color-dark-muted-foreground);
+  --color-dark-border: var(--color-dark-border);
+
+  --color-dark: var(--color-dark-background);
+  --color-dark-muted: var(--color-dark-muted-foreground);
+
+  --color-success: var(--color-success);
+  --color-error: var(--color-error);
+  --color-warning: var(--color-warning);
+
+  --text-h1: var(--text-h1);
+  --text-h1--line-height: 1.1;
+  --text-h2: var(--text-h2);
+  --text-h2--line-height: 1.2;
+  --text-h3: var(--text-h3);
+  --text-h3--line-height: 1.35;
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+html {
+  scroll-padding-top: var(--nav-height);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  hyphens: auto;
+  hyphenate-limit-chars: 10 3 3;
+  -webkit-hyphenate-limit-before: 3;
+  -webkit-hyphenate-limit-after: 3;
+  min-width: 0;
+}
+
+p,
+li {
+  text-wrap: pretty;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  hyphenate-limit-chars: 12 4 3;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hero-animate {
+  opacity: 0;
+  animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  will-change: opacity, transform;
+}
+.hero-animate-delay-1 {
+  animation-delay: 0.1s;
+}
+.hero-animate-delay-2 {
+  animation-delay: 0.2s;
+}
+.hero-animate-delay-3 {
+  animation-delay: 0.3s;
+}
+.hero-animate-delay-4 {
+  animation-delay: 0.4s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .hero-animate {
+    animation: none;
+    opacity: 1;
+  }
+}

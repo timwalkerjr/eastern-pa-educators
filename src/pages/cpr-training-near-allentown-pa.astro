@@ -1,0 +1,270 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const title = 'CPR Certification Class near Allentown PA | Eastern PA Educators';
+const description = 'Our training staff has over 35 years of experience and can custom fit any first aid training program to fit your business model. We introduce current CPR, First Aid and AED tools to our students. Receive proper first aid and CPR training with us!';
+const canonicalUrl = 'https://www.easternpaeducators.com/cpr-training-near-allentown-pa/';
+
+const servingCities = [
+  { name: 'Allentown', href: 'https://www.allentownpa.gov/' },
+  { name: 'Bethlehem', href: 'https://www.bethlehem-pa.gov/' },
+  { name: 'Easton', href: 'https://easton-pa.com/' },
+  { name: 'Macungie', href: 'http://www.macungie.pa.us/' },
+  { name: 'Emmaus', href: 'http://www.borough.emmaus.pa.us/' },
+  { name: 'Hamburg', href: 'https://www.hamburgboro.com/' },
+  { name: 'Lancaster', href: 'https://www.co.lancaster.pa.us/' },
+  { name: 'Reading', href: 'https://www.readingpa.gov/' },
+  { name: 'Quakertown', href: 'https://quakertown.org/' },
+  { name: 'Coopersburg', href: 'https://www.coopersburgborough.org/' },
+  { name: 'Center Valley', href: 'https://en.wikipedia.org/wiki/Center_Valley,_Pennsylvania' },
+  { name: 'Perkasie', href: 'https://perkasieborough.org/' },
+  { name: 'Sellersville', href: 'http://sellersvilleboro.org/home1/' },
+  { name: 'Limeport', href: 'https://en.wikipedia.org/wiki/Limeport,_Pennsylvania' },
+  { name: 'East Greenville', href: 'https://www.egreenville.org/' },
+];
+
+const hours = [
+  { day: 'Monday', time: '9:00 am - 5:00 pm' },
+  { day: 'Tuesday', time: '9:00 am - 5:00 pm' },
+  { day: 'Wednesday', time: '9:00 am - 5:00 pm' },
+  { day: 'Thursday', time: '9:00 am - 5:00 pm' },
+  { day: 'Friday', time: '9:00 am - 5:00 pm' },
+  { day: 'Saturday', time: '9:00 am - 5:00 pm' },
+  { day: 'Sunday', time: '9:00 am - 5:00 pm' },
+];
+---
+
+<BaseLayout
+  headerVariant="solid"
+  title={title}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Eastern PA Educators - Allentown CPR Training',
+    description: description,
+    url: canonicalUrl,
+    telephone: '484-334-0357',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '11 South 3rd Street',
+      addressLocality: 'Hamburg',
+      addressRegion: 'PA',
+      postalCode: '19526',
+      addressCountry: 'US'
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: [
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday',
+          'Saturday',
+          'Sunday'
+        ],
+        opens: '09:00',
+        closes: '17:00'
+      }
+    ]
+  }}
+>
+  <!-- 1. Hero Header Section -->
+  <section class="relative isolate bg-dark-background text-dark-foreground overflow-hidden border-b border-dark-border" data-ps="src/pages/cpr-training-near-allentown-pa.astro:vm7i5a">
+    <div class="relative w-full h-[200px] sm:h-[240px] md:h-[280px] overflow-hidden" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2whx8">
+      <img
+        src="https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-05bb38-1536.webp"
+        alt="CPR Certification in Allentown PA"
+        class="w-full h-full object-cover object-center brightness-60"
+        loading="eager"
+        fetchpriority="high"
+        width="1905"
+        height="250" data-ps="src/pages/cpr-training-near-allentown-pa.astro:nkndlo" />
+      <div class="absolute inset-0 bg-gradient-to-t from-dark-background via-dark-background/60 to-transparent flex items-center justify-center" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2whx9">
+        <Container class="text-center">
+          <span class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-primary mb-2" data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxmi">
+            <span class="w-2 h-2 rounded-full bg-primary animate-pulse" data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxmj"></span>
+            Allentown Regional Training
+          </span>
+          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-heading m-0 uppercase" data-ps="src/pages/cpr-training-near-allentown-pa.astro:ishg41">
+            CPR Certification in Allentown PA
+          </h1>
+        </Container>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Main Body Content Section -->
+  <section class="py-12 md:py-20 bg-background text-foreground" data-ps="src/pages/cpr-training-near-allentown-pa.astro:vm7i59">
+    <Container>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2whxa">
+        <!-- Main Content (7 Cols) -->
+        <div class="lg:col-span-7 flex flex-col gap-8" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2whxb">
+          <!-- Lead Intro -->
+          <div class="space-y-4" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2whxc">
+            <p class="text-lg md:text-xl text-foreground font-medium leading-relaxed" data-ps="src/pages/cpr-training-near-allentown-pa.astro:24un9z">
+              Our first aid training staff has over 35 years of experience in the field and academic teaching knowledge. We can custom fit any training program to fit your business model, while teaching within the academic structure of the American Heart Association and Red Cross Programs.
+            </p>
+          </div>
+
+          <!-- Reviews Callout Card -->
+          <div class="p-6 sm:p-8 rounded-2xl bg-surface border border-border shadow-sm" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2whxy">
+            <h2 class="text-xl sm:text-2xl font-bold text-foreground font-heading mb-4" data-ps="src/pages/cpr-training-near-allentown-pa.astro:xgwdc7">
+              Our Allentown CPR Certification Course Reviews
+            </h2>
+            <p class="text-sm text-muted-foreground mb-6 leading-relaxed" data-ps="src/pages/cpr-training-near-allentown-pa.astro:24una0">
+              See what students, healthcare providers, and local organizations say about our high-impact training and certifications.
+            </p>
+            <a
+              href="https://www.google.com/maps/place/Eastern+Pa+Educators/@40.5548009,-75.9859093,17z/data=!3m1!4b1!4m5!3m4!1s0x89c5db775ac50e73:0xe9a3ae73322fd241!8m2!3d40.5547968!4d-75.9837206"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2.5 px-5 py-3 rounded-lg bg-primary text-primary-foreground font-bold text-sm hover:bg-primary-hover transition-colors shadow-sm no-underline group"
+             data-ps="src/pages/cpr-training-near-allentown-pa.astro:98sjy3">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+              <span data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxn5">Our Google Maps CPR Certification Course Reviews</span>
+              <svg class="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Proudly Serving -->
+          <div class="p-6 sm:p-8 rounded-2xl bg-surface border border-border shadow-sm" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2whxz">
+            <h3 class="text-xl sm:text-2xl font-bold text-foreground font-heading mb-4" data-ps="src/pages/cpr-training-near-allentown-pa.astro:mvsrfc">
+              Proudly Serving
+            </h3>
+            <p class="text-sm text-muted-foreground mb-6 leading-relaxed" data-ps="src/pages/cpr-training-near-allentown-pa.astro:24una1">
+              We provide on-site and regional certification classes throughout Eastern Pennsylvania and Lehigh Valley:
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why0">
+              {servingCities.map((city, __psIdx) => (
+                <a
+                  href={city.href}
+                  target={city.href.startsWith('http') ? '_blank' : undefined}
+                  rel={city.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  class="inline-flex items-center px-3 py-1.5 rounded-md bg-background border border-border text-sm font-medium text-foreground hover:border-primary hover:text-primary transition-colors no-underline"
+                 data-ps={`src/pages/cpr-training-near-allentown-pa.astro:98sjy4-${__psIdx}`}>
+                  {city.name}
+                </a>
+              ))}
+            </div>
+            <div class="pt-4 border-t border-border" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why1">
+              <a
+                href="/"
+                class="inline-flex items-center gap-1.5 text-sm font-bold text-primary hover:underline transition-colors no-underline"
+               data-ps="src/pages/cpr-training-near-allentown-pa.astro:98sjy5">
+                <span data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxn6">View All Our Service Areas</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Training Image Display -->
+          <div class="rounded-2xl overflow-hidden border border-border shadow-md bg-surface" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why2">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/IMG_1212-aa58df-320.webp"
+              alt="ready response cpr training near allentown pa"
+              class="w-full h-auto object-cover max-h-[420px]"
+              width="573"
+              height="427"
+              loading="lazy" data-ps="src/pages/cpr-training-near-allentown-pa.astro:nkndlp" />
+            <div class="p-4 bg-surface border-t border-border flex items-center justify-between text-xs text-muted-foreground font-medium" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why3">
+              <span data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxn7">Hands-On Training Equipment & Manikins</span>
+              <span data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxn8">Allentown & Surrounding Areas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar / Location & Hours Card (5 Cols) -->
+        <div class="lg:col-span-5 flex flex-col gap-6" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why4">
+          <div class="p-6 sm:p-8 rounded-2xl bg-surface border-2 border-border shadow-md sticky top-24" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why5">
+            <div class="flex items-center gap-3 mb-6 pb-6 border-b border-border" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why6">
+              <div class="w-12 h-12 rounded-xl bg-amber-subtle text-foreground flex items-center justify-center font-bold shrink-0" data-ps="src/pages/cpr-training-near-allentown-pa.astro:q2why7">
+                <svg class="w-6 h-6 text-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <div data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5vb">
+                <span class="block text-xs uppercase tracking-wider text-muted-foreground font-bold" data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxn9">Direct Inquiries</span>
+                <a
+                  href="tel:1-484-334-0357"
+                  class="text-xl sm:text-2xl font-extrabold text-foreground hover:text-primary transition-colors no-underline"
+                 data-ps="src/pages/cpr-training-near-allentown-pa.astro:98sjy6">
+                  484-334-0357
+                </a>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="mb-6" data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5va">
+              <h4 class="text-xs uppercase font-bold text-muted-foreground tracking-wider mb-2" data-ps="src/pages/cpr-training-near-allentown-pa.astro:87du7p">Address</h4>
+              <p class="text-base font-semibold text-foreground m-0" data-ps="src/pages/cpr-training-near-allentown-pa.astro:24una2">
+                11 South 3rd Street<br />
+                Hamburg, PA 19526
+              </p>
+            </div>
+
+            <!-- Directions Link -->
+            <div class="mb-6" data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5v9">
+              <h4 class="text-xs uppercase font-bold text-muted-foreground tracking-wider mb-2" data-ps="src/pages/cpr-training-near-allentown-pa.astro:87du7q">Directions</h4>
+              <a
+                href="https://www.google.com/maps/place/Eastern+Pa+Educators/@40.5548009,-75.9859093,17z/data=!3m1!4b1!4m5!3m4!1s0x89c5db775ac50e73:0xe9a3ae73322fd241!8m2!3d40.5547968!4d-75.9837206"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline transition-colors no-underline"
+               data-ps="src/pages/cpr-training-near-allentown-pa.astro:98sjy7">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxna">Click here for driving directions</span>
+              </a>
+            </div>
+
+            <!-- Hours of Operation -->
+            <div class="pt-6 border-t border-border" data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5v8">
+              <h4 class="text-xs uppercase font-bold text-muted-foreground tracking-wider mb-4" data-ps="src/pages/cpr-training-near-allentown-pa.astro:87du7r">Hours of Operation</h4>
+              <div class="space-y-2" data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5v7">
+                {hours.map((item, __psIdx) => (
+                  <div class="flex justify-between items-center text-sm py-1 border-b border-border/50 last:border-0" data-ps={`src/pages/cpr-training-near-allentown-pa.astro:m2l5v6-${__psIdx}`}>
+                    <span class="font-medium text-foreground" data-ps={`src/pages/cpr-training-near-allentown-pa.astro:apxnb-${__psIdx}`}>{item.day}</span>
+                    <span class="text-muted-foreground font-semibold" data-ps={`src/pages/cpr-training-near-allentown-pa.astro:apxnc-${__psIdx}`}>{item.time}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <!-- Secondary Contact line -->
+            <div class="mt-8 pt-6 border-t border-border flex flex-col gap-3 text-xs text-muted-foreground" data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5v5">
+              <div data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5v4">
+                <span class="font-bold text-foreground" data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxnd">Main Office:</span> 301 Chris Drive, Lenhartsville, PA 19534
+              </div>
+              <div data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5v3">
+                <span class="font-bold text-foreground" data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxne">Training Center:</span> 16600 Pottsville Pike, Hamburg, PA 19526
+              </div>
+              <div class="flex items-center gap-3 pt-2" data-ps="src/pages/cpr-training-near-allentown-pa.astro:m2l5v2">
+                <a href={`tel:${SITE.phone}`} class="font-bold text-primary hover:underline no-underline" data-ps="src/pages/cpr-training-near-allentown-pa.astro:98sjy8">
+                  {SITE.phone}
+                </a>
+                <span data-ps="src/pages/cpr-training-near-allentown-pa.astro:apxo0">|</span>
+                <a href={`mailto:${SITE.email}`} class="font-bold text-primary hover:underline no-underline" data-ps="src/pages/cpr-training-near-allentown-pa.astro:98sjy9">
+                  {SITE.email}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+</BaseLayout>

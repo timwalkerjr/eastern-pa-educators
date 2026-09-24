@@ -1,0 +1,2841 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": null,
+  "fontSmoothing": "antialiased",
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 195, 20)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 195, 20)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 195, 20)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(36, 35, 35)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 195, 20)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 195, 20)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    }
+  ],
+  "globalTypography": {
+    "headingFont": null,
+    "bodyFont": null,
+    "scale": {}
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "position": "sticky",
+    "logo": {
+      "width": "84px",
+      "height": "90px",
+      "widthEvidence": "100%",
+      "position": "inside-nav",
+      "hasBadge": false,
+      "src": "https://static.wixstatic.com/media/63861c_2f3890d9807d4bac97beb377e596faf5~mv2.png/v1/fill/w_84,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/krelogo.png"
+    },
+    "hasLogo": true,
+    "links": [
+      {
+        "text": "Home",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)",
+        "active": true,
+        "activeColor": "rgb(87, 87, 87)"
+      },
+      {
+        "text": "About",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "border": "0px 0px 0px 1px none none none solid rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 0)"
+        }
+      },
+      {
+        "text": "Eastern Pa Educators",
+        "fontSize": "25px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "First Aid and CPR Certificatio",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "KRE Security LLC",
+        "fontSize": "14px",
+        "fontFamily": "roboto-thin",
+        "fontWeight": "400",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Schuylkill",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Lancaster",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Bucks",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Carbon",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "CALL TODAY   484-334-3577",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "16600 Pottsville Pike\nHamburg,",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Center City Philadelphia",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "0px 0px",
+      "pitchPx": 325,
+      "distribution": "center",
+      "verticalAlign": "bottom",
+      "containerAlignment": {
+        "container": "[id=\"SITE_HEADER\"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 190
+        },
+        "offsets": {
+          "left": 0,
+          "top": 159,
+          "right": 1631,
+          "bottom": 1
+        },
+        "center": {
+          "x": 0.072,
+          "y": 0.916
+        },
+        "layout": {
+          "display": "grid",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    }
+  },
+  "sliders": [
+    {
+      "sectionHeading": "ABOUT OUR CPR & FIRST AID TRAINING\nServing Eastern Pennsylva",
+      "totalSlides": 1,
+      "visibleAtOnce": 0,
+      "slideType": "text",
+      "topPosition": 1227,
+      "items": [
+        {
+          "texts": [
+            "00:00",
+            "00:00"
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "sectionHeading": "ABOUT OUR CPR & FIRST AID TRAINING\nServing Eastern Pennsylva",
+      "totalSlides": 1,
+      "visibleAtOnce": 1,
+      "slideType": "text",
+      "topPosition": 1233,
+      "items": [
+        {
+          "texts": [
+            "00:00",
+            "00:00"
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "sectionHeading": "ABOUT OUR CPR & FIRST AID TRAINING\nServing Eastern Pennsylva",
+      "totalSlides": 1,
+      "visibleAtOnce": 0,
+      "slideType": "text",
+      "topPosition": 1233,
+      "items": [
+        {
+          "texts": [
+            "00:00",
+            "00:00"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ],
+  "buttons": [],
+  "videos": [
+    {
+      "src": "https://video.wixstatic.com/video/63861c_e045c4fbd32242aebf8d84d0fa599553/1080p/mp4/file.mp4",
+      "type": "background",
+      "autoplay": false,
+      "muted": false,
+      "loop": false,
+      "controls": false,
+      "width": 526,
+      "height": 294,
+      "topPosition": 933
+    }
+  ],
+  "footer": {
+    "background": "rgba(0, 0, 0, 0)",
+    "textColor": "rgb(0, 0, 0)",
+    "columns": 1,
+    "textAlign": "start"
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBackgroundColor": {
+      "backgroundColor": "var(--corvid-background-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBackgroundColor": {
+      "backgroundColor": "var(--corvid-hover-background-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBackgroundColor": {
+      "backgroundColor": "var(--corvid-disabled-background-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBorderColor": {
+      "borderColor": "var(--corvid-border-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBorderColor": {
+      "borderColor": "var(--corvid-hover-border-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBorderColor": {
+      "borderColor": "var(--corvid-disabled-border-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor, .StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor, .StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-hover-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor, .StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-disabled-color)"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .twJknM, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .twJknM": {
+      "backgroundColor": "var(--corvid-hover-background-color,rgba(var(--bgh,var(--color_18,color_18)),var(--alpha-bgh,1)))",
+      "borderColor": "var(--corvid-hover-border-color,rgba(var(--brdh,var(--color_15,color_15)),var(--alpha-brdh,1)))"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    "body.device-mobile-optimized .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, :host(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, body:not(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"] .p2iqNU, :host(:not(.device-mobile-optimized)) .myoKiH[aria-disabled=\"false\"] .p2iqNU": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    ".agzDLy[data-state~=\"over\"], .agzDLy[data-state~=\"link\"]": {
+      "backgroundColor": "rgba(var(--bgh,var(--color_17,color_17)),var(--alpha-bgh,1))"
+    },
+    ".agzDLy[data-state~=\"over\"] .VhM8Ji, .agzDLy[data-state~=\"link\"] .VhM8Ji": {
+      "color": "rgb(var(--txth,var(--color_15,color_15)))"
+    },
+    ".VideoPlayer2054936319__cover .PlayableCover847694237__overlay": {
+      "backgroundColor": "rgba(var(--backgroundColor,0, 0, 0), calc(var(--alpha-backgroundColor,1) + .1))"
+    },
+    ".VideoPlayer2054936319__cover .PlayableCover847694237__playButton": {
+      "opacity": "0.8"
+    },
+    ".CSZHvY": {
+      "opacity": "0.7"
+    },
+    ".uLtKnJ": {
+      "opacity": "0.7"
+    },
+    ".auNcKQ .Nn1XOK": {
+      "opacity": "0.8"
+    },
+    ".m7XTXo": {
+      "opacity": "0.7"
+    },
+    "._sEROa": {
+      "opacity": "0.7"
+    },
+    ".X73LM9": {
+      "opacity": "0.8"
+    },
+    ".VtwJGM": {
+      "opacity": "0.7"
+    },
+    ".XrujAQ": {
+      "opacity": "0.7"
+    },
+    ".sYK3PM": {
+      "opacity": "0.7"
+    },
+    ".cBgVdF": {
+      "opacity": "0.7"
+    },
+    ".gUSG3o:not(.WBBUZz), .gUSG3o.f03xEu": {
+      "backgroundColor": "rgb(234, 73, 46)"
+    },
+    ".Z9cprf": {
+      "opacity": "0.7"
+    },
+    ".nYlDbI": {
+      "opacity": "0.7"
+    },
+    ".Jks8En": {
+      "opacity": "0.7"
+    },
+    ".zkN8A4 .F937Xv, .zkN8A4.SU1bwf .F937Xv, [data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4 .F937Xv, [data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4.SU1bwf .F937Xv": {
+      "transform": "scaleY(1)"
+    },
+    ".zkN8A4 .F937Xv .CBrvgf, .zkN8A4.SU1bwf .F937Xv .CBrvgf": {
+      "opacity": "1"
+    },
+    ".zkN8A4 .F937Xv .BjZWaz, .zkN8A4.SU1bwf .F937Xv .BjZWaz, .zkN8A4 .NJb7BF, .zkN8A4.SU1bwf .NJb7BF": {
+      "transform": "scale(1)"
+    },
+    ".zkN8A4 .X42rEN, .zkN8A4.SU1bwf .X42rEN": {
+      "transform": "scale(1.4)"
+    },
+    "[data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4 .X42rEN, [data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4.SU1bwf .X42rEN": {
+      "transform": "scale(1.33)"
+    },
+    ".zkN8A4 .X42rEN.KX14H_, .zkN8A4.SU1bwf .X42rEN.KX14H_": {
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    ".X42rEN": {
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    ".Dgk9zI": {
+      "opacity": "0.7"
+    },
+    ".VhJhlU": {
+      "opacity": "0.7"
+    },
+    ".YHoSg4": {
+      "opacity": "0.7"
+    },
+    ".rposrv .zlb1tU, .rposrv.LK7q_I .zlb1tU": {
+      "opacity": "1"
+    },
+    ".XqQ0Rk": {
+      "opacity": "0.7"
+    },
+    ".jcZoTL": {
+      "transform": "scale(1.18)"
+    },
+    ".jcZoTL.JZZ0I9": {
+      "transform": "scale(0.8)"
+    },
+    ".oelO2C": {
+      "opacity": "0.7"
+    },
+    ".LVC3T9": {
+      "transform": "scale(1.18)"
+    },
+    ".LVC3T9.J43JlI": {
+      "transform": "scale(0.8)"
+    },
+    ".fBH6zQ": {
+      "opacity": "0.7"
+    },
+    ".HfqHJ8 .k_Mlnl": {
+      "opacity": "0.7"
+    },
+    ".LD3F6w": {
+      "transform": "scale(1.2)"
+    },
+    ".bwy2Jz": {
+      "opacity": "0.7"
+    },
+    ".Z2mutM": {
+      "transform": "scale(1.18)"
+    },
+    ".uH0Ibi": {
+      "opacity": "0.7"
+    },
+    ".Q1MQrw .nbaJII": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    },
+    ".Yz8ZCc .nbaJII": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    },
+    ".fRbOAc .XXgBXC": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    },
+    ".YbkIHV .XXgBXC": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    }
+  },
+  "cssVariables": {},
+  "externalFonts": [
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_41",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Schuylkill",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Lancaster",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Bucks",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Carbon",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Center City Philadelphia",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_18",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "25px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "apPOZK",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_5",
+          "text": "CALL TODAY 484-334-3577 16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "ul",
+          "cls": "wTjmlM",
+          "text": "HomeAboutPrograms We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Home",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Home",
+          "color": "rgb(87, 87, 87)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Programs We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family CPR Cert",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "button",
+          "cls": "H4AHlN",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(0, 0, 0)",
+          "width": 10,
+          "height": 10,
+          "viewBox": "0 0 16 11",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "We Will Custom Fit Any Safety Program To Fit Your Business Model!",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "30px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "backcolor_15",
+          "text": "We Will Custom Fit Any Safety Program To Fit Your Business Model!",
+          "color": "rgb(255, 222, 95)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "30px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "IT88M3",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 238)",
+          "fill": "rgb(0, 0, 0)",
+          "width": 54,
+          "height": 54,
+          "viewBox": "26 26 148 148",
+          "fontSize": "10px"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "ABOUT OUR CPR & FIRST AID TRAINING\nServing Eastern Pennsylvania",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h2",
+          "cls": "font_2",
+          "text": "ABOUT OUR CPR & FIRST AID TRAINING Serving Eastern Pennsylvania",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "ABOUT OUR CPR & FIRST AID TRAINING",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": true,
+          "tracking": "1.92px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Serving Eastern Pennsylvania",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Serving Eastern Pennsylvania",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "24px",
+          "ownText": true,
+          "tracking": "1.44px"
+        },
+        {
+          "tag": "div",
+          "cls": "KE_jFc",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "PlayableCover847694237__root",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "PlayableCover847694237__overlay",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0.25)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "button",
+          "cls": "PlayableCover847694237__playButton",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(255, 255, 255)",
+          "width": 50,
+          "height": 50,
+          "viewBox": "0 0 36 36",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Our CPR certification and first aid instructors have over 35 years of experience",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Our CPR certification and first aid instructors have over 35 years of experience",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "19px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "AHA and Red Cross Approved First Aid Training and CPR Certification Class First ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "AHA and Red Cross Approved First Aid Training and CPR Certification Class First ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "AHA and Red Cross Approved First Aid Training and CPR Certification Class",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Red Cross Approved First Aid Training and CPR Certification Class",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Penndot Flagger Class",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Penndot Flagger Class",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "ownText": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "First Aid Training Certification Classes offered in Eastern PA:",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "jv9xi4",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "6px solid rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Custom Based CPR Certification & First Aid and AED Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "30px",
+          "ownText": false,
+          "leading": "39px"
+        },
+        {
+          "tag": "span",
+          "cls": "color_44",
+          "text": "Custom Based",
+          "color": "rgb(207, 159, 21)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px"
+        },
+        {
+          "tag": "span",
+          "cls": "color_44",
+          "text": "CPR Certification & First Aid and AED Training",
+          "color": "rgb(207, 159, 21)",
+          "fontSize": "30px",
+          "ownText": true,
+          "leading": "39px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "for your business, facility, or civic or private groups needs. KRE Security will",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "for your business, facility, or civic or private grou",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "ps needs.",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "KRE Security will provide the following CPR certification and first aid classes ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font_7",
+          "text": "First Aid Training Certification Classes offered in Eastern PA:",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training Certification Classes offered in Eastern PA:",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver CPR/AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Heartsaver CPR/AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver CPR/AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver CPR/AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Friends and Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Friends and Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Friends and Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Friends and Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font_3",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "23.4px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "23.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "23.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false,
+          "leading": "32.5px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font_3",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "23.4px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "23.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "23.4px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Our CPR certification and first aid training programs are able to be submitted u",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "23.8px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Our CPR certification and first aid training programs are able to be submitted u",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "23.8px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "KRE Security provides our students with the most up-to-date equipment to make ou",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "23.8px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "KRE Security provides our students with the most up-to-date equipment to make ou",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "23.8px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "CPR and First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "23.8px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "23.8px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Classes",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "23.8px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font_3",
+          "text": "Reading, Pottsville, Allentown, Bethlehem, Easton, Lancaster, Lebanon, Pottstown",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "37.8px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Reading, Pottsville, Allentown, Bethlehem, Easton, Lancaster, Lebanon, Pottstown",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "37.8px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Reading",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "37.8px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Allentown",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "37.8px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Lancaster",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "37.8px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Philadelphia",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "37.8px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_3",
+          "text": "FIRST AID AND CPR CERTIFICATION CLASSES",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "31px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "FIRST AID AND CPR CERTIFICATION CLASSES",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "31px",
+          "ownText": true
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "MEET OUR SAFETY TRAINING INSTRUCTOR",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h2",
+          "cls": "font_3",
+          "text": "MEET OUR SAFETY TRAINING INSTRUCTOR",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "40px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "MEET OUR SAFETY TRAINING INSTRUCTOR",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "40px",
+          "ownText": true
+        },
+        {
+          "tag": "div",
+          "cls": "IgNoUN",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "8px solid rgb(255, 255, 255)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "cls": "XBQCDC",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font_3",
+          "text": "Jarrod K. Emes",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "42px"
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "Jarrod K. Emes",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "42px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Owner and Instructor",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "35.7px"
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "Owner and Instructor",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "35.7px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Featured Article",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "Featured Article",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "\"Post-9/11, A New World Emerges for Security,\" an article written by Reading Eag",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "\"Post-9/11, A New World Emerges for Security,\" an article written by Reading Eag",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "\"Post-9/11, A New World Emerges for Security,\" an article written",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Jarrod brings over 20 years in the Emergency Services Field, specializing in Fir",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Jarrod brings over 20 years in the Emergency Services Field, specializing in Fir",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Graduate of Alvernia College Bachelor's Degree in Criminal Justice Minor in Soci",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Graduate of Alvernia College Bachelor's Degree in Criminal Justice Minor in Soci",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Graduate of Alvernia College",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Awarded the Saint Michael Archangel Award 2007",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Berks Technical Institute",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Member of the KRE Security/ Investigations Inc. Management Team, PA 2007-2016",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Member of the KRE Security/ Investigations Inc. Management Team, PA 2007-2016",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Owner KRE Security LLC. 2016- Present Certified Instructor in American Heart CPR",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Owner KRE Security LLC. 2016- Present",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Certified Instructor in American Heart CPR, First Aid, Training,",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Phazzer- Non Lethal, Pa Act 235- Lethal weapon Agent",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Phazzer- Non Lethal, Pa Act 235- Lethal weapon Agent",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Work Experiences include: •Berks County Juvenile Detention Center •Berks County ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Work Experiences include: •Berks County Juvenile Detention Center •Berks County ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Work Experiences include:",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "OUR CPR CERTIFICATION & FIRST AID CLASSES SERVE:",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "h2",
+          "cls": "font_0",
+          "text": "OUR CPR CERTIFICATION & FIRST AID CLASSES SERVE:",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "OUR CPR CERTIFICATION & FIRST AID CLASSES SERVE:",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": true,
+          "tracking": "2.8px"
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "5 Reasons Learning First Aid is Important for Anyone to Know",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(36, 35, 35)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h2",
+          "cls": "font_2",
+          "text": "5 Reasons Learning First Aid is Important for Anyone to Know",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "5 Reasons Learning First Aid is Important for Anyone to Know",
+          "color": "rgb(255, 222, 95)",
+          "fontSize": "32px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Saves Lives. Based on a Red Cross survey, over half of deaths can be p",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "First Aid Saves Lives. Based on a Red Cross survey, over half of deaths can be p",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Saves Lives. Based on a Red Cross survey, over half of deaths can be p",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Saves Lives.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Reduce Recovery Time. Early intervention with proper first aid care can mean the",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Reduce Recovery Time. Early intervention with proper first aid care can mean the",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Reduce Recovery Time. Early intervention with proper first aid care can mean the",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Reduce Recovery Time.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "you can slow down the bleeding on a deep cut to",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "prevent",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "severe blood loss.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Prioritize Injuries. First aid training will give you the knowledge needed to tr",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Prioritize Injuries. First aid training will give you the knowledge needed to tr",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Prioritize Injuries. First aid training will give you the knowledge needed to tr",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Prioritize Injuries.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Save a Trip to the Hospital. You will know if a trip to the hospital is really n",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Save a Trip to the Hospital. You will know if a trip to the hospital is really n",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Save a Trip to the Hospital. You will know if a trip to the hospital is really n",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Save a Trip to the Hospital.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Keep Your Family Safe. You will find a new sense of confidence once you have pro",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Keep Your Family Safe. You will find a new sense of confidence once you have pro",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "17px",
+          "ownText": false,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Keep Your",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Family",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Safe. You will find a new sense of confidence once you have proper first aid tra",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "28.9px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Safe.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "28.9px"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "heading": "CONTACT US FOR A QUOTE",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h2",
+          "cls": "font_0",
+          "text": "CONTACT US FOR A QUOTE",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "41px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "CONTACT US FOR A QUOTE",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "41px",
+          "ownText": true,
+          "tracking": "4.1px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "34.2px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "34.2px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-3577",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "34.2px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "34.2px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "OFFICE",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "24px",
+          "ownText": false,
+          "leading": "45.6px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "OFFICE",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "24px",
+          "ownText": true,
+          "leading": "45.6px",
+          "tracking": "1.2px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "34.2px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "34.2px",
+          "tracking": "0.9px"
+        },
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "form",
+          "cls": "AYCJGp",
+          "text": "Get In Touch",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "input",
+          "cls": "nbaJII",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "6px solid rgb(0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "textarea",
+          "cls": "XXgBXC",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "6px solid rgb(0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "twJknM",
+          "text": "Get In Touch",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "OR4Nv8",
+          "text": "Get In Touch",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "23.8px"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "heading": "STAY UPDATED with EASTERN PA EDUCATORS",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font_0",
+          "text": "STAY UPDATED with EASTERN PA EDUCATORS",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "29px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "STAY UPDATED with EASTERN PA EDUCATORS",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "29px",
+          "ownText": true,
+          "tracking": "2.9px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_0",
+          "text": "Sign Up for Our Newsletter Here",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "22px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Sign U",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "22px",
+          "ownText": true,
+          "tracking": "2.2px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "p for Our Newsletter Here",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "22px",
+          "ownText": true,
+          "tracking": "2.2px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(0, 0, 0)",
+          "width": 216,
+          "height": 27,
+          "viewBox": "4.832 21.464 190.802 42.443",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "form",
+          "cls": "AYCJGp",
+          "text": "SubmitThanks for submitting!",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "input",
+          "cls": "nbaJII",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0.75)",
+          "fontSize": "12px",
+          "fontWeight": "700"
+        },
+        {
+          "tag": "button",
+          "cls": "twJknM",
+          "text": "Submit",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(55, 59, 77)",
+          "fontSize": "13.3333px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "OR4Nv8",
+          "text": "Submit",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "12px",
+          "fontWeight": "700",
+          "ownText": true,
+          "leading": "16.8px"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "heading": "Site footer (port into Footer.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(187, 220, 248, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Main Office: 301 Chris Drive Lenhartsville, PA 19534 | Training Address: 16600 P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "Main Office:",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "301 Chris Drive Lenhartsville, PA 19534 |",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true,
+          "tracking": "0.75px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Training Address: 16600 Pottsville Pike, Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Terms of Service",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [],
+  "renderedSurfaces": [
+    {
+      "selector": "[id=\"img_comp-jh5vdal3\"] > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://static.wixstatic.com/media/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2.jpg/v1/fill/w_1905,h_591,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0px 0px",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "[id=\"dataItem-kae4cfiy1\"] > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://static.wixstatic.com/media/63861c_e045c4fbd32242aebf8d84d0fa599553f000.jpg/v1/fill/w_526,h_294,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/63861c_e045c4fbd32242aebf8d84d0fa599553f000.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0px 0px",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "#img_comp-l2nnw0lh",
+      "mediaKind": "img",
+      "image": "https://static.wixstatic.com/media/63861c_b682a785fb48432c96babf59a06c783c~mv2.png/v1/fill/w_228,h_330,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/pastedImage.png",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0px 0px",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "#img_comp-jl420z62",
+      "mediaKind": "img",
+      "image": "https://static.wixstatic.com/media/63861c_f05447b5578547cfbdca1ef6714ea2fc~mv2.png/v1/crop/x_0,y_3,w_1257,h_659/fill/w_969,h_508,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-03-10%20at%2010_56_54%E2%80%AFAM.png",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0px 0px",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [],
+  "elementorStylesheets": []
+}

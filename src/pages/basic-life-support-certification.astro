@@ -1,0 +1,749 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const title = 'BLS Courses for Healthcare Providers | Eastern PA Educators';
+const description = 'Our basic life support certification, training & courses teach vital first-aid skills to medical professionals. Join our BLS for healthcare providers class today!';
+const canonicalUrl = 'https://www.easternpaeducators.com/basic-life-support-certification/';
+---
+
+<BaseLayout
+  headerVariant="solid"
+  title={title}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: 'BLS for Healthcare Providers',
+    description: description,
+    provider: {
+      '@type': 'EducationalOrganization',
+      name: SITE.name,
+      url: SITE.url,
+      telephone: SITE.phone,
+      email: SITE.email,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '16600 Pottsville Pike',
+        addressLocality: 'Hamburg',
+        addressRegion: 'PA',
+        postalCode: '19526',
+        addressCountry: 'US',
+      },
+    },
+  }}
+>
+  <!-- 1. Hero Poster Banner -->
+  <section class="relative isolate bg-dark-background text-dark-foreground overflow-hidden border-b border-dark-border" data-ps="src/pages/basic-life-support-certification.astro:hero-sec">
+    <div class="relative w-full h-[240px] sm:h-[300px] md:h-[380px] lg:h-[420px] overflow-hidden" data-ps="src/pages/basic-life-support-certification.astro:hero-wrap">
+      <img
+        src="https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-05bb38-1536.webp"
+        alt="cpr certification PA - first aid certification training ready response bucks county pa"
+        class="w-full h-full object-cover object-center brightness-75"
+        loading="eager"
+        fetchpriority="high"
+        width="1920"
+        height="420"
+        data-ps="src/pages/basic-life-support-certification.astro:hero-img"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-dark-background/95 via-dark-background/60 to-dark-background/40" data-ps="src/pages/basic-life-support-certification.astro:hero-overlay"></div>
+
+      <div class="absolute inset-0 flex items-center justify-center text-center p-4" data-ps="src/pages/basic-life-support-certification.astro:hero-content">
+        <Container>
+          <div class="inline-block px-4 py-1.5 rounded bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-3 border border-primary/30" data-ps="src/pages/basic-life-support-certification.astro:hero-badge">
+            Professional Life-Saving Certification
+          </div>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight uppercase font-heading drop-shadow-md" data-ps="src/pages/basic-life-support-certification.astro:hero-h1">
+            BLS for Healthcare Providers
+          </h1>
+        </Container>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Introduction: Basic Life Support Training -->
+  <section class="py-14 md:py-20 bg-background text-foreground" data-ps="src/pages/basic-life-support-certification.astro:intro-sec">
+    <Container class="max-w-4xl text-center">
+      <span class="inline-block px-3.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold uppercase tracking-wider mb-4 border border-amber-200" data-ps="src/pages/basic-life-support-certification.astro:intro-badge">
+        Clinical Life-Support Standards
+      </span>
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground font-heading tracking-tight mb-6 uppercase" data-ps="src/pages/basic-life-support-certification.astro:intro-h2">
+        Basic Life Support Training
+      </h2>
+      <div class="w-16 h-1 bg-primary mx-auto mb-8 rounded-full" data-ps="src/pages/basic-life-support-certification.astro:intro-cadence"></div>
+      <div class="p-6 sm:p-8 md:p-10 rounded-2xl bg-surface border border-border shadow-sm text-left sm:text-center space-y-4" data-ps="src/pages/basic-life-support-certification.astro:intro-card">
+        <p class="text-base sm:text-lg text-foreground/90 leading-relaxed font-medium m-0" data-ps="src/pages/basic-life-support-certification.astro:intro-p">
+          Our Basic Life Support (BLS) programs for healthcare providers are designed to equip participants with essential life-saving techniques and expertise. These courses are structured to cultivate both the confidence and proficiency required to act decisively in high-pressure, critical medical emergencies. Participants will gain hands-on experience with CPR, the use of an automated external defibrillator (AED), and other crucial interventions, ensuring they are prepared to respond effectively in various emergencies. By engaging in our program, participants not only enhance their skill set but also reinforce their capability to positively impact patient outcomes.
+        </p>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 3. What Our BLS Courses Will Teach You Section (Amber Accent) -->
+  <section class="py-14 md:py-20 bg-primary text-primary-foreground border-y border-amber-500/30" data-ps="src/pages/basic-life-support-certification.astro:teach-sec">
+    <Container class="max-w-5xl">
+      <div class="text-center mb-12" data-ps="src/pages/basic-life-support-certification.astro:teach-header">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-primary-foreground font-heading tracking-tight uppercase" data-ps="src/pages/basic-life-support-certification.astro:teach-h2">
+          What Our BLS Courses Will Teach You
+        </h2>
+        <div class="w-16 h-1 bg-black mx-auto mt-4 rounded-full" data-ps="src/pages/basic-life-support-certification.astro:teach-line"></div>
+        <p class="text-base sm:text-lg font-medium text-primary-foreground/90 mt-4 max-w-2xl mx-auto" data-ps="src/pages/basic-life-support-certification.astro:teach-intro">
+          Our BLS courses cover a range of topics and techniques that are crucial in life-threatening situations. Some of the key skills you will learn include:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-ps="src/pages/basic-life-support-certification.astro:teach-grid">
+        <!-- 1. CPR for adults, children, and infants -->
+        <div class="bg-black/90 text-white rounded-2xl p-6 sm:p-8 shadow-md border border-black/40 flex flex-col justify-between" data-ps="src/pages/basic-life-support-certification.astro:teach-card-1">
+          <div data-ps="src/pages/basic-life-support-certification.astro:k6j8nm">
+            <div class="w-10 h-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-extrabold text-sm mb-4" data-ps="src/pages/basic-life-support-certification.astro:teach-icon-1">
+              01
+            </div>
+            <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:teach-title-1">
+              High-Quality CPR
+            </h3>
+            <p class="text-sm text-neutral-300 leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:teach-desc-1">
+              CPR for adults, children, and infants with proper compression depth and rate.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Use of an AED -->
+        <div class="bg-black/90 text-white rounded-2xl p-6 sm:p-8 shadow-md border border-black/40 flex flex-col justify-between" data-ps="src/pages/basic-life-support-certification.astro:teach-card-2">
+          <div data-ps="src/pages/basic-life-support-certification.astro:k6j8n0">
+            <div class="w-10 h-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-extrabold text-sm mb-4" data-ps="src/pages/basic-life-support-certification.astro:teach-icon-2">
+              02
+            </div>
+            <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:teach-title-2">
+              Automated External Defibrillator
+            </h3>
+            <p class="text-sm text-neutral-300 leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:teach-desc-2">
+              Use of an automated external defibrillator (AED) in rapid defibrillation protocols.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3. Choking Relief -->
+        <div class="bg-black/90 text-white rounded-2xl p-6 sm:p-8 shadow-md border border-black/40 flex flex-col justify-between" data-ps="src/pages/basic-life-support-certification.astro:teach-card-3">
+          <div data-ps="src/pages/basic-life-support-certification.astro:k6j8mz">
+            <div class="w-10 h-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-extrabold text-sm mb-4" data-ps="src/pages/basic-life-support-certification.astro:teach-icon-3">
+              03
+            </div>
+            <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:teach-title-3">
+              Choking Interventions
+            </h3>
+            <p class="text-sm text-neutral-300 leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:teach-desc-3">
+              Techniques for relieving choking in conscious and unconscious individuals.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4. Emergency Management -->
+        <div class="bg-black/90 text-white rounded-2xl p-6 sm:p-8 shadow-md border border-black/40 flex flex-col justify-between" data-ps="src/pages/basic-life-support-certification.astro:teach-card-4">
+          <div data-ps="src/pages/basic-life-support-certification.astro:k6j8my">
+            <div class="w-10 h-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-extrabold text-sm mb-4" data-ps="src/pages/basic-life-support-certification.astro:teach-icon-4">
+              04
+            </div>
+            <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:teach-title-4">
+              Respiratory &amp; Cardiac Crises
+            </h3>
+            <p class="text-sm text-neutral-300 leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:teach-desc-4">
+              Management of respiratory and cardiac emergencies in various healthcare settings.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5. Team Dynamics -->
+        <div class="bg-black/90 text-white rounded-2xl p-6 sm:p-8 shadow-md border border-black/40 flex flex-col justify-between md:col-span-2 lg:col-span-2" data-ps="src/pages/basic-life-support-certification.astro:teach-card-5">
+          <div data-ps="src/pages/basic-life-support-certification.astro:k6j8mx">
+            <div class="w-10 h-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-extrabold text-sm mb-4" data-ps="src/pages/basic-life-support-certification.astro:teach-icon-5">
+              05
+            </div>
+            <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:teach-title-5">
+              Team Dynamics &amp; Multi-Rescuer Coordination
+            </h3>
+            <p class="text-sm text-neutral-300 leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:teach-desc-5">
+              Team dynamics and communication during resuscitation efforts to optimize critical clinical workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 4. Who Our Basic Life Support Classes Can Help Section (Dark Obsidian) -->
+  <section class="py-14 md:py-20 bg-dark-background text-dark-foreground border-b border-dark-border" data-ps="src/pages/basic-life-support-certification.astro:who-sec">
+    <Container class="max-w-5xl">
+      <div class="text-center mb-12" data-ps="src/pages/basic-life-support-certification.astro:who-header">
+        <span class="inline-block px-3.5 py-1 rounded bg-amber-subtle/10 text-primary text-xs font-bold uppercase tracking-wider mb-3 border border-primary/20" data-ps="src/pages/basic-life-support-certification.astro:who-badge">
+          Target Professionals
+        </span>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-primary font-heading tracking-tight mb-4 uppercase" data-ps="src/pages/basic-life-support-certification.astro:who-h2">
+          Who Our Basic Life Support Classes Can Help
+        </h2>
+        <p class="text-base sm:text-lg text-dark-muted-foreground mt-4 max-w-2xl mx-auto" data-ps="src/pages/basic-life-support-certification.astro:who-intro">
+          Our BLS courses are meticulously crafted for a wide range of individuals who prioritize preparedness in emergency situations.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-ps="src/pages/basic-life-support-certification.astro:who-grid">
+        <!-- 1. Healthcare Providers -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-surface/5 border border-dark-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:who-card-1">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:k6j8mw">
+            <div class="w-10 h-10 rounded-xl bg-primary text-primary-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:who-icon-1">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:k6j8mv">
+              <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:who-title-1">
+                Healthcare Providers
+              </h3>
+              <p class="text-sm text-dark-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:who-desc-1">
+                Whether you're a nurse, doctor, or other healthcare professional, our courses will help you enhance your competency in life-saving techniques essential in clinical settings. By keeping your skills sharp, you ensure optimal patient care and responsiveness during critical situations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. First Responders -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-surface/5 border border-dark-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:who-card-2">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:k6j8mu">
+            <div class="w-10 h-10 rounded-xl bg-primary text-primary-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:who-icon-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:k6j8mt">
+              <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:who-title-2">
+                First Responders
+              </h3>
+              <p class="text-sm text-dark-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:who-desc-2">
+                As the first on the scene, you're equipped to make life-or-death decisions. Our program arms you with robust skills to confidently deliver prompt and effective care, significantly improving patient outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Medical Students -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-surface/5 border border-dark-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:who-card-3">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:k6j8ms">
+            <div class="w-10 h-10 rounded-xl bg-primary text-primary-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:who-icon-3">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:k6j8mr">
+              <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:who-title-3">
+                Medical Students
+              </h3>
+              <p class="text-sm text-dark-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:who-desc-3">
+                Establish a strong foundation in basic life support early in your medical career. Our courses provide you with the fundamental skills and knowledge that will be crucial as you advance into more complex medical training and practice.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Individuals Seeking BLS Certification -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-surface/5 border border-dark-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:who-card-4">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:hogom3">
+            <div class="w-10 h-10 rounded-xl bg-primary text-primary-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:who-icon-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:hogom4">
+              <h3 class="text-lg font-bold text-white font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:who-title-4">
+                Individuals Seeking BLS Certification
+              </h3>
+              <p class="text-sm text-dark-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:who-desc-4">
+                For those needing certification for professional requirements or personal development, our courses offer comprehensive training that meets industry standards. Not only will you fulfill your certification goals, but you'll also gain confidence in your ability to respond in emergency scenarios.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 5. Benefits of BLS Certification Section -->
+  <section class="py-14 md:py-20 bg-surface border-b border-border" data-ps="src/pages/basic-life-support-certification.astro:benefits-sec">
+    <Container class="max-w-5xl">
+      <div class="text-center mb-12" data-ps="src/pages/basic-life-support-certification.astro:benefits-header">
+        <span class="inline-block px-3.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200" data-ps="src/pages/basic-life-support-certification.astro:benefits-badge">
+          Core Advantages
+        </span>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground font-heading tracking-tight mb-4 uppercase" data-ps="src/pages/basic-life-support-certification.astro:benefits-h2">
+          Benefits of BLS Certification
+        </h2>
+        <div class="w-16 h-1 bg-primary mx-auto mt-4 rounded-full" data-ps="src/pages/basic-life-support-certification.astro:benefits-line"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-ps="src/pages/basic-life-support-certification.astro:benefits-grid">
+        <!-- 1. Confidence in Emergencies -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-background border border-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-card-1">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:hogom5">
+            <div class="w-10 h-10 rounded-xl bg-amber-subtle text-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-icon-1">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:hogom6">
+              <h3 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:benefit-title-1">
+                Confidence in Emergencies
+              </h3>
+              <p class="text-sm sm:text-base text-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:benefit-desc-1">
+                A BLS certification equips you with the essential knowledge and practical skills to respond swiftly and effectively in life-threatening situations, such as cardiac arrest or choking incidents. This confidence allows you to act decisively when every second counts, potentially saving lives.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Career Advancement -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-background border border-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-card-2">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:hogom7">
+            <div class="w-10 h-10 rounded-xl bg-amber-subtle text-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-icon-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:hogom8">
+              <h3 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:benefit-title-2">
+                Career Advancement
+              </h3>
+              <p class="text-sm sm:text-base text-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:benefit-desc-2">
+                Adding BLS certification to your list of professional qualifications can open doors to new job opportunities and promotions, especially in healthcare and emergency services. It demonstrates to employers your commitment to maintaining essential skills and your readiness to handle critical situations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Community Impact -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-background border border-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-card-3">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:hogom9">
+            <div class="w-10 h-10 rounded-xl bg-amber-subtle text-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-icon-3">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:hogoma">
+              <h3 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:benefit-title-3">
+                Community Impact
+              </h3>
+              <p class="text-sm sm:text-base text-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:benefit-desc-3">
+                By obtaining a BLS certification, you play a vital role in enhancing public safety and improving health outcomes within your community. Your ability to provide immediate assistance in emergencies contributes to a safer environment, potentially reducing the impact of accidents and medical crises.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Personal Fulfillment -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-background border border-border hover:border-primary/50 transition-colors shadow-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-card-4">
+          <div class="flex items-start gap-4" data-ps="src/pages/basic-life-support-certification.astro:hogomb">
+            <div class="w-10 h-10 rounded-xl bg-amber-subtle text-foreground flex items-center justify-center font-bold shrink-0 text-sm" data-ps="src/pages/basic-life-support-certification.astro:benefit-icon-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
+            </div>
+            <div data-ps="src/pages/basic-life-support-certification.astro:hogomc">
+              <h3 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/basic-life-support-certification.astro:benefit-title-4">
+                Personal Fulfillment
+              </h3>
+              <p class="text-sm sm:text-base text-muted-foreground leading-relaxed m-0" data-ps="src/pages/basic-life-support-certification.astro:benefit-desc-4">
+                Having the skills and training to save a life can bring significant personal fulfillment and a profound sense of purpose. Knowing that you have the ability to make a difference in critical moments provides a deep sense of satisfaction and strengthens your resolve to help others.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 6. "Ready to Get Started?" Media Banner Section -->
+  <section class="relative isolate bg-dark-background text-dark-foreground overflow-hidden py-20 md:py-28" data-ps="src/pages/basic-life-support-certification.astro:ready-sec">
+    <div class="absolute inset-0 z-0" data-ps="src/pages/basic-life-support-certification.astro:ready-bg-wrap">
+      <img
+        src="https://pagesmith-cdn.com/e5b58edc/images/63861c_469d743bfd38472a8549e40154518014~mv2_d_2016_1512_s_2-79015e-1536.webp"
+        alt="IMG_1212.jpg - Basic Life Support Equipment and BLS CPR Training in Eastern PA"
+        class="w-full h-full object-cover object-center brightness-40"
+        loading="lazy"
+        width="1920"
+        height="500"
+        data-ps="src/pages/basic-life-support-certification.astro:ready-img"
+      />
+      <div class="absolute inset-0 bg-dark-background/70 backdrop-blur-[2px]" data-ps="src/pages/basic-life-support-certification.astro:ready-blur"></div>
+    </div>
+
+    <Container class="relative z-10 max-w-3xl text-center">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white font-heading uppercase tracking-tight mb-6 drop-shadow-md" data-ps="src/pages/basic-life-support-certification.astro:ready-h2">
+        Ready to Get Started?
+      </h2>
+      <p class="text-base sm:text-xl text-white/95 leading-relaxed font-medium mb-8" data-ps="src/pages/basic-life-support-certification.astro:ready-p">
+        Don't wait until it’s too late. Ensure the safety of yourself and your colleagues by enrolling in our Basic Life Support courses today.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-4" data-ps="src/pages/basic-life-support-certification.astro:ready-actions">
+        <a
+          href="#contact"
+          class="inline-flex items-center justify-center px-6 py-3.5 rounded-md bg-primary text-primary-foreground font-bold text-base hover:bg-primary-hover transition-colors shadow-lg no-underline"
+          data-ps="src/pages/basic-life-support-certification.astro:ready-btn-quote"
+        >
+          Contact Us for a Quote
+        </a>
+        <a
+          href={`tel:${SITE.phone}`}
+          class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-md bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold text-base transition-colors shadow-lg no-underline backdrop-blur-sm"
+          data-ps="src/pages/basic-life-support-certification.astro:ready-btn-call"
+        >
+          <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          <span data-ps="src/pages/basic-life-support-certification.astro:ready-phone-txt">{SITE.phone}</span>
+        </a>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 7. Contact Us For A Quote Section & Stay Updated Form -->
+  <section id="contact" class="py-14 md:py-20 bg-background text-foreground" data-ps="src/pages/basic-life-support-certification.astro:contact-sec">
+    <Container class="max-w-6xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start" data-ps="src/pages/basic-life-support-certification.astro:contact-grid">
+        <!-- Left: Office & Contact Info (5 cols) -->
+        <div class="lg:col-span-5 space-y-6" data-ps="src/pages/basic-life-support-certification.astro:contact-left">
+          <div data-ps="src/pages/basic-life-support-certification.astro:quote-header-box">
+            <span class="inline-block text-xs font-bold uppercase tracking-wider text-primary mb-2" data-ps="src/pages/basic-life-support-certification.astro:badge-quote">
+              Eastern PA Training Program
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-foreground font-heading uppercase tracking-tight mb-4" data-ps="src/pages/basic-life-support-certification.astro:quote-h2">
+              CONTACT US FOR A QUOTE
+            </h2>
+            <p class="text-sm sm:text-base text-muted-foreground leading-relaxed mb-6" data-ps="src/pages/basic-life-support-certification.astro:quote-lead">
+              Get in touch with our certified BLS instructors today to schedule a Basic Life Support certification course for your hospital staff, clinic team, or medical facility.
+            </p>
+          </div>
+
+          <!-- Direct Cards -->
+          <div class="space-y-3" data-ps="src/pages/basic-life-support-certification.astro:direct-cards">
+            <a
+              href={`tel:${SITE.phone}`}
+              class="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border hover:border-primary transition-colors no-underline group shadow-sm"
+              data-ps="src/pages/basic-life-support-certification.astro:card-phone"
+            >
+              <div class="w-10 h-10 rounded-lg bg-amber-subtle flex items-center justify-center text-foreground font-bold shrink-0" data-ps="src/pages/basic-life-support-certification.astro:icon-phone-box">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <div data-ps="src/pages/basic-life-support-certification.astro:card-phone-txt">
+                <span class="block text-xs uppercase tracking-wider text-muted-foreground font-bold" data-ps="src/pages/basic-life-support-certification.astro:phone-label">Direct Phone</span>
+                <span class="text-base font-bold text-foreground group-hover:text-primary transition-colors" data-ps="src/pages/basic-life-support-certification.astro:phone-num">{SITE.phone}</span>
+              </div>
+            </a>
+
+            <a
+              href={`mailto:${SITE.email}`}
+              class="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border hover:border-primary transition-colors no-underline group shadow-sm"
+              data-ps="src/pages/basic-life-support-certification.astro:card-email"
+            >
+              <div class="w-10 h-10 rounded-lg bg-amber-subtle flex items-center justify-center text-foreground font-bold shrink-0" data-ps="src/pages/basic-life-support-certification.astro:icon-email-box">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div data-ps="src/pages/basic-life-support-certification.astro:card-email-txt">
+                <span class="block text-xs uppercase tracking-wider text-muted-foreground font-bold" data-ps="src/pages/basic-life-support-certification.astro:email-label">Email Inquiries</span>
+                <span class="text-base font-bold text-foreground group-hover:text-primary transition-colors" data-ps="src/pages/basic-life-support-certification.astro:email-addr">{SITE.email}</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Offices List -->
+          <div class="p-4 rounded-xl bg-surface border border-border text-xs text-muted-foreground space-y-3" data-ps="src/pages/basic-life-support-certification.astro:offices-box">
+            <div data-ps="src/pages/basic-life-support-certification.astro:office-main">
+              <span class="font-bold text-foreground block text-xs uppercase tracking-wider" data-ps="src/pages/basic-life-support-certification.astro:main-office-label">MAIN OFFICE</span>
+              <p class="m-0 text-sm text-foreground/90 font-medium" data-ps="src/pages/basic-life-support-certification.astro:main-office-addr">301 Chris Drive Lenhartsville, PA 19534</p>
+            </div>
+            <div class="pt-2 border-t border-border" data-ps="src/pages/basic-life-support-certification.astro:office-training">
+              <span class="font-bold text-foreground block text-xs uppercase tracking-wider" data-ps="src/pages/basic-life-support-certification.astro:training-office-label">TRAINING OFFICE</span>
+              <p class="m-0 text-sm text-foreground/90 font-medium" data-ps="src/pages/basic-life-support-certification.astro:training-office-addr">11 South 3rd Street Hamburg, PA 19526</p>
+              <a href="https://maps.app.goo.gl/muXmn7KridwPnmVn9" target="_blank" rel="noopener noreferrer" class="text-xs text-primary hover:underline block mt-1 no-underline font-medium" data-ps="src/pages/basic-life-support-certification.astro:training-location-link">
+                Training Facility: 16600 Pottsville Pike, Hamburg, PA 19526
+              </a>
+            </div>
+          </div>
+
+          <!-- Stay Updated Newsletter Box -->
+          <div class="p-5 rounded-2xl bg-amber-subtle border border-amber-200" data-ps="src/pages/basic-life-support-certification.astro:newsletter-box">
+            <h3 class="text-base font-extrabold text-foreground font-heading uppercase tracking-wide mb-1" data-ps="src/pages/basic-life-support-certification.astro:news-h3">
+              STAY UPDATED with EASTERN PA EDUCATORS
+            </h3>
+            <p class="text-xs text-muted-foreground mb-4" data-ps="src/pages/basic-life-support-certification.astro:news-p">
+              Sign Up for Our Newsletter Here to receive safety tips, course schedules, and training updates.
+            </p>
+
+            <form id="newsletter-form" class="space-y-3" data-ps="src/pages/basic-life-support-certification.astro:news-form">
+              <input type="hidden" name="_formId" value="newsletter-signup" />
+              <div class="flex gap-2" data-ps="src/pages/basic-life-support-certification.astro:news-input-wrap">
+                <input
+                  type="email"
+                  id="newsletter-email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                  aria-label="Email for newsletter"
+                  class="flex-1 px-3.5 py-2 rounded-md bg-background border border-border text-foreground text-xs focus:outline-none focus:ring-2 focus:ring-primary"
+                  data-ps="src/pages/basic-life-support-certification.astro:news-input"
+                />
+                <button
+                  type="submit"
+                  id="newsletter-submit-btn"
+                  class="px-4 py-2 rounded-md bg-secondary text-secondary-foreground font-bold text-xs hover:bg-secondary-hover transition-colors shrink-0 cursor-pointer"
+                  data-ps="src/pages/basic-life-support-certification.astro:news-btn"
+                >
+                  Submit
+                </button>
+              </div>
+              <div id="newsletter-status" class="hidden text-xs font-semibold p-2 rounded text-center" data-ps="src/pages/basic-life-support-certification.astro:news-status"></div>
+            </form>
+          </div>
+
+          <div class="p-3.5 rounded-lg bg-surface border border-border text-xs text-muted-foreground font-medium" data-ps="src/pages/basic-life-support-certification.astro:licensed-note">
+            We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment Plans.
+          </div>
+        </div>
+
+        <!-- Right: Quote Request Form (7 cols) -->
+        <div class="lg:col-span-7" data-ps="src/pages/basic-life-support-certification.astro:contact-right">
+          <div class="p-6 sm:p-8 bg-surface rounded-2xl border border-border shadow-lg" data-ps="src/pages/basic-life-support-certification.astro:form-card">
+            <h3 class="text-xl font-bold text-foreground font-heading mb-1" data-ps="src/pages/basic-life-support-certification.astro:form-title">
+              Get In Touch
+            </h3>
+            <p class="text-xs text-muted-foreground mb-6" data-ps="src/pages/basic-life-support-certification.astro:form-subtitle">
+              Fill out the form below to request a quote or enroll in our BLS for Healthcare Providers course.
+            </p>
+
+            <form id="contact-quote-form" class="space-y-4" data-ps="src/pages/basic-life-support-certification.astro:quote-form">
+              <input type="hidden" name="_formId" value="bls-quote" />
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/basic-life-support-certification.astro:form-row-1">
+                <div data-ps="src/pages/basic-life-support-certification.astro:form-col-name">
+                  <label for="name" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/basic-life-support-certification.astro:label-name">Your Name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="e.g. John Doe"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                    data-ps="src/pages/basic-life-support-certification.astro:input-name"
+                  />
+                </div>
+                <div data-ps="src/pages/basic-life-support-certification.astro:form-col-org">
+                  <label for="organization" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/basic-life-support-certification.astro:label-org">Hospital / Medical Practice</label>
+                  <input
+                    type="text"
+                    id="organization"
+                    name="organization"
+                    placeholder="e.g. Clinic, Hospital, Dental Office"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                    data-ps="src/pages/basic-life-support-certification.astro:input-org"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/basic-life-support-certification.astro:form-row-2">
+                <div data-ps="src/pages/basic-life-support-certification.astro:form-col-email">
+                  <label for="email" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/basic-life-support-certification.astro:label-email">Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="you@example.com"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                    data-ps="src/pages/basic-life-support-certification.astro:input-email"
+                  />
+                </div>
+                <div data-ps="src/pages/basic-life-support-certification.astro:form-col-phone">
+                  <label for="phone" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/basic-life-support-certification.astro:label-phone">Phone Number *</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="484-000-0000"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                    data-ps="src/pages/basic-life-support-certification.astro:input-phone"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/basic-life-support-certification.astro:form-row-3">
+                <div data-ps="src/pages/basic-life-support-certification.astro:form-col-prog">
+                  <label for="program" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/basic-life-support-certification.astro:label-prog">Program of Interest</label>
+                  <select
+                    id="program"
+                    name="program"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                    data-ps="src/pages/basic-life-support-certification.astro:select-prog"
+                  >
+                    <option value="BLS for Healthcare Providers" selected>BLS for Healthcare Providers</option>
+                    <option value="Heartsaver CPR AED">Heartsaver CPR AED</option>
+                    <option value="Heartsaver First Aid">Heartsaver First Aid</option>
+                    <option value="Friends & Family CPR">Friends &amp; Family CPR</option>
+                    <option value="Pediatric First Aid">Pediatric First Aid</option>
+                    <option value="Bloodborne Pathogen Training">Bloodborne Pathogen Training</option>
+                    <option value="Fire Extinguisher Training">Fire Extinguisher Training</option>
+                    <option value="PennDOT Flagger Certification">PennDOT Flagger Certification</option>
+                    <option value="Red Cross CPR & First Aid">Red Cross CPR &amp; First Aid</option>
+                    <option value="Custom Group Package">Custom Group Package</option>
+                  </select>
+                </div>
+                <div data-ps="src/pages/basic-life-support-certification.astro:form-col-size">
+                  <label for="group-size" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/basic-life-support-certification.astro:label-size">Estimated Group Size</label>
+                  <input
+                    type="text"
+                    id="group-size"
+                    name="groupSize"
+                    placeholder="e.g. Individual or 5-20 people"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                    data-ps="src/pages/basic-life-support-certification.astro:input-size"
+                  />
+                </div>
+              </div>
+
+              <div data-ps="src/pages/basic-life-support-certification.astro:form-row-msg">
+                <label for="message" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/basic-life-support-certification.astro:label-msg">Training Location / Notes</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="3"
+                  placeholder="Tell us about your scheduling preferences, location preference (Hamburg training center vs on-site at your facility), or any questions..."
+                  class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                  data-ps="src/pages/basic-life-support-certification.astro:textarea-msg"
+                ></textarea>
+              </div>
+
+              <!-- Invisible Altcha Captcha Protection Widget -->
+              <altcha-widget challenge="/psapi-internal-v1/altcha/challenge" display="invisible" auto="onfocus"></altcha-widget>
+
+              <button
+                type="submit"
+                id="submit-quote-btn"
+                class="w-full py-3.5 px-6 rounded-md bg-primary text-primary-foreground font-bold text-base hover:bg-primary-hover transition-colors shadow-sm cursor-pointer"
+                data-ps="src/pages/basic-life-support-certification.astro:btn-submit-quote"
+              >
+                Get In Touch
+              </button>
+
+              <div id="quote-form-status" class="hidden text-sm font-semibold p-3 rounded-md mt-2 text-center" data-ps="src/pages/basic-life-support-certification.astro:quote-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <script>
+    import 'altcha';
+
+    // Main Contact Quote Form Handler
+    const quoteForm = document.getElementById('contact-quote-form') as HTMLFormElement | null;
+    const statusEl = document.getElementById('quote-form-status');
+    const submitBtn = document.getElementById('submit-quote-btn') as HTMLButtonElement | null;
+
+    quoteForm?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!statusEl || !submitBtn) return;
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      statusEl.className = 'hidden';
+
+      const formData = new FormData(quoteForm);
+      const payload = {
+        _formId: formData.get('_formId') || 'bls-quote',
+        name: formData.get('name'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        organization: formData.get('organization'),
+        program: formData.get('program'),
+        groupSize: formData.get('groupSize'),
+        message: formData.get('message'),
+        altcha: formData.get('altcha'),
+        subject: 'BLS for Healthcare Providers Quote Request - Eastern PA Educators',
+      };
+
+      try {
+        const res = await fetch('/psapi-internal-v1/forms/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        const result = await res.json();
+
+        if (res.ok && result.success !== false) {
+          statusEl.className = 'block text-sm font-semibold p-3 rounded-md mt-2 text-center bg-green-100 text-green-800 border border-green-200';
+          statusEl.textContent = 'Thanks for submitting! We will contact you promptly.';
+          quoteForm.reset();
+        } else {
+          throw new Error(result.error || 'Submission failed');
+        }
+      } catch (err) {
+        statusEl.className = 'block text-sm font-semibold p-3 rounded-md mt-2 text-center bg-red-100 text-red-800 border border-red-200';
+        statusEl.textContent = err instanceof Error ? err.message : 'Submission error. Please call us directly at 484-334-3577.';
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Get In Touch';
+      }
+    });
+
+    // Newsletter Form Handler
+    const newsForm = document.getElementById('newsletter-form') as HTMLFormElement | null;
+    const newsStatusEl = document.getElementById('newsletter-status');
+    const newsSubmitBtn = document.getElementById('newsletter-submit-btn') as HTMLButtonElement | null;
+
+    newsForm?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!newsStatusEl || !newsSubmitBtn) return;
+
+      newsSubmitBtn.disabled = true;
+      newsSubmitBtn.textContent = '...';
+      newsStatusEl.className = 'hidden';
+
+      const formData = new FormData(newsForm);
+      const payload = {
+        _formId: formData.get('_formId') || 'newsletter-signup',
+        email: formData.get('email'),
+        subject: 'Newsletter Signup - Eastern PA Educators',
+      };
+
+      try {
+        const res = await fetch('/psapi-internal-v1/forms/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        const result = await res.json();
+
+        if (res.ok && result.success !== false) {
+          newsStatusEl.className = 'block text-xs font-semibold p-2 rounded text-center bg-green-100 text-green-800 border border-green-200';
+          newsStatusEl.textContent = 'Thanks for submitting!';
+          newsForm.reset();
+        } else {
+          throw new Error(result.error || 'Submission failed');
+        }
+      } catch (err) {
+        newsStatusEl.className = 'block text-xs font-semibold p-2 rounded text-center bg-red-100 text-red-800 border border-red-200';
+        newsStatusEl.textContent = 'Error subscribing. Please try again.';
+      } finally {
+        newsSubmitBtn.disabled = false;
+        newsSubmitBtn.textContent = 'Submit';
+      }
+    });
+  </script>
+</BaseLayout>

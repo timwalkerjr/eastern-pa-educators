@@ -1,0 +1,82 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const title = 'Privacy Policy | Eastern PA Educators | Denver Pennsylvania';
+const description = "At Eastern PA Educators, PA's #1 first aid & CPR training courses, transparency is of the utmost importance. Click here to read our Privacy Policy.";
+---
+
+<BaseLayout
+  headerVariant="solid"
+  title={title}
+  description={description}
+  canonicalUrl="https://www.easternpaeducators.com/privacy-policy/"
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Privacy Policy',
+    description: description,
+    url: 'https://www.easternpaeducators.com/privacy-policy/',
+    publisher: {
+      '@type': 'EducationalOrganization',
+      name: SITE.name,
+      url: SITE.url,
+      telephone: SITE.phone,
+      email: SITE.email,
+    },
+  }}
+>
+  <section class="relative isolate bg-dark-background text-dark-foreground py-16 md:py-24 min-h-[60vh] flex items-center border-b border-dark-border" data-ps="src/pages/privacy-policy.astro:y5a2r9">
+    <Container>
+      <div class="max-w-3xl mx-auto" data-ps="src/pages/privacy-policy.astro:pffnzo">
+        <!-- Cadence Accent Marker -->
+        <div class="w-12 h-1 bg-primary mb-6 rounded-full" data-ps="src/pages/privacy-policy.astro:pffnzp"></div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-[40px] font-bold text-dark-foreground uppercase tracking-tight mb-8 font-heading leading-tight" data-ps="src/pages/privacy-policy.astro:yc2gau">
+          PRIVACY POLICY
+        </h1>
+
+        <div class="space-y-6 text-base md:text-[18px] text-dark-foreground/90 leading-relaxed font-sans" data-ps="src/pages/privacy-policy.astro:pffnzq">
+          <p data-ps="src/pages/privacy-policy.astro:y33jx0">
+            Your privacy is important to us. It is Eastern PA Educator's policy to respect your privacy regarding any information we may collect from you across our website, <a href="/" class="text-primary hover:underline font-medium transition-colors" data-ps="src/pages/privacy-policy.astro:tu2lcd">easternpaeducators.com</a>, and other sites we own and operate.
+          </p>
+
+          <p data-ps="src/pages/privacy-policy.astro:y33jx1">
+            We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
+          </p>
+
+          <p data-ps="src/pages/privacy-policy.astro:y33jx2">
+            We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+          </p>
+
+          <p data-ps="src/pages/privacy-policy.astro:y33jx3">
+            We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
+          </p>
+
+          <p data-ps="src/pages/privacy-policy.astro:y33jx4">
+            Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
+          </p>
+
+          <p data-ps="src/pages/privacy-policy.astro:uvx640">
+            We partner with Microsoft Clarity and Microsoft Advertising to capture how you use and interact with our website through behavioral metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising. For more information about how Microsoft collects and uses your data, visit the <a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-medium transition-colors" data-ps="src/pages/privacy-policy.astro:tu2lcc">Microsoft Privacy Statement</a>.
+          </p>
+
+          <p data-ps="src/pages/privacy-policy.astro:uvx641">
+            You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.
+          </p>
+
+          <p data-ps="src/pages/privacy-policy.astro:uvx642">
+            Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to <a href="/#contact" class="text-primary hover:underline font-medium transition-colors" data-ps="src/pages/privacy-policy.astro:tu2lcb">contact us</a>.
+          </p>
+
+          <div class="pt-4 border-t border-dark-border/60" data-ps="src/pages/privacy-policy.astro:pffnzr">
+            <p class="text-sm md:text-base text-dark-muted-foreground font-medium" data-ps="src/pages/privacy-policy.astro:uvx643">
+              This policy is effective as of 12 July 2024.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+</BaseLayout>

@@ -1,0 +1,615 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const title = 'Easton CPR & First Aid Training | Eastern PA Educators';
+const description = 'For top-notch CPR & first aid classes in Easton Pennsylvania, choose Eastern PA Educators! Our safety instructors are experienced & effective teachers.';
+const canonicalUrl = 'https://www.easternpaeducators.com/easton-cpr-first-aid-courses/';
+---
+
+<BaseLayout
+  headerVariant="solid"
+  title={title}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: 'Easton CPR & First Aid Training',
+    description: description,
+    provider: {
+      '@type': 'EducationalOrganization',
+      name: SITE.name,
+      url: SITE.url,
+      telephone: SITE.phone,
+      email: SITE.email,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '16600 Pottsville Pike',
+        addressLocality: 'Hamburg',
+        addressRegion: 'PA',
+        postalCode: '19526',
+        addressCountry: 'US'
+      }
+    },
+    areaServed: {
+      '@type': 'City',
+      name: 'Easton, Pennsylvania'
+    }
+  }}
+>
+  <!-- 1. Hero Poster Banner -->
+  <section class="relative isolate bg-dark-background text-dark-foreground overflow-hidden border-b border-dark-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:10f334">
+    <div class="relative w-full h-[240px] sm:h-[300px] md:h-[380px] lg:h-[420px] overflow-hidden" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swh">
+      <img
+        src="https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-05bb38-1536.webp"
+        alt="Easton CPR Teachers Demonstrating Proper CPR Technique"
+        class="w-full h-full object-cover object-center brightness-75"
+        loading="eager"
+        fetchpriority="high"
+        width="1905"
+        height="250" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxoji" />
+      <div class="absolute inset-0 bg-gradient-to-t from-dark-background/95 via-dark-background/60 to-dark-background/40" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swi"></div>
+      
+      <div class="absolute inset-0 flex items-center justify-center text-center p-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swj">
+        <Container>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight uppercase font-heading drop-shadow-md" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxysof">
+            EASTON CPR & FIRST AID TRAINING
+          </h1>
+        </Container>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Regional Education Overview & 4 Key Benefits -->
+  <section class="py-14 md:py-20 bg-background text-foreground" data-ps="src/pages/easton-cpr-first-aid-courses.astro:10f335">
+    <Container class="max-w-6xl">
+      <!-- Badge + Heading -->
+      <div class="text-center mb-12" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swk">
+        <span class="inline-block px-3 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndem">
+          Certified Regional Education
+        </span>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground tracking-tight font-heading uppercase" data-ps="src/pages/easton-cpr-first-aid-courses.astro:xeqc32">
+          BEST-IN-CLASS SAFETY & FIRST AID COURSES IN EASTON PA
+        </h2>
+      </div>
+
+      <!-- Top Row: Video/Thumbnail Left (6 Cols) + Content Right (6 Cols) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-16" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swl">
+        <!-- Media Block -->
+        <div class="lg:col-span-6" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swm">
+          <div class="relative rounded-2xl overflow-hidden border border-border shadow-xl bg-dark-background aspect-[16/10] group" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swn">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/63861c_e045c4fbd32242aebf8d84d0fa599553f000-0a755b-320.webp"
+              alt="cpr certification classes in pa - first aid training king of prussia pa red cross"
+              class="w-full h-full object-cover brightness-90 group-hover:scale-105 transition-transform duration-500"
+              width="526"
+              height="294"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxojj" />
+            <div class="absolute inset-0 bg-dark-background/40 flex items-center justify-center" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swo">
+              <a
+                href={`tel:${SITE.phone}`}
+                class="w-16 h-16 rounded-full bg-primary text-primary-foreground flex items-center justify-center shadow-lg transition-transform group-hover:scale-110 no-underline"
+                aria-label="Call for class schedules"
+               data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpee9">
+                <svg class="w-8 h-8 ml-1 fill-current" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </a>
+            </div>
+            <div class="absolute bottom-0 inset-x-0 bg-dark-background/90 backdrop-blur-sm px-4 py-2.5 flex items-center justify-between text-xs text-dark-muted-foreground border-t border-dark-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6swp">
+              <span class="inline-flex items-center gap-1.5 font-medium text-dark-foreground" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxnden">
+                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndeo"></span>
+                On-Site & Class Training
+              </span>
+              <span data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndep">Easton, PA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Editorial Text -->
+        <div class="lg:col-span-6 space-y-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxb">
+          <p class="text-base sm:text-lg text-foreground/90 leading-relaxed" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue67">
+            Eastern PA Educators is your partner in saving lives. Our first aid courses in Easton, Pennsylvania, are designed to prepare you with the essential skills needed to respond confidently in life-threatening situations. From CPR and wound care to managing burns, fractures, and choking emergencies, our American Heart Association-certified instructors ensure you’re ready to act when every second counts.
+          </p>
+          <p class="text-sm sm:text-base text-muted-foreground leading-relaxed" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue6t">
+            Emergencies can happen anywhere, at any time. Knowing how to stop bleeding, perform CPR, or stabilize someone in distress can mean the difference between life and death. That’s why our training goes beyond theory—we focus on practical, hands-on techniques that equip you to handle real-world emergencies effectively.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxc">
+            <div class="p-4 rounded-xl bg-surface border border-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxd">
+              <div class="flex items-center gap-2 mb-1" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxe">
+                <span class="w-2 h-2 rounded-full bg-primary" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndeq"></span>
+                <span class="text-xs font-bold uppercase tracking-wider text-foreground" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxnder">Critical Preparation</span>
+              </div>
+              <p class="text-xs text-muted-foreground m-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue6u">Designed for educators, healthcare professionals, childcare staff, and local organizations.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-surface border border-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxf">
+              <div class="flex items-center gap-2 mb-1" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxg">
+                <span class="w-2 h-2 rounded-full bg-primary" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndes"></span>
+                <span class="text-xs font-bold uppercase tracking-wider text-foreground" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndet">Life-Saving Readiness</span>
+              </div>
+              <p class="text-xs text-muted-foreground m-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue6v">Evidence-based instruction with hands-on clinical simulation for emergency scenarios.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why Choose Section -->
+      <div class="text-center mb-10 pt-6 border-t border-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxh">
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-foreground font-heading tracking-tight mb-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:iqbevf">
+          How Our Easton CPR & First Aid Instructors Prepare People to Save Lives
+        </h3>
+        <p class="text-sm text-muted-foreground" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue6w">
+          Trusted certified instructors delivering high-impact life safety training with realistic equipment.
+        </p>
+      </div>
+
+      <!-- 4 Numbered Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxi">
+        <!-- 01 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxj">
+          <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndeu">
+            01
+          </span>
+          <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:41whn5">1. Expert Instruction You Can Trust</h4>
+          <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue6x">
+            Our courses are led by highly qualified instructors with extensive experience. They deliver more than just knowledge—they instill confidence, ensuring you can act decisively in critical moments.
+          </p>
+        </div>
+
+        <!-- 02 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sxk">
+          <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndev">
+            02
+          </span>
+          <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:41whn6">2. Flexible Training Options</h4>
+          <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue6y">
+            We make life-saving skills accessible to everyone, offering flexible scheduling with evening, weekend, and group sessions to fit your busy life, whether you’re a healthcare professional, teacher, parent, or caregiver.
+          </p>
+        </div>
+
+        <!-- 03 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sy6">
+          <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfh">
+            03
+          </span>
+          <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:41whn7">3. Industry-Recognized Certifications</h4>
+          <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue6z">
+            Our certifications, issued through the American Heart Association (AHA) and American Red Cross (ARC), meet Pennsylvania state regulations and are trusted by employers across healthcare, education, and childcare sectors. With these credentials, you’ll be prepared to make an impact wherever you go.
+          </p>
+        </div>
+
+        <!-- 04 -->
+        <div class="p-6 rounded-2xl bg-surface border border-border hover:border-primary/50 transition-colors shadow-sm relative" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sy7">
+          <span class="inline-block px-2.5 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold mb-3 border border-amber-200/60" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfi">
+            04
+          </span>
+          <h4 class="text-lg font-bold text-foreground font-heading mb-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:41whn8">4. Hands-On, Real-World Training</h4>
+          <p class="text-sm text-muted-foreground leading-relaxed m-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue70">
+            We focus on practical application, using state-of-the-art simulation tools like advanced manikins and AEDs. By practicing high-quality CPR and other techniques, you’ll leave our courses ready to respond confidently to any emergency.
+          </p>
+        </div>
+      </div>
+
+      <!-- Accreditation Row -->
+      <div class="text-center pt-6 border-t border-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sy8">
+        <span class="block text-xs uppercase tracking-widest text-muted-foreground font-bold mb-6" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfj">
+          Nationally Recognized Training Standards & Certifications
+        </span>
+        <div class="flex flex-wrap items-center justify-center gap-8 md:gap-12" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sy9">
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sya">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/american_heart_association_logo-8fc04c-122.webp"
+              alt="AHA Logo"
+              class="h-10 w-auto object-contain"
+              width="122"
+              height="60"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxok5" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6syb">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/39725c_bf51904ac9fe49bbaa66b0cd3459bcfc~-824966-114.webp"
+              alt="Red Cross Logo"
+              class="h-10 w-auto object-contain"
+              width="114"
+              height="112"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxok6" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6syc">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/osha-logo-dceaa1-100.webp"
+              alt="OSHA Logo"
+              class="h-7 w-auto object-contain"
+              width="100"
+              height="29"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxok7" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6syd">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/ashi-approved-training-center-logo-799753-67.webp"
+              alt="ASHI Approved Training Center Logo"
+              class="h-12 w-auto object-contain"
+              width="67"
+              height="70"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxok8" />
+          </div>
+          <div class="p-3 rounded-xl bg-surface border border-border/80 shadow-sm hover:border-primary transition-colors flex items-center justify-center min-w-[100px] h-20" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sye">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/nfpa-member-logo-31BDF5EC99-seeklogo_com-dec389-79.webp"
+              alt="NFPA Member Logo"
+              class="h-12 w-auto object-contain"
+              width="79"
+              height="90"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxok9" />
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 3. Comprehensive Course Offerings Card Container -->
+  <section class="py-14 md:py-20 bg-surface text-foreground border-y border-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:10f336">
+    <Container class="max-w-4xl">
+      <div class="bg-background rounded-3xl border border-border shadow-xl overflow-hidden" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6syf">
+        <div class="p-8 sm:p-10 md:p-12" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz1">
+          <span class="inline-block px-3 py-1 rounded bg-amber-subtle text-foreground text-xs font-bold uppercase tracking-wider mb-4 border border-amber-200" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfk">
+            Comprehensive Course Offerings
+          </span>
+
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-foreground font-heading tracking-tight mb-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:xeqc33">
+            Easton Pennsylvania CPR Lessons & First Aid Classes
+          </h2>
+
+          <div class="space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed mb-8" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz2">
+            <p data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue71">
+              KRE Security provides customized CPR certification, First Aid, and Automated External Defibrillator (AED) training programs tailored to the unique requirements of businesses, healthcare facilities, community organizations, and private groups in Easton, PA. Our courses are accredited by the American Heart Association (AHA) and the American Red Cross, ensuring compliance with the latest evidence-based protocols in emergency response training.
+            </p>
+            <p data-ps="src/pages/easton-cpr-first-aid-courses.astro:fmue72">
+              For medical professionals, emergency responders, or community members seeking preparedness, we offer a comprehensive range of training options, including AHA-certified Basic Life Support (BLS) and advanced First Aid courses. These programs are designed to equip participants with critical interventions for cardiac arrest, respiratory emergencies, and trauma scenarios.
+            </p>
+          </div>
+
+          <!-- Courses Grid -->
+          <div class="mb-8" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz3">
+            <h3 class="text-base font-bold text-foreground uppercase tracking-wider font-heading mb-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:iqbevg">
+              Our First Aid & CPR Training Options Include:
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz4">
+              <a href="/heartsaver-first-aid" class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpeev">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz5">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfl">Heartsaver First Aid</span>
+              </a>
+
+              <a href="/heartsaver-cpr-aed" class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpeew">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz6">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfm">Heartsaver CPR/AED</span>
+              </a>
+
+              <a href="/friends-family-cpr-certification" class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpeex">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz7">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfn">Friends and Family CPR Certification</span>
+              </a>
+
+              <a href="/basic-life-support-certification" class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpeey">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz8">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfo">BLS for the Healthcare Providers</span>
+              </a>
+
+              <a href="/bloodborne-pathogen-training" class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpeez">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sz9">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfp">Bloodborne Pathogen Training</span>
+              </a>
+
+              <a href="/pediatric-first-aid" class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpef0">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6sza">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndfq">Pediatric First Aid</span>
+              </a>
+
+              <a href="/fire-extinguisher-training" class="flex items-center gap-3 p-3.5 rounded-xl bg-surface border border-border hover:border-primary transition-all no-underline text-foreground group sm:col-span-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpef1">
+                <div class="w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6szw">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-sm font-semibold group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgc">Fire Extinguisher Training</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- State Relief Notice -->
+          <div class="p-5 rounded-2xl bg-amber-subtle/70 border border-amber-200/80 mb-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6szx">
+            <span class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgd">State Relief Training Eligible:</span>
+            <p class="text-xs sm:text-sm text-foreground/90 m-0 leading-relaxed" data-ps="src/pages/easton-cpr-first-aid-courses.astro:aya4pb">
+              Our training modules adhere to the Pennsylvania Volunteer Fire Department Relief Training guidelines and align with all state-mandated compliance standards, ensuring rigorous certification processes. KRE Security employs advanced simulation technology, including state-of-the-art CPR manikins with real-time performance feedback, AED trainers, and first aid response kits, to deliver an immersive, hands-on learning experience.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card Footer Banner -->
+        <div class="bg-dark-background px-8 py-6 text-center border-t border-dark-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6szy">
+          <h4 class="text-sm sm:text-base font-extrabold text-dark-foreground uppercase tracking-wider font-heading mb-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:41whnu">
+            OUR EASTON FIRST AID TEACHERS & CPR INSTRUCTORS
+          </h4>
+          <div class="flex items-center justify-center gap-6" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6szz">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/63861c_d7a4cc04e1c64189a4d3cdc09bc782b7~mv2-e29c8b.gif"
+              alt="American Heart Association Logo"
+              class="h-10 w-auto object-contain bg-white rounded p-1"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxoka" />
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/39725c_bf51904ac9fe49bbaa66b0cd3459bcfc~-824966-114.webp"
+              alt="American Red Cross Logo"
+              class="h-10 w-auto object-contain bg-white rounded p-1"
+              width="114"
+              height="112"
+              loading="lazy" data-ps="src/pages/easton-cpr-first-aid-courses.astro:ayxokb" />
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <!-- 4. Contact / Quote Form Section -->
+  <section id="contact" class="py-14 md:py-20 bg-background text-foreground" data-ps="src/pages/easton-cpr-first-aid-courses.astro:10f33s">
+    <Container class="max-w-6xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t00">
+        <!-- Left: Info & Contact (5 Cols) -->
+        <div class="lg:col-span-5 space-y-6" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t01">
+          <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t02">
+            <span class="inline-block text-xs font-bold uppercase tracking-wider text-primary mb-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndge">
+              Easton Registration
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-foreground font-heading uppercase tracking-tight mb-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:xeqc34">
+              CONTACT OUR CPR & FIRST AID TRAINERS FOR A QUOTE TODAY
+            </h2>
+            <div class="space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t03">
+              <p data-ps="src/pages/easton-cpr-first-aid-courses.astro:aya4pa">
+                Preparedness saves lives. Don’t wait until it’s too late. Enroll in our CPR and First Aid certification classes in Easton, PA, and gain the technical skills needed to handle real-world medical emergencies with confidence.
+              </p>
+              <p data-ps="src/pages/easton-cpr-first-aid-courses.astro:aya4p9">
+                Explore our class schedules and register online today. Have specific training needs or questions? Contact us at 484-334-3577 or email jemes@kresecurity.com. Our expert team is ready to customize training solutions for your organization.
+              </p>
+              <p class="font-semibold text-foreground" data-ps="src/pages/easton-cpr-first-aid-courses.astro:aya4p8">
+                Be the difference in an emergency. Take the first step toward becoming a certified responder today with KRE Security’s industry-leading safety and emergency training programs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Direct Cards -->
+          <div class="space-y-3" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t04">
+            <a
+              href={`tel:${SITE.phone}`}
+              class="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border hover:border-primary transition-colors no-underline group shadow-sm"
+             data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpef2">
+              <div class="w-10 h-10 rounded-lg bg-amber-subtle flex items-center justify-center text-foreground font-bold shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t05">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0r">
+                <span class="block text-xs uppercase tracking-wider text-muted-foreground font-bold" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgf">Direct Phone</span>
+                <span class="text-base font-bold text-foreground group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgg">{SITE.phone}</span>
+              </div>
+            </a>
+
+            <a
+              href={`mailto:${SITE.email}`}
+              class="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border hover:border-primary transition-colors no-underline group shadow-sm"
+             data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpef3">
+              <div class="w-10 h-10 rounded-lg bg-amber-subtle flex items-center justify-center text-foreground font-bold shrink-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0s">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0t">
+                <span class="block text-xs uppercase tracking-wider text-muted-foreground font-bold" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgh">Email Inquiries</span>
+                <span class="text-base font-bold text-foreground group-hover:text-primary transition-colors" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgi">{SITE.email}</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Location Details -->
+          <div class="p-4 rounded-xl bg-surface border border-border text-xs text-muted-foreground space-y-2" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0u">
+            <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0v">
+              <span class="font-bold text-foreground block" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgj">Training Center Address:</span>
+              <a href="https://maps.app.goo.gl/muXmn7KridwPnmVn9" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors no-underline" data-ps="src/pages/easton-cpr-first-aid-courses.astro:mxpef4">
+                16600 Pottsville Pike, Hamburg, PA 19526
+              </a>
+            </div>
+            <div class="pt-2 border-t border-border" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0w">
+              <span class="font-bold text-foreground block" data-ps="src/pages/easton-cpr-first-aid-courses.astro:hxndgk">Main Office:</span>
+              <p class="m-0" data-ps="src/pages/easton-cpr-first-aid-courses.astro:aya4p7">301 Chris Drive, Lenhartsville, PA 19534</p>
+            </div>
+          </div>
+
+          <div class="p-3.5 rounded-lg bg-amber-subtle border border-amber-200 text-xs text-foreground font-medium" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0x">
+            We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment Plans.
+          </div>
+        </div>
+
+        <!-- Right: Quote Request Form (7 Cols) -->
+        <div class="lg:col-span-7" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0y">
+          <div class="p-6 sm:p-8 bg-surface rounded-2xl border border-border shadow-lg" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t0z">
+            <h3 class="text-xl font-bold text-foreground font-heading mb-1" data-ps="src/pages/easton-cpr-first-aid-courses.astro:iqbevh">Request Easton Training Quote</h3>
+            <p class="text-xs text-muted-foreground mb-6" data-ps="src/pages/easton-cpr-first-aid-courses.astro:aya4p6">
+              Complete the form below to receive pricing and availability for your organization, facility, or community group in Easton.
+            </p>
+
+            <form id="quote-form" class="space-y-4">
+              <input type="hidden" name="_formId" value="easton-cpr-quote" />
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:dh6t10">
+                <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar70">
+                  <label for="name" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/easton-cpr-first-aid-courses.astro:h2rad0">Your Name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="e.g. John Doe"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+                <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6z">
+                  <label for="organization" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/easton-cpr-first-aid-courses.astro:h2rad1">Organization / Business</label>
+                  <input
+                    type="text"
+                    id="organization"
+                    name="organization"
+                    placeholder="e.g. Easton Clinic / School"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6y">
+                <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6x">
+                  <label for="email" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/easton-cpr-first-aid-courses.astro:h2rad2">Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="you@example.com"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+                <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6w">
+                  <label for="phone" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/easton-cpr-first-aid-courses.astro:h2rad3">Phone Number *</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="484-000-0000"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6v">
+                <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6u">
+                  <label for="program" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5">Program of Interest</label>
+                  <select
+                    id="program"
+                    name="program"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    <option value="Heartsaver First Aid">Heartsaver First Aid</option>
+                    <option value="Heartsaver CPR AED">Heartsaver CPR AED</option>
+                    <option value="Friends & Family CPR">Friends & Family CPR</option>
+                    <option value="BLS for Healthcare Providers">BLS for Healthcare Providers</option>
+                    <option value="Pediatric First Aid">Pediatric First Aid</option>
+                    <option value="Bloodborne Pathogen Training">Bloodborne Pathogen Training</option>
+                    <option value="Fire Extinguisher Training">Fire Extinguisher Training</option>
+                    <option value="PennDOT Flagger Certification">PennDOT Flagger Certification</option>
+                    <option value="Red Cross CPR & First Aid">Red Cross CPR & First Aid</option>
+                    <option value="Custom Easton Group Package">Custom Easton Group Package</option>
+                  </select>
+                </div>
+                <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6t">
+                  <label for="group-size" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/easton-cpr-first-aid-courses.astro:h2rad4">Estimated Group Size</label>
+                  <input
+                    type="text"
+                    id="group-size"
+                    name="groupSize"
+                    placeholder="e.g. 5-15 people"
+                    class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  />
+                </div>
+              </div>
+
+              <div data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6s">
+                <label for="message" class="block text-xs font-bold text-foreground uppercase tracking-wider mb-1.5" data-ps="src/pages/easton-cpr-first-aid-courses.astro:h2rad5">Training Location / Notes</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="3"
+                  placeholder="Location preference (Easton on-site at your facility vs Hamburg training center), preferred schedule, etc..."
+                  class="w-full px-4 py-2.5 rounded-md bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                ></textarea>
+              </div>
+
+              <!-- Invisible Captcha Widget -->
+              <altcha-widget challenge="/psapi-internal-v1/altcha/challenge" display="invisible" auto="onfocus"></altcha-widget>
+
+              <button
+                type="submit"
+                id="submit-btn"
+                class="w-full py-3.5 px-6 rounded-md bg-primary text-primary-foreground font-bold text-base hover:bg-primary-hover transition-colors shadow-sm cursor-pointer"
+               data-ps="src/pages/easton-cpr-first-aid-courses.astro:hkf9zs">
+                Submit Quote Request
+              </button>
+
+              <div id="form-status" class="hidden text-sm font-semibold p-3 rounded-md mt-2 text-center" data-ps="src/pages/easton-cpr-first-aid-courses.astro:8qar6r"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+</BaseLayout>
+
+<script>
+  import 'altcha';
+
+  const form = document.getElementById('quote-form') as HTMLFormElement | null;
+  const statusEl = document.getElementById('form-status');
+  const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement | null;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!statusEl || !submitBtn) return;
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting...';
+    statusEl.className = 'hidden';
+
+    const formData = new FormData(form);
+    const payload = {
+      _formId: formData.get('_formId'),
+      name: formData.get('name'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+      organization: formData.get('organization'),
+      program: formData.get('program'),
+      groupSize: formData.get('groupSize'),
+      message: formData.get('message'),
+      altcha: formData.get('altcha'),
+      subject: 'Easton CPR & First Aid Training Quote Request - Eastern PA Educators',
+    };
+
+    try {
+      const res = await fetch('/psapi-internal-v1/forms/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await res.json();
+
+      if (res.ok && result.success !== false) {
+        statusEl.className = 'block text-sm font-semibold p-3 rounded-md mt-2 text-center bg-green-100 text-green-800 border border-green-200';
+        statusEl.textContent = 'Thanks for submitting! We will contact you promptly.';
+        form.reset();
+      } else {
+        throw new Error(result.error || 'Submission failed');
+      }
+    } catch (err) {
+      statusEl.className = 'block text-sm font-semibold p-3 rounded-md mt-2 text-center bg-red-100 text-red-800 border border-red-200';
+      statusEl.textContent = err instanceof Error ? err.message : 'Submission error. Please call us at 484-334-3577.';
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit Quote Request';
+    }
+  });
+</script>

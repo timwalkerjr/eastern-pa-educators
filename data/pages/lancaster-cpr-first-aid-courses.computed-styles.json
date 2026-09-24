@@ -1,0 +1,2391 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": null,
+  "fontSmoothing": "antialiased",
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 195, 20)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 195, 20)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    }
+  ],
+  "globalTypography": {
+    "headingFont": null,
+    "bodyFont": null,
+    "scale": {}
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "position": "sticky",
+    "logo": {
+      "width": "84px",
+      "height": "90px",
+      "widthEvidence": "100%",
+      "position": "inside-nav",
+      "hasBadge": false,
+      "src": "https://static.wixstatic.com/media/63861c_2f3890d9807d4bac97beb377e596faf5~mv2.png/v1/fill/w_84,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/krelogo.png"
+    },
+    "hasLogo": true,
+    "links": [
+      {
+        "text": "Home",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)"
+      },
+      {
+        "text": "About",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "border": "0px 0px 0px 1px none none none solid rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 0)"
+        }
+      },
+      {
+        "text": "Eastern Pa Educators",
+        "fontSize": "25px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "First Aid and CPR Certificatio",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "KRE Security LLC",
+        "fontSize": "14px",
+        "fontFamily": "roboto-thin",
+        "fontWeight": "400",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Schuylkill",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Lancaster",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Bucks",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Carbon",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "CALL TODAY   484-334-3577",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "16600 Pottsville Pike\nHamburg,",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Center City Philadelphia",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "0px 0px",
+      "pitchPx": 325,
+      "distribution": "center",
+      "verticalAlign": "bottom",
+      "containerAlignment": {
+        "container": "[id=\"SITE_HEADER\"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 190
+        },
+        "offsets": {
+          "left": 0,
+          "top": 159,
+          "right": 1631,
+          "bottom": 1
+        },
+        "center": {
+          "x": 0.072,
+          "y": 0.916
+        },
+        "layout": {
+          "display": "grid",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    }
+  },
+  "sliders": [
+    {
+      "sectionHeading": "THE #1 FIRST AID & CPR COURSES IN LANCASTER PENNSYLVANIA",
+      "totalSlides": 1,
+      "visibleAtOnce": 0,
+      "slideType": "text",
+      "topPosition": 830,
+      "items": [
+        {
+          "texts": [
+            "00:00",
+            "00:00"
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "sectionHeading": "THE #1 FIRST AID & CPR COURSES IN LANCASTER PENNSYLVANIA",
+      "totalSlides": 1,
+      "visibleAtOnce": 1,
+      "slideType": "text",
+      "topPosition": 836,
+      "items": [
+        {
+          "texts": [
+            "00:00",
+            "00:00"
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "sectionHeading": "THE #1 FIRST AID & CPR COURSES IN LANCASTER PENNSYLVANIA",
+      "totalSlides": 1,
+      "visibleAtOnce": 0,
+      "slideType": "text",
+      "topPosition": 836,
+      "items": [
+        {
+          "texts": [
+            "00:00",
+            "00:00"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ],
+  "buttons": [],
+  "videos": [
+    {
+      "src": "https://video.wixstatic.com/video/63861c_e045c4fbd32242aebf8d84d0fa599553/1080p/mp4/file.mp4",
+      "type": "background",
+      "autoplay": false,
+      "muted": false,
+      "loop": false,
+      "controls": false,
+      "width": 526,
+      "height": 294,
+      "topPosition": 536
+    }
+  ],
+  "footer": {
+    "background": "rgba(0, 0, 0, 0)",
+    "textColor": "rgb(0, 0, 0)",
+    "columns": 1,
+    "textAlign": "start"
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBackgroundColor": {
+      "backgroundColor": "var(--corvid-background-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBackgroundColor": {
+      "backgroundColor": "var(--corvid-hover-background-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBackgroundColor": {
+      "backgroundColor": "var(--corvid-disabled-background-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBorderColor": {
+      "borderColor": "var(--corvid-border-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBorderColor": {
+      "borderColor": "var(--corvid-hover-border-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBorderColor": {
+      "borderColor": "var(--corvid-disabled-border-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor, .StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor, .StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-hover-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor, .StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-disabled-color)"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .twJknM, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .twJknM": {
+      "backgroundColor": "var(--corvid-hover-background-color,rgba(var(--bgh,var(--color_18,color_18)),var(--alpha-bgh,1)))",
+      "borderColor": "var(--corvid-hover-border-color,rgba(var(--brdh,var(--color_15,color_15)),var(--alpha-brdh,1)))"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    "body.device-mobile-optimized .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, :host(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, body:not(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"] .p2iqNU, :host(:not(.device-mobile-optimized)) .myoKiH[aria-disabled=\"false\"] .p2iqNU": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    ".agzDLy[data-state~=\"over\"], .agzDLy[data-state~=\"link\"]": {
+      "backgroundColor": "rgba(var(--bgh,var(--color_17,color_17)),var(--alpha-bgh,1))"
+    },
+    ".agzDLy[data-state~=\"over\"] .VhM8Ji, .agzDLy[data-state~=\"link\"] .VhM8Ji": {
+      "color": "rgb(var(--txth,var(--color_15,color_15)))"
+    },
+    ".VideoPlayer2054936319__cover .PlayableCover847694237__overlay": {
+      "backgroundColor": "rgba(var(--backgroundColor,0, 0, 0), calc(var(--alpha-backgroundColor,1) + .1))"
+    },
+    ".VideoPlayer2054936319__cover .PlayableCover847694237__playButton": {
+      "opacity": "0.8"
+    },
+    ".CSZHvY": {
+      "opacity": "0.7"
+    },
+    ".uLtKnJ": {
+      "opacity": "0.7"
+    },
+    ".auNcKQ .Nn1XOK": {
+      "opacity": "0.8"
+    },
+    ".m7XTXo": {
+      "opacity": "0.7"
+    },
+    "._sEROa": {
+      "opacity": "0.7"
+    },
+    ".X73LM9": {
+      "opacity": "0.8"
+    },
+    ".VtwJGM": {
+      "opacity": "0.7"
+    },
+    ".XrujAQ": {
+      "opacity": "0.7"
+    },
+    ".sYK3PM": {
+      "opacity": "0.7"
+    },
+    ".cBgVdF": {
+      "opacity": "0.7"
+    },
+    ".gUSG3o:not(.WBBUZz), .gUSG3o.f03xEu": {
+      "backgroundColor": "rgb(234, 73, 46)"
+    },
+    ".Z9cprf": {
+      "opacity": "0.7"
+    },
+    ".nYlDbI": {
+      "opacity": "0.7"
+    },
+    ".Jks8En": {
+      "opacity": "0.7"
+    },
+    ".zkN8A4 .F937Xv, .zkN8A4.SU1bwf .F937Xv, [data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4 .F937Xv, [data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4.SU1bwf .F937Xv": {
+      "transform": "scaleY(1)"
+    },
+    ".zkN8A4 .F937Xv .CBrvgf, .zkN8A4.SU1bwf .F937Xv .CBrvgf": {
+      "opacity": "1"
+    },
+    ".zkN8A4 .F937Xv .BjZWaz, .zkN8A4.SU1bwf .F937Xv .BjZWaz, .zkN8A4 .NJb7BF, .zkN8A4.SU1bwf .NJb7BF": {
+      "transform": "scale(1)"
+    },
+    ".zkN8A4 .X42rEN, .zkN8A4.SU1bwf .X42rEN": {
+      "transform": "scale(1.4)"
+    },
+    "[data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4 .X42rEN, [data-playable-hook=\"player-container\"][data-playable-in-full-screen=\"true\"] .zkN8A4.SU1bwf .X42rEN": {
+      "transform": "scale(1.33)"
+    },
+    ".zkN8A4 .X42rEN.KX14H_, .zkN8A4.SU1bwf .X42rEN.KX14H_": {
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    ".X42rEN": {
+      "backgroundColor": "rgb(255, 255, 255)"
+    },
+    ".Dgk9zI": {
+      "opacity": "0.7"
+    },
+    ".VhJhlU": {
+      "opacity": "0.7"
+    },
+    ".YHoSg4": {
+      "opacity": "0.7"
+    },
+    ".rposrv .zlb1tU, .rposrv.LK7q_I .zlb1tU": {
+      "opacity": "1"
+    },
+    ".XqQ0Rk": {
+      "opacity": "0.7"
+    },
+    ".jcZoTL": {
+      "transform": "scale(1.18)"
+    },
+    ".jcZoTL.JZZ0I9": {
+      "transform": "scale(0.8)"
+    },
+    ".oelO2C": {
+      "opacity": "0.7"
+    },
+    ".LVC3T9": {
+      "transform": "scale(1.18)"
+    },
+    ".LVC3T9.J43JlI": {
+      "transform": "scale(0.8)"
+    },
+    ".fBH6zQ": {
+      "opacity": "0.7"
+    },
+    ".HfqHJ8 .k_Mlnl": {
+      "opacity": "0.7"
+    },
+    ".LD3F6w": {
+      "transform": "scale(1.2)"
+    },
+    ".bwy2Jz": {
+      "opacity": "0.7"
+    },
+    ".Z2mutM": {
+      "transform": "scale(1.18)"
+    },
+    ".uH0Ibi": {
+      "opacity": "0.7"
+    },
+    ".Q1MQrw .nbaJII": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    },
+    ".Yz8ZCc .nbaJII": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    },
+    ".fRbOAc .XXgBXC": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    },
+    ".YbkIHV .XXgBXC": {
+      "backgroundColor": "rgba(var(--bgh,255, 255, 255),var(--alpha-bgh,1))",
+      "borderColor": "rgba(var(--brdh,163, 217, 246),var(--alpha-brdh,1))"
+    }
+  },
+  "cssVariables": {},
+  "externalFonts": [
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_41",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Schuylkill",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Lancaster",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Bucks",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Carbon",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Center City Philadelphia",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_18",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "25px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "apPOZK",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_5",
+          "text": "CALL TODAY 484-334-3577 16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "ul",
+          "cls": "wTjmlM",
+          "text": "HomeAboutPrograms We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Home",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Programs We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family CPR Cert",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "button",
+          "cls": "H4AHlN",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(0, 0, 0)",
+          "width": 10,
+          "height": 10,
+          "viewBox": "0 0 16 11",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Lancaster CPR & First Aid Training",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_7",
+          "text": "Lancaster CPR & First Aid Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "48px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "backcolor_15",
+          "text": "Lancaster CPR & First Aid Training",
+          "color": "rgb(255, 222, 95)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "48px",
+          "ownText": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "THE #1 FIRST AID & CPR COURSES IN LANCASTER PENNSYLVANIA",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h2",
+          "cls": "font_2",
+          "text": "THE #1 FIRST AID & CPR COURSES IN LANCASTER PENNSYLVANIA",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "THE #1 FIRST AID & CPR COURSES IN LANCASTER PENNSYLVANIA",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": true,
+          "tracking": "1.92px"
+        },
+        {
+          "tag": "div",
+          "cls": "KE_jFc",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "PlayableCover847694237__root",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "PlayableCover847694237__overlay",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0.25)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "button",
+          "cls": "PlayableCover847694237__playButton",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(255, 255, 255)",
+          "width": 50,
+          "height": 50,
+          "viewBox": "0 0 36 36",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "At Eastern PA Educators, we make CPR and first aid training simple, practical, a",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Emergencies can happen anytime, anywhere. Knowing what to do can save a life. At",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h3",
+          "cls": "font_3",
+          "text": "Benefits of Choosing Eastern PA Educators for Your CPR & First Aid Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "24px",
+          "ownText": false,
+          "leading": "33.6px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Benefits of Choosing Eastern PA Educators for Your CPR & First Aid Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "24px",
+          "ownText": true,
+          "leading": "33.6px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "h4",
+          "cls": "font_4",
+          "text": "1. Learn from Experienced Instructors",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "28px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "1. Learn from Experienced Instructors",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "28px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Our certified trainers have hands-on emergency experience. They share real-world",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font_4",
+          "text": "2. Flexible Scheduling for Busy People",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "28px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "2. Flexible Scheduling for Busy People",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "28px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "We know your time is valuable, so we offer evening, weekend, and group sessions ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font_4",
+          "text": "3. Certifications Employers Trust",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "28px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "3. Certifications Employers Trust",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "28px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Our courses are backed by the American Heart Association (AHA) and American Red ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h4",
+          "cls": "font_4",
+          "text": "4. Hands-On, Practical Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "28px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "4. Hands-On, Practical Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "28px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "You’ll practice key skills like CPR, using an AED, and performing first aid on l",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "The CPR & First Aid Training Classes We Offer:",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "jv9xi4",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "6px solid rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Custom-Tailored First Aid, CPR, and AED Training in Lancaster PA We offer tailor",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "30px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_44",
+          "text": "Custom-Tailored First Aid, CPR, and AED Training in Lancaster PA",
+          "color": "rgb(207, 159, 21)",
+          "fontSize": "30px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "We offer tailored training programs for businesses, community groups, and organi",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "30px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "h3",
+          "cls": "font_7",
+          "text": "The CPR & First Aid Training Classes We Offer:",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "The CPR & First Aid Training Classes We Offer:",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver CPR/AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Heartsaver CPR/AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Heartsaver CPR/AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Friends and Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Friends and Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Friends and Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "BLS for the Healthcare Providers​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "font_7",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h3",
+          "cls": "font_3",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h3",
+          "cls": "font_3",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Some of our courses may also qualify under the PA Volunteer Fire Department Reli",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_3",
+          "text": "LANCASTER CPR & FIRST AID CERTIFICATION PROGRAMS",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "31px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "LANCASTER CPR & FIRST AID CERTIFICATION PROGRAMS",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "31px",
+          "ownText": true
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "CONTACT OUR CPR & FIRST AID TRAINERS FOR A QUOTE TODAY",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h2",
+          "cls": "font_0",
+          "text": "CONTACT OUR CPR & FIRST AID TRAINERS FOR A QUOTE TODAY",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "CONTACT OUR CPR & FIRST AID TRAINERS FOR A QUOTE TODAY",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "32px",
+          "ownText": true,
+          "tracking": "3.2px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Don’t wait until an emergency to realize the importance of being prepared. Join ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Explore our class schedules and sign up through our website. Have questions or n",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixGuard",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Be ready to make a difference when it matters most. Enroll today and learn how t",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "form",
+          "cls": "AYCJGp",
+          "text": "Get In Touch",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "input",
+          "cls": "nbaJII",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "6px solid rgb(0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "textarea",
+          "cls": "XXgBXC",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "6px solid rgb(0, 0, 0)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "twJknM",
+          "text": "Get In Touch",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "OR4Nv8",
+          "text": "Get In Touch",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "17px",
+          "ownText": true,
+          "leading": "23.8px"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Site footer (port into Footer.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(187, 220, 248, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Main Office: 301 Chris Drive Lenhartsville, PA 19534 | Training Address: 16600 P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "Main Office:",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "301 Chris Drive Lenhartsville, PA 19534 |",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true,
+          "tracking": "0.75px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Training Address: 16600 Pottsville Pike, Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Terms of Service",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [],
+  "fontFaceRules": [
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w10-light.woff2\") format(\"woff2\"); unicode-range: U+401-40C, U+40E-44F, U+451-45C, U+45E-45F, U+490-491, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w02-light.woff2\") format(\"woff2\"); unicode-range: U+D, U+100-10F, U+111-130, U+132-151, U+154-15F, U+162-177, U+179-17C, U+1FA-1FF, U+218-21B, U+237, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+394, U+3A9, U+3C0, U+1E80-1E85, U+1EF2-1EF3, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2126, U+212E, U+2153-2154, U+215B-215E, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF, U+FB00-FB04; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w01-light.woff2\") format(\"woff2\"); unicode-range: U+20-7E, U+A0-FF, U+110, U+131, U+152-153, U+160-161, U+178, U+17D-17E, U+192, U+2C6-2C7, U+2DA, U+2DC, U+3BC, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/dI-qzxlKVQA6TUC5RKSb31tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/cgaIrkaP9Empe8_PwXbajFtXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic1CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic3CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic-CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic2CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic5CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic0CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/9_7S_tWeGDh5Pq3u05RVkltXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/97uahxiqZRoncBaCEI3aW1tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/t6Nd4cfPRhZP44Q5QAjcC6g5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/bmC0pGMXrhphrZJmniIZpag5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/fIKu7GwZTy_12XzG_jt8eA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/dzxs_VxZUhdM2mEBkNa8svk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/e7MeVAyvogMqFwwl61PKhPesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/vSzulfKSK0LLjjfeaxcREvesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: helvetica-w01-roman; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-lt-w10-roman.woff2\") format(\"woff2\"); unicode-range: U+0, U+D, U+20-7E, U+A0, U+A4, U+A6-A7, U+A9, U+AB-AE, U+B0-B1, U+B5-B7, U+BB, U+401-40C, U+40E-44F, U+451-45C, U+45E-45F, U+490-491, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+20AC, U+2116, U+2122; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: helvetica-w01-roman; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w02-roman.woff2\") format(\"woff2\"); unicode-range: U+D, U+20-7E, U+A0-12B, U+12E-137, U+139-149, U+14C-17E, U+192, U+218-21B, U+237, U+2C6-2C7, U+2C9, U+2D8-2DD, U+394, U+3A9, U+3BC, U+3C0, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2113, U+2122, U+2126, U+212E, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+E301-E304, U+E306-E30D, U+FB01-FB02; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: helvetica-w01-roman; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w01-roman.woff2\") format(\"woff2\"); unicode-range: U+0, U+D, U+20-7E, U+A0-12B, U+12E-137, U+139-149, U+14C-17E, U+192, U+218-21B, U+237, U+2C6-2C7, U+2C9, U+2D8-2DD, U+394, U+3A9, U+3BC, U+3C0, U+401-40C, U+40E-44F, U+451-45C, U+45E-45F, U+462-463, U+472-475, U+490-491, U+4D9, U+1E9E, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+20B9-20BA, U+20BC-20BD, U+2113, U+2116, U+2122, U+2126, U+212E, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+E300-E30D, U+F6C5, U+F6C9-F6D8, U+F8FF, U+FB01-FB02; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/dI-qzxlKVQA6TUC5RKSb31tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/cgaIrkaP9Empe8_PwXbajFtXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: proxima-n-w01-reg; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/c24fcada-6239-48bc-8b88-9288338191c9/v1/proxima-n-w05-reg.woff2\") format(\"woff2\"); unicode-range: U+0, U+100-10F, U+111-130, U+132-151, U+154-15F, U+162-177, U+179-17C, U+17F, U+18F, U+19D, U+1A0-1A1, U+1AF-1B0, U+1E6-1E7, U+1EA-1EB, U+1FA-1FF, U+218-21B, U+232-233, U+237, U+259, U+272, U+2B0, U+2BB-2BC, U+2C9, U+2CB, U+2D8-2D9, U+2DB, U+2DD, U+374-375, U+37E, U+384-38A, U+38C, U+38E-3A1, U+3A3-3CE, U+3D7, U+400-45F, U+472-475, U+48A-4FF, U+510-513, U+51C-51D, U+524-527, U+52E-52F, U+1E02-1E03, U+1E0A-1E0B, U+1E1E-1E1F, U+1E22-1E23, U+1E56-1E57, U+1E60-1E61, U+1E6A-1E6B, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200A, U+2015, U+201B, U+2032-2033, U+203D-203E, U+2070, U+2074-2079, U+207D-2089, U+208D-208E, U+20A1, U+20A3-20A4, U+20A6-20AB, U+20B4, U+20B8-20BA, U+20BC-20BD, U+2113, U+2116-2117, U+2120, U+2126, U+212E, U+2153-2154, U+215B-215E, U+2190-2193, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+22B2-22B3, U+22C5, U+2318, U+25A0, U+25B2, U+25BC, U+25CA, U+25CF, U+2605, U+2610-2611, U+2666, U+2713, U+2E18, U+E004-E005, U+F43A-F43B, U+F460-F473, U+F498-F49F, U+F4C6-F4C7, U+F4CC-F4CD, U+F4D2-F4D7, U+F50A-F50B, U+F50E-F533, U+F536-F539, U+F53C-F53F, U+F637, U+F6C3, U+F6DD, U+F6DF-F6F3, U+F8FF, U+FB00-FB04; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: proxima-n-w01-reg; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/c24fcada-6239-48bc-8b88-9288338191c9/v1/proxima-n-w01-reg.woff2\") format(\"woff2\"); unicode-range: U+D, U+20-7E, U+A0-FF, U+110, U+131, U+152-153, U+160-161, U+178, U+17D-17E, U+192, U+2C6-2C7, U+2DA, U+2DC, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122, U+F656-F659; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic1CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic3CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic-CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic2CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic5CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic0CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/9_7S_tWeGDh5Pq3u05RVkltXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/97uahxiqZRoncBaCEI3aW1tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/t6Nd4cfPRhZP44Q5QAjcC6g5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/bmC0pGMXrhphrZJmniIZpag5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/fIKu7GwZTy_12XzG_jt8eA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/dzxs_VxZUhdM2mEBkNa8svk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/e7MeVAyvogMqFwwl61PKhPesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/lancaster-cpr-first-aid-courses",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/vSzulfKSK0LLjjfeaxcREvesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    }
+  ],
+  "renderedSurfaces": [
+    {
+      "selector": "[id=\"img_comp-mbv7qs5k\"] > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://static.wixstatic.com/media/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2.jpg/v1/fill/w_1905,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0px 0px",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    },
+    {
+      "selector": "[id=\"dataItem-mbv7qs6f2\"] > img:nth-of-type(1)",
+      "mediaKind": "img",
+      "image": "https://static.wixstatic.com/media/63861c_e045c4fbd32242aebf8d84d0fa599553f000.jpg/v1/fill/w_526,h_294,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/63861c_e045c4fbd32242aebf8d84d0fa599553f000.jpg",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "backgroundSize": "auto",
+      "backgroundPosition": "0px 0px",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [],
+  "elementorStylesheets": []
+}

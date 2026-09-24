@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "url": "https://www.easternpaeducators.com/",
+  "structured": {
+    "title": "CPR & First Aid Training in Pennsylvania | Eastern PA Educators",
+    "description": "Our certified CPR & first aid instructors offer custom first aid training programs to fit your needs. For safety courses & classes, call our teachers today!",
+    "url": "https://www.easternpaeducators.com/",
+    "imageCount": 40,
+    "branding": {
+      "colors": {
+        "primary": "#FFC314",
+        "secondary": "#0000EE",
+        "accent": "#373B4D",
+        "background": "#FFFFFF",
+        "textPrimary": "#000000",
+        "link": "#373B4D"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Arial",
+          "heading": "Oswald"
+        },
+        "fontStacks": {
+          "heading": [
+            "Oswald",
+            "sans-serif"
+          ],
+          "body": [
+            "Arial",
+            "Helvetica",
+            "sans-serif"
+          ],
+          "paragraph": [
+            "Roboto",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "16px",
+          "h2": "32px",
+          "body": "14px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "0px"
+      },
+      "logo": "https://static.wixstatic.com/media/63861c_bd41880454694c7b95c201a820110e04~mv2.png",
+      "favicon": "https://static.wixstatic.com/media/63861c_2b9a152557a9482cb2cabf2b26ab5c9a%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/63861c_2b9a152557a9482cb2cabf2b26ab5c9a%7Emv2.png",
+      "faviconCdn": "https://pagesmith-cdn.com/e5b58edc/images/63861c_2b9a152557a9482cb2cabf2b26ab5c9a~mv2-da7565-192.webp"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "CPR & First Aid Training in Pennsylvania | Eastern PA Educators",
+        "file": "data/pages/index.md"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/schuylkill-county-cpr-first-aid-courses/",
+        "label": "Schuylkill County CPR & First Aid Courses | Eastern PA Educators",
+        "slug": "schuylkill-county-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/terms-of-service/",
+        "label": "Terms of Service | Eastern PA Educators | Denver Pennsylvania",
+        "slug": "terms-of-service",
+        "scraped": false
+      },
+      {
+        "path": "/fire-extinguisher-training/",
+        "label": "Heartsaver First Aid Training Courses | Eastern PA Educators",
+        "slug": "fire-extinguisher-training",
+        "scraped": false
+      },
+      {
+        "path": "/harrisburg-cpr-first-aid-courses/",
+        "label": "Harrisburg CPR & First Aid Training | Eastern PA Educators",
+        "slug": "harrisburg-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/red-cross-cpr-first-aid/",
+        "label": "American Red Cross CPR & First Aid | Eastern PA Educators",
+        "slug": "red-cross-cpr-first-aid",
+        "scraped": false
+      },
+      {
+        "path": "/heartsaver-first-aid/",
+        "label": "Heartsaver First Aid Training Courses | Eastern PA Educators",
+        "slug": "heartsaver-first-aid",
+        "scraped": false
+      },
+      {
+        "path": "/heartsaver-cpr-aed/",
+        "label": "Heartsaver CPR AED Training Courses | Eastern PA Educators",
+        "slug": "heartsaver-cpr-aed",
+        "scraped": false
+      },
+      {
+        "path": "/easton-cpr-first-aid-courses/",
+        "label": "Easton CPR & First Aid Training | Eastern PA Educators",
+        "slug": "easton-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/privacy-policy/",
+        "label": "Privacy Policy | Eastern PA Educators | Denver Pennsylvania",
+        "slug": "privacy-policy",
+        "scraped": false
+      },
+      {
+        "path": "/carbon-county-cpr-first-aid-courses/",
+        "label": "Carbon County CPR & First Aid Courses | Eastern PA Educators",
+        "slug": "carbon-county-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/events-page/",
+        "label": "Events Page",
+        "slug": "events-page",
+        "scraped": false
+      },
+      {
+        "path": "/philadelphia-cpr-first-aid-courses/",
+        "label": "Philadelphia CPR & First Aid Training | Eastern PA Educators",
+        "slug": "philadelphia-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/reading-cpr-first-aid-courses/",
+        "label": "CPR & First Aid Training in Reading PA | Eastern PA Educators",
+        "slug": "reading-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/pediatric-first-aid/",
+        "label": "Pediatric First Aid Training Courses | Eastern PA Educators",
+        "slug": "pediatric-first-aid",
+        "scraped": false
+      },
+      {
+        "path": "/lancaster-cpr-first-aid-courses/",
+        "label": "Lancaster CPR & First Aid Training | Eastern PA Educators",
+        "slug": "lancaster-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/cpr-training-near-allentown-pa/",
+        "label": "CPR Certification Class near Allentown PA | Eastern PA Educators",
+        "slug": "cpr-training-near-allentown-pa",
+        "scraped": false
+      },
+      {
+        "path": "/allentown-cpr-first-aid-courses/",
+        "label": "Allentown CPR & First Aid Training | Eastern PA Educators",
+        "slug": "allentown-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/ada-accessibility/",
+        "label": "ADA Accessibility Notice | Eastern PA Educators | Denver PA",
+        "slug": "ada-accessibility",
+        "scraped": false
+      },
+      {
+        "path": "/friends-family-cpr-certification/",
+        "label": "Friends & Family CPR Certification | Eastern PA Educators",
+        "slug": "friends-family-cpr-certification",
+        "scraped": false
+      },
+      {
+        "path": "/bucks-county-cpr-first-aid-courses/",
+        "label": "Bucks County CPR & First Aid Courses | Eastern PA Educators",
+        "slug": "bucks-county-cpr-first-aid-courses",
+        "scraped": false
+      },
+      {
+        "path": "/penndot-flagger-certification/",
+        "label": "PennDOT Flagger Certification & Training | Eastern PA Educators",
+        "slug": "penndot-flagger-certification",
+        "scraped": false
+      },
+      {
+        "path": "/basic-life-support-certification/",
+        "label": "BLS Courses for Healthcare Providers | Eastern PA Educators",
+        "slug": "basic-life-support-certification",
+        "scraped": false
+      },
+      {
+        "path": "/bloodborne-pathogen-training/",
+        "label": "Bloodborne Pathogen Training | BBP OPIM | Eastern PA Educator",
+        "slug": "bloodborne-pathogen-training",
+        "scraped": false
+      }
+    ]
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-09-24T16:02:34.996Z",
+    "homepageContentLength": 10889,
+    "imageCount": 40,
+    "hasBranding": true,
+    "hasElementorEnrichment": false,
+    "hasVisibleIr": false,
+    "pagesDiscovered": 23,
+    "pagesScraped": 1,
+    "screenshotUrl": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-c747c004-37bc-44c1-9ba8-8003a1035d91.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1790870535&Signature=pOF0oG3qLbzjCBBj5RPMZp%2FAWv%2BUYR1TeMWh2V8AC3w4IplS4iL5s0GXtYJ8qz2TGXjbCiI9l%2FimKcOwEucSp%2Bgb4PB%2FMB7J2WFMcpY9bPirXRz%2Fy7Nv9H2Jd017cKvFS%2B87Um6FjGTdtafiQmtCH0uy4Hex9ojqJq6Z9Qov8KFfOQVhFFZcvhnWJezQcGS0tuSYe8pNPysfJgiKvrFzDsyiLTRRuPawSLRcdEZOio2AR6b0OTslRMT8jOdps5l22oXQzs98uvH3MdKiNYNNfYH1%2BfG9yNrkwVrO7g4CLwWpy%2B9YDZT9JoI574s%2BNpnICRMFAOY8%2FESG1te6MTfNYw%3D%3D",
+    "viewportScreenshots": [
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-d3ee2666-084e-4fad-bad3-808adaac3dc8.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1790870536&Signature=FtAVzFODnd5UkmlVs2gGaVOWHlGFChjTYgsMLFJU0GUhF5ld1ix51HKRO6F8VHJWLXxoP%2BkcrE%2BXYGl8qrP%2BfDxa54S1%2BoHP2X52QwJhYUEtCeml5UbAhftD5pcIOew%2Fwoz2E%2BEXPi0T146CFGljMhuXwSw0eqo6HgYt43N68LkLGEQY9VoJkT10k5KMpcY%2B0IQY6kXhjq%2BeXGg%2BWOLzWd3gf73ZXQwROlJSwFXtJqt97e2oyi2b1vbiknCr7u7zy8YEcjH7eqKF%2F%2Bavmpf1YUtUfK2m9jqIba2y0ghvkta3%2Fi6tfDF5GloUFuiSt4ypcwrRjV5i%2F6hIdnKmQaTLTQ%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-01a163d7-153c-47d6-bc51-317c747f532b.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1790870539&Signature=B7Q%2Bkl3piYsuDIaqQeHvBEPUg4Rp6utv5R02Df%2FVu53DLnNAVCvCIBtZEum7czQbIAhKXPME1%2F7H%2FvMczS4GCZWq1m2lB1auWnwzxsFK9FPVvAXuaM0S98X442PEOVBWY0yidakLVG3BIL25wC45vhrGSwXQaylykGvmDWsB2SkBr%2FGStQj%2F6PBtyB0Ap0pMI6hto89gw7iBfSTn9J3vMvlptRVN5Kw1Xi8yg%2B9rq6kNaA4vQvhR14l9P4Vt%2B%2BHb4IrCEZLeFuON3LaqbO6b5jgBVDfi5pH%2FZS9SmEE6ywXLsktLin3BuS6AfGiHhRlP3cc3srnblgtTG7xCjIDjIA%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-032bffd8-b614-44a2-8912-51296d6b2590.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1790870543&Signature=C8Fiw8lKLWY%2BmwXL%2BWPbLAgeeXhQvcOpw88I%2BTLLTQ7CdxvqWkrqYfNAkuyjmMCjQUzuxaxtmNgxVAxcEmn%2BytgnZbM8ts1TCxClL3%2F5Svg9rYtypeacNaofkt6M4AZSvWrmbXUdzvXr2%2B%2Fm%2FjrdOr2GPhHMsf%2FRouOkOhxEBW%2BZOvoimUarFna9h9qYVQG6HNp2lOgd5iCrXPbod%2BqoBk1ZXC56dpGrl2A0B5iRpgxAPrtvv2BhhI0AiPw8deUN5Oku0eY6PTKyqU1v5%2BpV44QnsIU2vh%2FQyW6YNWv9%2FV33SiMpxc27vCnnzJcaLkhN5B476D1ba7o%2BvbCrNwJmzA%3D%3D"
+    ]
+  }
+}

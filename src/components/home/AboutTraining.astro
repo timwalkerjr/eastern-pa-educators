@@ -1,0 +1,77 @@
+---
+// About & Practical Training Methodology Section
+import Container from '@/components/Container.astro';
+---
+
+<section id="about" class="relative isolate bg-surface text-foreground py-16 md:py-24 border-b border-border" data-ps="src/components/home/AboutTraining.astro:n0yisw">
+  <Container>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center" data-ps="src/components/home/AboutTraining.astro:mnh0ex">
+      <!-- 6-Col Left Media Block with Video & Classroom Photo -->
+      <div class="lg:col-span-6 flex flex-col gap-6 reveal" data-ps="src/components/home/AboutTraining.astro:mnh0ey">
+        <!-- Live Video Player -->
+        <div class="relative rounded-xl overflow-hidden border border-border shadow-lg bg-dark-background aspect-video" data-ps="src/components/home/AboutTraining.astro:mnh0ez">
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            class="w-full h-full object-cover"
+           data-ps="src/components/home/AboutTraining.astro:2ukps2">
+            <source src="https://pagesmith-cdn.com/e5b58edc/videos/file-43c271.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- In-Class Training Photo -->
+        <div class="rounded-xl overflow-hidden border border-border shadow-md" data-ps="src/components/home/AboutTraining.astro:mnh0f0">
+          <img
+            src="https://pagesmith-cdn.com/e5b58edc/images/63861c_e045c4fbd32242aebf8d84d0fa599553f000-0a755b-320.webp"
+            alt="cpr certification classes in pa - first aid training king of prussia pa red cross"
+            class="w-full h-auto object-cover max-w-[526px]"
+            width="526"
+            height="294"
+            loading="lazy" data-ps="src/components/home/AboutTraining.astro:77ry8d" />
+        </div>
+      </div>
+
+      <!-- 6-Col Right Editorial Content -->
+      <div class="lg:col-span-6 flex flex-col justify-center min-w-0" data-ps="src/components/home/AboutTraining.astro:mnh0f1">
+        <span class="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2 reveal" data-ps="src/components/home/AboutTraining.astro:rqn2ws">
+          Serving Eastern Pennsylvania
+        </span>
+        <h2 class="text-h2 font-bold text-foreground tracking-tight mb-6 reveal reveal-delay-1" data-ps="src/components/home/AboutTraining.astro:kkivcm">
+          ABOUT OUR CPR & FIRST AID TRAINING
+        </h2>
+
+        <div class="space-y-4 text-muted-foreground leading-relaxed text-base md:text-lg" data-ps="src/components/home/AboutTraining.astro:mnh0f2">
+          <p class="reveal reveal-delay-2" data-ps="src/components/home/AboutTraining.astro:xhjtrh">
+            Our CPR certification and first aid instructors have over 35 years of experience in the field and academic teaching knowledge and will custom fit any safety program to fit your business model, while teaching within the academic structure of the American Heart Association and Red Cross Programs.
+          </p>
+
+          <p class="reveal reveal-delay-2" data-ps="src/components/home/AboutTraining.astro:xhjtri">
+            Our first aid and CPR certification instructors in PA conduct ongoing training in the educational environment and all staff meet current teaching backgrounds and security clearances.
+          </p>
+
+          <p class="reveal reveal-delay-3 font-medium text-foreground bg-background p-4 rounded-lg border border-border shadow-sm" data-ps="src/components/home/AboutTraining.astro:xhjtrj">
+            KRE Security provides our students with the most up-to-date equipment to make our teaching experience as realistic as possible with the introduction of current CPR, First Aid, and AED tools to the students.
+          </p>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center gap-4 reveal reveal-delay-3" data-ps="src/components/home/AboutTraining.astro:mnh0f3">
+          <a
+            href="/#contact"
+            class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-bold text-sm hover:bg-primary-hover transition-colors shadow-sm no-underline"
+           data-ps="src/components/home/AboutTraining.astro:ufmbhy">
+            <span data-ps="src/components/home/AboutTraining.astro:rqn2wr">Request Custom Training</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a
+            href="/#instructor"
+            class="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-background text-foreground font-semibold text-sm hover:bg-surface border border-border transition-colors no-underline"
+           data-ps="src/components/home/AboutTraining.astro:ufmbhx">
+            <span data-ps="src/components/home/AboutTraining.astro:rqn2wq">Meet Our Instructor</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

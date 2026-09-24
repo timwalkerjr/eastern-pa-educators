@@ -1,0 +1,64 @@
+---
+import { SITE } from '@/config/site';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/home/Hero.astro';
+import Accreditations from '@/components/home/Accreditations.astro';
+import Programs from '@/components/home/Programs.astro';
+import AboutTraining from '@/components/home/AboutTraining.astro';
+import WhyFirstAid from '@/components/home/WhyFirstAid.astro';
+import InstructorProfile from '@/components/home/InstructorProfile.astro';
+import ServiceArea from '@/components/home/ServiceArea.astro';
+import ContactQuote from '@/components/home/ContactQuote.astro';
+---
+
+<BaseLayout
+  title={SITE.title}
+  description={SITE.description}
+  type="website"
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'EducationalOrganization',
+    name: SITE.name,
+    description: SITE.description,
+    url: SITE.url,
+    telephone: SITE.phone,
+    email: SITE.email,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '16600 Pottsville Pike',
+      addressLocality: 'Hamburg',
+      addressRegion: 'PA',
+      postalCode: '19526',
+      addressCountry: 'US'
+    },
+    parentOrganization: {
+      '@type': 'Organization',
+      name: 'KRE Security LLC',
+      url: 'https://www.kresecurity.com/'
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'CPR and First Aid Certification Courses',
+      itemListElement: [
+        { '@type': 'Course', name: 'Heartsaver First Aid', description: 'American Heart Association certified first aid training course' },
+        { '@type': 'Course', name: 'Heartsaver CPR AED', description: 'CPR and AED hands-on certification training' },
+        { '@type': 'Course', name: 'Friends & Family CPR', description: 'Community life-saving CPR training' },
+        { '@type': 'Course', name: 'BLS for Healthcare Providers', description: 'Basic Life Support certification for clinical professionals' },
+        { '@type': 'Course', name: 'Pediatric First Aid', description: 'Pediatric emergency care for childcare and school educators' },
+        { '@type': 'Course', name: 'Bloodborne Pathogen Training', description: 'OSHA 1910.1030 compliant BBP OPIM safety instruction' },
+        { '@type': 'Course', name: 'Fire Extinguisher Training', description: 'In-classroom instruction on fire extinguisher operation and safety' },
+        { '@type': 'Course', name: 'PennDOT Flagger Certification', description: 'PennDOT certified highway and traffic flagger course' },
+        { '@type': 'Course', name: 'Red Cross CPR & First Aid', description: 'American Red Cross certified emergency curriculum' }
+      ]
+    }
+  }}
+>
+  <Hero />
+  <Accreditations />
+  <Programs />
+  <AboutTraining />
+  <WhyFirstAid />
+  <InstructorProfile />
+  <ServiceArea />
+  <ContactQuote />
+</BaseLayout>

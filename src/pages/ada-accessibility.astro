@@ -1,0 +1,92 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+
+const title = 'ADA Accessibility Notice | Eastern PA Educators | Denver PA';
+const description = "At Eastern PA Educators, PA's #1 first aid & CPR training courses, accessibility is of the utmost importance. Click to read our ADA Accessibility Notice.";
+---
+
+<BaseLayout headerVariant="solid"
+  title={title}
+  description={description}
+  canonicalUrl="https://www.easternpaeducators.com/ada-accessibility/"
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'ADA Accessibility Notice',
+    description: description,
+    url: 'https://www.easternpaeducators.com/ada-accessibility/',
+    publisher: {
+      '@type': 'EducationalOrganization',
+      name: SITE.name,
+      url: SITE.url,
+      telephone: SITE.phone,
+      email: SITE.email
+    }
+  }}
+>
+  <section class="relative isolate bg-dark-background text-dark-foreground py-16 md:py-24 min-h-[60vh] flex items-center border-b border-dark-border" data-ps="src/pages/ada-accessibility.astro:2pwoh9">
+    <Container>
+      <div class="max-w-3xl mx-auto" data-ps="src/pages/ada-accessibility.astro:yzevsa">
+        <!-- Cadence Accent Marker -->
+        <div class="w-12 h-1 bg-primary mb-6 rounded-full" data-ps="src/pages/ada-accessibility.astro:yzevs9"></div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-[40px] font-bold text-dark-foreground uppercase tracking-tight mb-8 font-heading leading-tight" data-ps="src/pages/ada-accessibility.astro:5kl2g4">
+          ADA ACCESSIBILITY NOTICE
+        </h1>
+
+        <div class="space-y-6 text-base md:text-[18px] text-dark-muted-foreground leading-relaxed font-sans" data-ps="src/pages/ada-accessibility.astro:yzevs8">
+          <p class="text-dark-foreground/90 leading-relaxed" data-ps="src/pages/ada-accessibility.astro:u7jz3g">
+            Eastern PA Educators is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We aim to comply with all applicable standards, including WCAG 2.1 accessibility standards up to level AA as well as ADA Standards.
+          </p>
+
+          <p class="text-dark-foreground/90 leading-relaxed" data-ps="src/pages/ada-accessibility.astro:u7jz3f">
+            If you experience any difficulty in accessing any part of this website, please feel free to call us at{' '}
+            <a
+              href={`tel:${SITE.phone}`}
+              class="text-primary hover:underline font-semibold transition-colors inline-block"
+             data-ps="src/pages/ada-accessibility.astro:5zslf5">
+              {SITE.phone}
+            </a>{' '}
+            or email{' '}
+            <a
+              href={`mailto:${SITE.email}`}
+              class="text-primary hover:underline font-semibold transition-colors inline-block"
+             data-ps="src/pages/ada-accessibility.astro:5zslf4">
+              {SITE.email}
+            </a>. We will work with you to provide the information, item, or transaction you seek through an alternate communication method or one that is accessible for you consistent with applicable law.
+          </p>
+        </div>
+
+        <!-- Direct Contact Card -->
+        <div class="mt-10 p-6 rounded-xl bg-dark-border/40 border border-dark-border flex flex-col sm:flex-row sm:items-center justify-between gap-4" data-ps="src/pages/ada-accessibility.astro:yzevs7">
+          <div class="flex flex-col gap-1" data-ps="src/pages/ada-accessibility.astro:yzevs6">
+            <span class="text-xs font-bold uppercase tracking-wider text-primary" data-ps="src/pages/ada-accessibility.astro:negmd1">Need Accessibility Assistance?</span>
+            <span class="text-sm text-dark-muted-foreground" data-ps="src/pages/ada-accessibility.astro:negmd0">Contact our support coordinator directly:</span>
+          </div>
+          <div class="flex flex-wrap items-center gap-3" data-ps="src/pages/ada-accessibility.astro:yzevs5">
+            <a
+              href={`tel:${SITE.phone}`}
+              class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-primary-foreground font-bold text-sm hover:bg-primary-hover transition-colors no-underline"
+             data-ps="src/pages/ada-accessibility.astro:5zslf3">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span data-ps="src/pages/ada-accessibility.astro:negmcz">{SITE.phone}</span>
+            </a>
+            <a
+              href={`mailto:${SITE.email}`}
+              class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-dark-background border border-dark-border text-dark-foreground font-semibold text-sm hover:text-primary hover:border-primary/60 transition-colors no-underline"
+             data-ps="src/pages/ada-accessibility.astro:5zslf2">
+              <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <span data-ps="src/pages/ada-accessibility.astro:negmcy">{SITE.email}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+</BaseLayout>

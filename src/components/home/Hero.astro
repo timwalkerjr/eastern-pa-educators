@@ -1,0 +1,131 @@
+---
+// Hero component - Asymmetric poster layout on dark obsidian
+import Container from '@/components/Container.astro';
+import { SITE } from '@/config/site';
+---
+
+<section id="hero" class="relative isolate bg-dark-background text-dark-foreground py-12 md:py-20 lg:py-24 border-b border-dark-border overflow-hidden" data-ps="src/components/home/Hero.astro:ah8lbh">
+  <!-- Subtle Background Radial Gradient -->
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-dark-background to-dark-background -z-10 opacity-70" data-ps="src/components/home/Hero.astro:iy4tae"></div>
+
+  <Container>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center" data-ps="src/components/home/Hero.astro:iy4taf">
+      <!-- 7-Col Text Zone (60% Desktop Width Rule) -->
+      <div class="lg:col-span-7 flex flex-col min-w-0" data-ps="src/components/home/Hero.astro:iy4tag">
+        <!-- H1 is the first text in the hero -->
+        <h1 class="text-h1 font-extrabold text-dark-foreground tracking-tight leading-[1.08] mb-4 hero-animate" data-ps="src/components/home/Hero.astro:307k1m">
+          First Aid and CPR Certification
+        </h1>
+
+        <!-- Provider Attribution & KRE Logo -->
+        <div class="flex items-center gap-3.5 mb-6 hero-animate hero-animate-delay-1" data-ps="src/components/home/Hero.astro:iy4tah">
+          <a href="https://www.kresecurity.com/" target="_blank" rel="noopener noreferrer" class="shrink-0 group no-underline" data-ps="src/components/home/Hero.astro:8zc0a">
+            <img
+              src="https://pagesmith-cdn.com/e5b58edc/images/krelogo-fa0f35-84.webp"
+              alt="KRE Division of Public Safety Training Logo"
+              class="h-12 w-auto object-contain rounded bg-dark-border/40 p-1 border border-dark-border/80 group-hover:border-primary transition-colors"
+              width="84"
+              height="90" data-ps="src/components/home/Hero.astro:gfvoyv" />
+          </a>
+          <div data-ps="src/components/home/Hero.astro:ecxgf3">
+            <span class="block text-xs uppercase tracking-wider text-dark-muted-foreground font-semibold" data-ps="src/components/home/Hero.astro:z1i1yd">Division of Public Safety Training</span>
+            <p class="text-sm font-semibold text-dark-foreground m-0" data-ps="src/components/home/Hero.astro:6uyknt">
+              Provided by <a href="https://www.kresecurity.com/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline no-underline" data-ps="src/components/home/Hero.astro:8zc0b">KRE Security LLC</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Value Proposition Subhead -->
+        <div class="border-l-2 border-primary pl-4 mb-8 hero-animate hero-animate-delay-2" data-ps="src/components/home/Hero.astro:ecxgf4">
+          <p class="text-xl md:text-2xl font-bold text-dark-foreground tracking-tight m-0" data-ps="src/components/home/Hero.astro:6uykns">
+            We Will Custom Fit Any Safety Program
+          </p>
+          <p class="text-lg md:text-xl font-medium text-primary m-0 mt-1" data-ps="src/components/home/Hero.astro:6uykn6">
+            To Fit Your Business Model!
+          </p>
+        </div>
+
+        <!-- Direct Actions -->
+        <div class="flex flex-wrap items-center gap-4 mb-10 hero-animate hero-animate-delay-3" data-ps="src/components/home/Hero.astro:ecxgf5">
+          <a
+            href={`tel:${SITE.phone}`}
+            class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-md bg-primary text-primary-foreground font-bold text-base hover:bg-primary-hover transition-colors shadow-lg hover:shadow-primary/20 no-underline"
+           data-ps="src/components/home/Hero.astro:8zc0c">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span data-ps="src/components/home/Hero.astro:z1i1yc">CALL TODAY {SITE.phone}</span>
+          </a>
+
+          <a
+            href="/#contact"
+            class="inline-flex items-center gap-2 px-6 py-3.5 rounded-md bg-dark-border/70 text-dark-foreground font-semibold text-base hover:bg-dark-border transition-colors border border-dark-border no-underline"
+           data-ps="src/components/home/Hero.astro:8zc0y">
+            <span data-ps="src/components/home/Hero.astro:z1i1yb">Request Custom Quote</span>
+            <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Regional Dispatch Counties Ticker -->
+        <div class="pt-6 border-t border-dark-border/80 hero-animate hero-animate-delay-4" data-ps="src/components/home/Hero.astro:ecxgf6">
+          <span class="block text-xs uppercase tracking-wider text-dark-muted-foreground font-semibold mb-2.5" data-ps="src/components/home/Hero.astro:z1i1ya">
+            Serving Pennsylvania Counties & Cities:
+          </span>
+          <div class="flex flex-wrap gap-1.5 text-xs text-dark-foreground" data-ps="src/components/home/Hero.astro:ecxgf7">
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1y9">Berks</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1y8">Lehigh</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1y7">Schuylkill</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1y6">Lancaster</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1y5">Lebanon</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1xj">Montgomery</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1xi">Chester</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1xh">Bucks</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1xg">Northampton</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1xf">Carbon</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium" data-ps="src/components/home/Hero.astro:z1i1xe">Dauphin</span>
+            <span class="px-2.5 py-1 rounded bg-dark-border/50 border border-dark-border/80 font-medium text-primary font-semibold" data-ps="src/components/home/Hero.astro:z1i1xd">Center City Philadelphia</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5-Col Media Zone with Live Classroom Session Image -->
+      <div class="lg:col-span-5 relative hero-animate hero-animate-delay-2" data-ps="src/components/home/Hero.astro:ecxgf8">
+        <div class="relative rounded-xl overflow-hidden border border-dark-border shadow-2xl bg-dark-border/30" data-ps="src/components/home/Hero.astro:ecxgf9">
+          <img
+            src="https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-808d3e-1536.webp"
+            srcset="
+              https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-808d3e-320.webp 320w,
+              https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-808d3e-640.webp 640w,
+              https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-808d3e-768.webp 768w,
+              https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-808d3e-1024.webp 1024w,
+              https://pagesmith-cdn.com/e5b58edc/images/63861c_96646e8278fc401aad2881b42302b84b~mv2_d_2016_1512_s_2-808d3e-1536.webp 1536w
+            "
+            sizes="(max-width: 1024px) 100vw, 45vw"
+            alt="Our First Aid Teachers Leading a CPR Certification Course"
+            class="w-full h-auto aspect-[4/3] object-cover"
+            loading="eager"
+            fetchpriority="high"
+            width="1905"
+            height="591" data-ps="src/components/home/Hero.astro:gfvoyw" />
+          <div class="absolute inset-0 bg-gradient-to-t from-dark-background/90 via-transparent to-transparent" data-ps="src/components/home/Hero.astro:ecxgfa"></div>
+          
+          <div class="absolute bottom-0 inset-x-0 p-5" data-ps="src/components/home/Hero.astro:ecxgfb">
+            <div class="bg-dark-background/90 backdrop-blur-md p-4 rounded-lg border border-dark-border" data-ps="src/components/home/Hero.astro:ecxgfc">
+              <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-primary" data-ps="src/components/home/Hero.astro:z1i1xc">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Hands-On Instruction
+              </span>
+              <p class="text-sm font-semibold text-dark-foreground mt-1 mb-0" data-ps="src/components/home/Hero.astro:6uykn5">
+                Realistic CPR, First Aid, and AED tools with certified individual manikins.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

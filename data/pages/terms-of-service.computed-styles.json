@@ -1,0 +1,1803 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": null,
+  "fontSmoothing": "antialiased",
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(0, 0, 0)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    }
+  ],
+  "globalTypography": {
+    "headingFont": null,
+    "bodyFont": null,
+    "scale": {}
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "position": "sticky",
+    "logo": {
+      "width": "84px",
+      "height": "90px",
+      "widthEvidence": "100%",
+      "position": "inside-nav",
+      "hasBadge": false,
+      "src": "https://static.wixstatic.com/media/63861c_2f3890d9807d4bac97beb377e596faf5~mv2.png/v1/fill/w_84,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/krelogo.png"
+    },
+    "hasLogo": true,
+    "links": [
+      {
+        "text": "Home",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)"
+      },
+      {
+        "text": "About",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "border": "0px 0px 0px 1px none none none solid rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 238) rgb(0, 0, 0)"
+        }
+      },
+      {
+        "text": "Eastern Pa Educators",
+        "fontSize": "25px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "First Aid and CPR Certificatio",
+        "fontSize": "16px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "KRE Security LLC",
+        "fontSize": "14px",
+        "fontFamily": "roboto-thin",
+        "fontWeight": "400",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Schuylkill",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Lancaster",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Bucks",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "Carbon",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      },
+      {
+        "text": "CALL TODAY   484-334-3577",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "16600 Pottsville Pike\nHamburg,",
+        "fontSize": "20px",
+        "fontFamily": "oswald-medium",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Center City Philadelphia",
+        "fontSize": "14px",
+        "fontFamily": "roboto-bold",
+        "fontWeight": "400",
+        "color": "rgb(255, 195, 20)"
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "0px 0px",
+      "pitchPx": 325,
+      "distribution": "center",
+      "verticalAlign": "bottom",
+      "containerAlignment": {
+        "container": "[id=\"SITE_HEADER\"] > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 190
+        },
+        "offsets": {
+          "left": 0,
+          "top": 159,
+          "right": 1631,
+          "bottom": 1
+        },
+        "center": {
+          "x": 0.072,
+          "y": 0.916
+        },
+        "layout": {
+          "display": "grid",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    }
+  },
+  "sliders": [],
+  "buttons": [],
+  "videos": [],
+  "footer": {
+    "background": "rgba(0, 0, 0, 0)",
+    "textColor": "rgb(0, 0, 0)",
+    "columns": 1,
+    "textAlign": "start"
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBackgroundColor": {
+      "backgroundColor": "var(--corvid-background-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBackgroundColor": {
+      "backgroundColor": "var(--corvid-hover-background-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBackgroundColor": {
+      "backgroundColor": "var(--corvid-disabled-background-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBorderColor": {
+      "borderColor": "var(--corvid-border-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBorderColor": {
+      "borderColor": "var(--corvid-hover-border-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBorderColor": {
+      "borderColor": "var(--corvid-disabled-border-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor, .StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor, .StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-hover-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor, .StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-disabled-color)"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .twJknM, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .twJknM": {
+      "backgroundColor": "var(--corvid-hover-background-color,rgba(var(--bgh,var(--color_18,color_18)),var(--alpha-bgh,1)))",
+      "borderColor": "var(--corvid-hover-border-color,rgba(var(--brdh,var(--color_15,color_15)),var(--alpha-brdh,1)))"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    "body.device-mobile-optimized .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, :host(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, body:not(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"] .p2iqNU, :host(:not(.device-mobile-optimized)) .myoKiH[aria-disabled=\"false\"] .p2iqNU": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    ".agzDLy[data-state~=\"over\"], .agzDLy[data-state~=\"link\"]": {
+      "backgroundColor": "rgba(var(--bgh,var(--color_17,color_17)),var(--alpha-bgh,1))"
+    },
+    ".agzDLy[data-state~=\"over\"] .VhM8Ji, .agzDLy[data-state~=\"link\"] .VhM8Ji": {
+      "color": "rgb(var(--txth,var(--color_15,color_15)))"
+    }
+  },
+  "cssVariables": {},
+  "externalFonts": [
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald",
+    "font-face: oswald"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_41",
+          "text": "Serving Berks • Lehigh • Schuylkill • Lancaster • Lebanon • Montgomery • Chester",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Schuylkill",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Lancaster",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Bucks",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Carbon",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Center City Philadelphia",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "25px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_18",
+          "text": "Eastern Pa Educators",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "25px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid and CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "16px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "14px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Provided by KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "KRE Security LLC",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "apPOZK",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "img",
+          "cls": "gRkIq0",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_5",
+          "text": "CALL TODAY 484-334-3577 16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "CALL TODAY 484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike Hamburg, PA 19526",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "20px",
+          "ownText": false,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "16600 Pottsville Pike",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "20px",
+          "ownText": true,
+          "leading": "23px"
+        },
+        {
+          "tag": "ul",
+          "cls": "wTjmlM",
+          "text": "HomeAboutPrograms We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 195, 20)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Home",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Programs We OfferHeartsaver First AidHeartsaver CPR AEDFriends & Family CPR Cert",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "div",
+          "cls": "MKZTGU",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 238)",
+          "border": "1px solid rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "p",
+          "cls": "VhM8Ji",
+          "text": "Programs We Offer",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "30px"
+        },
+        {
+          "tag": "button",
+          "cls": "H4AHlN",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(0, 0, 0)",
+          "width": 10,
+          "height": 10,
+          "viewBox": "0 0 16 11",
+          "fontSize": "13.3333px"
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Heartsaver CPR AED",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Friends & Family CPR Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Fire Extinguisher Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Pediatric First Aid",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Bloodborne Pathogen Training",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "BLS for Healthcare Providers",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "PennDOT Flagger Certification",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "text": "Red Cross CPR & First Aid Courses",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "epfw99",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false
+        },
+        {
+          "tag": "a",
+          "cls": "wNTNML",
+          "text": "Instructor",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px",
+          "ownText": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "TERMS OF SERVICE",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_2",
+          "text": "TERMS OF SERVICE",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "40px",
+          "ownText": false,
+          "leading": "48px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "TERMS OF SERVICE",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "40px",
+          "ownText": true,
+          "leading": "48px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "1. Terms",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "1. Terms",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "By accessing the website at easternpaeducators.com, you are agreeing to be bound",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "By accessing the website at easternpaeducators.com, you are agreeing to be bound",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "easternpaeducators.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "2. Use License",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "2. Use License",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Permission is granted to temporarily download one copy of the materials (informa",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "Permission is granted to temporarily download one copy of the materials (informa",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Permission is granted to temporarily download one copy of the materials (informa",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "modify or copy the materials;",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "modify or copy the materials;",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "modify or copy the materials;",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "use the materials for any commercial purpose, or for any public display (commerc",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "use the materials for any commercial purpose, or for any public display (commerc",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "use the materials for any commercial purpose, or for any public display (commerc",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "attempt to decompile or reverse engineer any software contained on Eastern PA Ed",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "attempt to decompile or reverse engineer any software contained on Eastern PA Ed",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "attempt to decompile or reverse engineer any software contained on Eastern PA Ed",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "remove any copyright or other proprietary notations from the materials; or",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "remove any copyright or other proprietary notations from the materials; or",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "remove any copyright or other proprietary notations from the materials; or",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "transfer the materials to another person or “mirror” the materials on any other ",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "transfer the materials to another person or “mirror” the materials on any other ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "transfer the materials to another person or “mirror” the materials on any other ",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "This license shall automatically terminate if you violate any of these restricti",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "This license shall automatically terminate if you violate any of these restricti",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "This license shall automatically terminate if you violate any of these restricti",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "3. Disclaimer",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "3. Disclaimer",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "The materials on Eastern PA Educators' website are provided on an ‘as is’ basis.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "The materials on Eastern PA Educators' website are provided on an ‘as is’ basis.",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "The materials on Eastern PA Educators' website are provided on an ‘as is’ basis.",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "li",
+          "cls": "wixui-rich-text__text",
+          "text": "Further, Eastern PA Educators does not warrant or make any representations conce",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": false
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "Further, Eastern PA Educators does not warrant or make any representations conce",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Further, Eastern PA Educators does not warrant or make any representations conce",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "4. Limitations",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "4. Limitations",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "In no event shall Eastern PA Educators or its suppliers be liable for any damage",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "In no event shall Eastern PA Educators or its suppliers be liable for any damage",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "5. Accuracy of Materials",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "5. Accuracy of Materials",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "The materials appearing on Eastern PA Educators' website could include technical",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "The materials appearing on Eastern PA Educators' website could include technical",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "6. Links",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "6. Links",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "Eastern PA Educators has not reviewed all of the sites linked to its website and",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Eastern PA Educators has not reviewed all of the sites linked to its website and",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "7. Modifications",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "7. Modifications",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "Eastern PA Educators may revise these terms of service for its website at any ti",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Eastern PA Educators may revise these terms of service for its website at any ti",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "8. Governing Law",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "28px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "8. Governing Law",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "28px",
+          "ownText": true
+        },
+        {
+          "tag": "h1",
+          "cls": "font_8",
+          "text": "These terms and conditions are governed by and construed in accordance with the ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "22.4px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "These terms and conditions are governed by and construed in accordance with the ",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "22.4px"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Site footer (port into Footer.astro)",
+      "background": "rgb(0, 0, 0)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "EaoiSu",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(0, 0, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "div",
+          "cls": "CmHRsG",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(187, 220, 248, 0)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "484-334-3577 | jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "484-334-3577",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "jemes@kresecurity.com",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Main Office: 301 Chris Drive Lenhartsville, PA 19534 | Training Address: 16600 P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "Main Office:",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "301 Chris Drive Lenhartsville, PA 19534 |",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true,
+          "tracking": "0.75px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Training Address: 16600 Pottsville Pike, Hamburg, PA 19526",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "​",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "15px",
+          "ownText": false
+        },
+        {
+          "tag": "span",
+          "cls": "color_36",
+          "text": "We Are Fully Licensed and Insured. We Accept All Major Credit Card and Payment P",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "15px",
+          "ownText": true
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "©2026 Eastern PA Educators | First Aid Training & CPR Certification Training in ",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "First Aid Training & CPR Certification",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Training in Eastern PA",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "13px",
+          "ownText": false,
+          "leading": "19.5px"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy | Terms of Service | ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy Policy",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Terms of Service",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "ADA Accessibility",
+          "color": "rgb(255, 195, 20)",
+          "fontSize": "13px",
+          "ownText": true,
+          "leading": "19.5px",
+          "tracking": "1.3px"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [],
+  "fontFaceRules": [
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w10-light.woff2\") format(\"woff2\"); unicode-range: U+401-40C, U+40E-44F, U+451-45C, U+45E-45F, U+490-491, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w02-light.woff2\") format(\"woff2\"); unicode-range: U+D, U+100-10F, U+111-130, U+132-151, U+154-15F, U+162-177, U+179-17C, U+1FA-1FF, U+218-21B, U+237, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+394, U+3A9, U+3C0, U+1E80-1E85, U+1EF2-1EF3, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2126, U+212E, U+2153-2154, U+215B-215E, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF, U+FB00-FB04; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: din-next-w01-light; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w01-light.woff2\") format(\"woff2\"); unicode-range: U+20-7E, U+A0-FF, U+110, U+131, U+152-153, U+160-161, U+178, U+17D-17E, U+192, U+2C6-2C7, U+2DA, U+2DC, U+3BC, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2\") format(\"woff2\"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/dI-qzxlKVQA6TUC5RKSb31tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: oswald-medium; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/oswald/v16/cgaIrkaP9Empe8_PwXbajFtXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic1CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic3CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic-CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic2CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic5CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic0CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/9_7S_tWeGDh5Pq3u05RVkltXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/97uahxiqZRoncBaCEI3aW1tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/t6Nd4cfPRhZP44Q5QAjcC6g5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/bmC0pGMXrhphrZJmniIZpag5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/fIKu7GwZTy_12XzG_jt8eA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/dzxs_VxZUhdM2mEBkNa8svk_vArhqVIZ0nv9q090hN8.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/e7MeVAyvogMqFwwl61PKhPesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-thin; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/vSzulfKSK0LLjjfeaxcREvesZW2xOQ-xsNqO47m55DA.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-display: swap; font-family: wf_bbba7e838f1848d7a0badff21; src: url(\"https://static.wixstatic.com/ufonts/115a30_bbba7e838f1848d7a0badff2142762c3/woff2/file.woff2\") format(\"woff2\"), url(\"https://static.wixstatic.com/ufonts/115a30_bbba7e838f1848d7a0badff2142762c3/woff/file.woff\") format(\"woff\"); }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic1CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic3CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic-CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic2CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+1F00-1FFF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic5CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic0CsTYl4BOQ3o.woff2\") format(\"woff2\"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/9_7S_tWeGDh5Pq3u05RVkltXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: normal; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/97uahxiqZRoncBaCEI3aW1tXRa8TVwTICgirnJhmVJw.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 400; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/t6Nd4cfPRhZP44Q5QAjcC6g5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    },
+    {
+      "base": "https://www.easternpaeducators.com/terms-of-service",
+      "cssText": "@font-face { font-family: roboto-bold; font-style: italic; font-weight: 700; src: url(\"//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/roboto/v18/bmC0pGMXrhphrZJmniIZpag5eI2G47JWe0-AuFtD150.woff2\") format(\"woff2\"); font-display: swap; }"
+    }
+  ],
+  "renderedSurfaces": [],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [],
+  "elementorStylesheets": []
+}
